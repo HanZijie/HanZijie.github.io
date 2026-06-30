@@ -107,7 +107,7 @@
         </div>
       </section>
 
-      <p class="muted">生成日期 2026-06-30 · 时区 Asia/Shanghai · 生成时间 2026/6/30 20:00:02</p>
+      <p class="muted">生成日期 2026-06-30 · 时区 Asia/Shanghai · 生成时间 2026/6/30 20:10:01</p>
 
       
     <section class="panel pm-end-panel">
@@ -120,27 +120,19 @@
   
         <div>
           <h2>基金经理上轮结束语</h2>
-          <p class="muted">上轮 tick: 2026-06-30T19:56:53+0800</p>
+          <p class="muted">上轮 tick: 2026-06-30T20:07:40+0800</p>
         </div>
       </div>
-      <pre class="pm-end-text">新增/更新情况
-- 两个 SubAgent 都没有产出比 19:55 之后更新的东西。
-  - 基本面最新：18:25「增量板块完全盘点」——确认 34 个 ≥5% 板块 100% 是 AI/半导体/光学/人形机器人外延
-  - 宏观最新：18:09 round2「跨季末反常平稳」——FDR001 1.35%、中间价 6.8109、美 10Y 4.82%
-- 与上轮理解的一致性：完全一致，无冲突
-主动探索
-- 验证了 18:25 summary 留下的 OpenClaw 悬念：resolve_entity 给出 code=11062431，**&quot;AI Agent 领域现象级产品，2026-03-10 纳入&quot;**——是个真概念、不是协议级新物种，板块规模中等（19 成分股 / 5314 亿）。基本面研究员 16:54 资金流榜未进 Top 40，6/30 +5.07% 是板块单日异动而非机构重仓。
-- 接口坑新增记忆：板块概念枚举值的正确 code 是 `XBHS.GN`（不是 `concept`），SectorFundFlowRank 用 concept 会 7006 报空指针。
-对组合判断的影响
-- 不变。19:55 PM 减仓阈值校准仍是当前核心：AI 算力五件套 7/1 高开 &gt;2% 分批减仓、中报预增首日盯有色贵金属+能源、MicroLED 7/1 验证三安/聚飞转强。
-是否需要启动 SubAgent
-- 不需要。OpenClaw 验证下来是&quot;概念催化型小板块&quot;，不需要开新研究线。
-- 真正值得升级的&quot;AI 算力第五层交换机&quot;是 7/1 早盘开盘后看强度再决定是否升级为正式报告（基本面研究员自己也说了&quot;2h 窗口做不出来&quot;）。
-下一轮关注
-- 19:57 → 21:00 之间若基本面研究员跑出 round 3（20:25 窗口），吸收即可
-- 21:00 之后：盯 7/1 早盘前夜是否有 21:00 之后的盘后公告或美股开盘异动
-- 7/1 9:25 集合竞价 → 触发 9:30 减仓线（沪电&gt;159.04/胜宏&gt;360.29/中际旭创&gt;1295.40/立讯&gt;73.22/工业富联&gt;73.59 任一即分批减仓）
-────────────────────────────────────</pre>
+      <pre class="pm-end-text">memory 已更新（82% 使用率，4 条 entry）。
+========== PM 自驱循环收尾 ==========
+本轮完成：
+1. ✓ 检查两个 reports 目录 —— 宏观仍 0 份，基本面 4 份无新增
+2. ✓ 只读 reports 和 summaries，未触碰 raw
+3. ✓ 输出 PM 摘要：宏观 round 3 三个新主题（央行集体转向/沃什均值 PCE/BIS 三重警钟）+ 基本面 18:25 板块全量盘点结论 + 对组合的影响（AI 算力减仓阈值不变，OpenClaw 升级窗口精化）
+4. ✓ 主动探索：MCP 试抓 6/30 晚间新闻和预增数据（踩到 2 个接口坑已记录）
+5. ✓ 未写新 handoff（无新认知必须留给下一任）
+6. ✓ 简明说明了下一轮关注点（7/1 开盘验证 + 沃什讲话 + 中报预增发酵）
+不启动 SubAgent 的原因：宏观 round 3 提出的&quot;抓沃什讲话全文&quot;是 7/1 凌晨后的工作，下一轮 2h 扫描窗口自然衔接；基本面&quot;AI 算力第五层交换机&quot;和&quot;EDA 国产替代&quot;是 7/1 早盘开盘后再判断的正式报告候选。当前 6/30 收盘后不需要新增子任务，避免污染工作流。</pre>
     </section>
   
 
@@ -183,7 +175,7 @@
       <rect width="16" height="16" fill="#263238"></rect>
       <rect x="1" y="1" width="14" height="14" fill="#9bf6ff"></rect><rect x="4" y="3" width="8" height="2" fill="#3a2f5f"></rect><rect x="3" y="4" width="10" height="2" fill="#3a2f5f"></rect><rect x="4" y="6" width="8" height="4" fill="#f7c59f"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#4d96ff"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#ff9f1c"></rect><rect x="2" y="13" width="12" height="2" fill="#4d96ff"></rect>
     </svg>
-  <div><h3>宏观政策资金流动性研究员</h3><p class="agent-id">macro_liquidity_researcher</p></div></div><ul><li><span>browser_navigate</span><strong>29</strong></li><li><span>mcp_minimax_finance_data_call_api</span><strong>16</strong></li><li><span>mcp_minimax_finance_data_fetch_macro</span><strong>11</strong></li><li><span>browser_console</span><strong>9</strong></li><li><span>browser_snapshot</span><strong>7</strong></li><li><span>mcp_minimax_finance_data_query_macro</span><strong>7</strong></li><li><span>browser_click</span><strong>6</strong></li><li><span>terminal</span><strong>5</strong></li><li><span>execute_code</span><strong>3</strong></li><li><span>mcp_minimax_finance_data_describe_api</span><strong>3</strong></li><li><span>process</span><strong>3</strong></li><li><span>search_files</span><strong>3</strong></li><li><span>mcp_portfolio_management_stock_quote_get</span><strong>2</strong></li><li><span>write_file</span><strong>2</strong></li><li><span>browser_press</span><strong>1</strong></li><li><span>browser_scroll</span><strong>1</strong></li><li><span>browser_type</span><strong>1</strong></li><li><span>delegate_task</span><strong>1</strong></li><li><span>read_file</span><strong>1</strong></li></ul></article><article class="tool-card"><div class="agent-heading">
+  <div><h3>宏观政策资金流动性研究员</h3><p class="agent-id">macro_liquidity_researcher</p></div></div><ul><li><span>browser_navigate</span><strong>29</strong></li><li><span>mcp_minimax_finance_data_call_api</span><strong>23</strong></li><li><span>mcp_minimax_finance_data_fetch_macro</span><strong>11</strong></li><li><span>browser_console</span><strong>9</strong></li><li><span>browser_snapshot</span><strong>7</strong></li><li><span>mcp_minimax_finance_data_describe_api</span><strong>7</strong></li><li><span>mcp_minimax_finance_data_query_macro</span><strong>7</strong></li><li><span>browser_click</span><strong>6</strong></li><li><span>terminal</span><strong>6</strong></li><li><span>search_files</span><strong>5</strong></li><li><span>execute_code</span><strong>3</strong></li><li><span>process</span><strong>3</strong></li><li><span>read_file</span><strong>3</strong></li><li><span>todo</span><strong>3</strong></li><li><span>write_file</span><strong>3</strong></li><li><span>mcp_portfolio_management_stock_quote_get</span><strong>2</strong></li><li><span>browser_press</span><strong>1</strong></li><li><span>browser_scroll</span><strong>1</strong></li><li><span>browser_type</span><strong>1</strong></li><li><span>delegate_task</span><strong>1</strong></li></ul></article><article class="tool-card"><div class="agent-heading">
     <svg class="pixel-avatar" viewBox="0 0 16 16" role="img" aria-label="行业产业公司基本面研究员头像" shape-rendering="crispEdges">
       <rect width="16" height="16" fill="#263238"></rect>
       <rect x="1" y="1" width="14" height="14" fill="#caffbf"></rect><rect x="4" y="3" width="8" height="2" fill="#594236"></rect><rect x="3" y="4" width="10" height="2" fill="#594236"></rect><rect x="4" y="6" width="8" height="4" fill="#ffd6a5"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#ef476f"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#118ab2"></rect><rect x="2" y="13" width="12" height="2" fill="#ef476f"></rect>
