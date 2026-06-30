@@ -1,7 +1,7 @@
 {
   "date": "2026-06-30",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-30T10:40:01.338Z",
+  "generated_at": "2026-06-30T10:50:01.275Z",
   "nav": {
     "latest": {
       "date": "2026-06-30",
@@ -198,8 +198,8 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-06-30T18:34:19+0800",
-    "text": "   - 行业 reports 4 份 mtime=16:53 全部未变\n   - 宏观最新 summaries 是 18:05 round2；行业最新 18:25 已被 round4 18:29 消化\n2. **拉 6/30 板块资金净流入榜 100 行全量**（本轮关键增量）：\n   - AI 算力四件套（芯片+数据中心+CPO+服务器）全部在净流入 TOP30\n   - **液冷 +172.75 亿** 首次进入净流入榜（与上轮 18:25 龙蟠科技液冷却液催化呼应）\n   - 资金从\"边缘 AI 应用层\"撤出，集中到\"AI 算力基础设施层\"\n   - 验证了 PM 18:29 handoff 的\"四链共振\"判断\n3. 拉 6/30 公告前 20 条 → 无 AI 算力相关重大公告\n4. 尝试拉美股 NVDA/MU 行情失败（接口 wrapper 异常，但 18:34 美股未开，本轮放弃）\n**对组合的影响**\n- 决策栈不变：5% 底仓 + 三档 35/49/70%，宁德优先\n- 紫金继续推迟到 7/2\n- **新增观察池**：液冷赛道（菲菱科思/英维克/龙蟠科技/申菱环境）\n**下一轮（19:00±30min）应关注**\n- 美股盘前期货（纳指/标普/英伟达盘前价），捕捉海外风险信号\n- 19:30 之后的 PM tick 重点是 A 股盘后公告（业绩预增/重大订单）→ 7/1 早盘真正催化剂\n- 宏观 round3 自动在 20:05 触发，无需主动启动\nhandoff: `/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30_1834_PM_round5_scan.md`"
+    "tick_time": "2026-06-30T18:48:21+0800",
+    "text": "看了什么：\n1. **两 reports 目录 mtime 扫描**——无新增（行业 5 份 16:53 之后没动，宏观 0 份连续空）\n2. **18:25 行业 handoff §2.14 跟进**——OpenClaw 概念用 resolve_entity 验证 = 11062431，**官方说明确认是 AI Agent 现象级产品板块**（不是噪音）\n3. **SectorRank 全量 100 行再拉一次**（18:47）——与 18:25 完全一致，无异动板块\n对组合判断的影响：\n- 决策栈不变：5% 底仓 + 三档 35/49/70%、宁德优先、紫金推迟\n- **新增观察池：OpenClaw 概念**（AI Agent 应用层，与\"AI 算力四件套\"不同维度）\n是否启动 SubAgent：**否**\n- 决策栈未变\n- 7/1 早盘 9:30-9:45 才是真正决策窗口（OpenClaw 是否进 Top 15 是触发条件）\n- 宏观 round3 自动 ~20:09 产出\n下一轮该继续看什么（建议 ~19:00-19:30）：\n- 21:30 美股开盘（纳指期货/英伟达盘前）\n- 7/1 9:00 SHIBOR 隔夜 → 验证 FDR001 1.35% 延续\n- 7/1 9:45 财新 PMI\n- 7/1 早盘 30 分钟板块涨幅：OpenClaw / 模拟芯片 / 液冷 是否延续\n- 6/30 盘后 A 股公告（业绩预增/重大订单）\nHandoff 已写到 /home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30_1847_PM_round7_scan.md。"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
