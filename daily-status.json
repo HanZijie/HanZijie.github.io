@@ -1,7 +1,7 @@
 {
   "date": "2026-06-30",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-30T09:03:09.790Z",
+  "generated_at": "2026-06-30T09:10:01.326Z",
   "nav": {
     "latest": {
       "date": "2026-06-30",
@@ -142,8 +142,8 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-06-30T17:01:07+0800",
-    "text": "- portfolio `5a0ad283-6ff` 快照：0 持仓 1 亿现金，连续 8 轮稳定\n**新观察**：\n- 16:42 健康检查怀疑的\"cron 调度未生效\"实际不存在——16:52 宏观组 2h 自驱扫描成功产出 handoff，说明 cron 链路是通的（16:42 的怀疑被证伪）\n**与 16:53 digest 兼容性**：✅ **完全一致，无需调整**\n- 7/1 决策树 5 条触发线不变\n- 4 份 reports + 2 份 summaries 内容未变\n**本轮决策**：\n- 不启动新 SubAgent 任务\n- 不写正式 report（属 tick 级 handoff）\n- 不模拟交易（0 持仓 100% 现金 + 执行窗口仍是 7/1 09:30）\n- 不更新 PM MEMORY（8% 剩余空间留作 7/1 开盘前新信息）\n- 已写本轮 handoff：`/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30T17-01_pm_tick.md`\n**下一轮 PM tick 重点**：\n1. 18:00-19:00：看宏观组 2h 自驱扫描 round 2 是否按时产出\n2. 21:30-22:30：北美开盘，盯 NVDA / TSM / 费半 / 纳指 6/30\n3. 7/1 04:00-06:00：美股 6/30 收盘 + 富时 A50 期货 + A 股期货夜盘\n4. 7/1 08:30-08:50：SHIBOR + USDCNY 新值 + 隔夜逆回购利率披露\n5. 7/1 09:30：按 16:53 digest 的 5 条决策树执行"
+    "tick_time": "2026-06-30T17:07:46+0800",
+    "text": "   - 资金占用测算：7 核心各 1 标的试算占用 70-150 万/只，1 亿现金 100% 够支持 35-70% 仓位\n3. 发现一个**关键缺口**（之前 8 轮 tick 没察觉）：5 条减仓触发线是\"已建仓\"逻辑，但当前 0 持仓 → 7/1 早盘实际需要的是**建仓决策**而非减仓决策\n4. 写了一份 7/1 建仓预案（35%/49%/70% 三档 · 7 只建仓优先级排序 · 09:00 前定稿）\n## 新增信息\n- SubAgent 0 项\n- PM 自己的 1 项发现 + 1 项预案\n## 是否需要启动 SubAgent\n**不需要**。4 行业 reports + 2 行业 summaries + 1 宏观 summary 已完全覆盖 7/1 决策所需基本面/资金面信息，宏观组 2h 自驱扫描下一份预计 18:52 出来。\n## 下一轮应关注\n按时间顺序：\n1. 18:00-19:00 — 宏观组 2h 自驱 handoff 是否按时出\n2. 21:30-22:30 — 北美开盘（美股 6/30 交易）\n3. 7/1 04:00-06:00 — 美股收盘 + A50 期货夜盘\n4. **7/1 08:30-08:50 — 盘前最后准备（SHIBOR / USDCNY / 隔夜逆回购 / 7 核心盘后大宗）**\n5. **7/1 09:00-09:15 — 定稿建仓预案三档 + 7 核心建仓优先级**\n6. 7/1 09:30-10:00 — 执行第一批建仓\n7. 7/1 10:00-10:30 — 评估是否追加第二档\nhandoff 已落到：/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30T17-06_pm_tick.md"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
