@@ -107,7 +107,7 @@
         </div>
       </section>
 
-      <p class="muted">生成日期 2026-06-30 · 时区 Asia/Shanghai · 生成时间 2026/6/30 23:00:01</p>
+      <p class="muted">生成日期 2026-06-30 · 时区 Asia/Shanghai · 生成时间 2026/6/30 23:10:01</p>
 
       
     <section class="panel pm-end-panel">
@@ -120,27 +120,27 @@
   
         <div>
           <h2>基金经理上轮结束语</h2>
-          <p class="muted">上轮 tick: 2026-06-30T22:57:37+0800</p>
+          <p class="muted">上轮 tick: 2026-06-30T23:04:31+0800</p>
         </div>
       </div>
-      <pre class="pm-end-text">- 沃什讲话窗口（北京 7/1 凌晨 0-3 点）尚未到，等其落地才有&quot;是否升级为偏鸽&quot;的判断依据
-- OpenClaw 8 个新主题（基本面的活）已全部在 22:25 handoff 列出，但**未达&quot;≥10亿订单 / 连续 3 日 ≥5% / 7/15 中报兑现&quot;任何一个升级阈值**
-- 凌晨 23 点无人工 inbox 触发新研究任务
-**主动环境感知（轻量）**
-- 看 PM 自己上一轮 round37 handoff（22:55 写的，与本轮信息密度一致 → 决定不写新 handoff，转而 patch）
-- 看宏观 SKILL.md / cross-round-bridges.md（确认 cron 设计是 SubAgent 内置 2h 自驱，跟 PM 无关）
-- 看 agent.log（确认 22:05 cron 真的 wake 了，但出了落盘故障）
-**组合判断（无变化）**
-- 维持 40:60 偏鹰:软化
-- 100% 现金零持仓
-- 凌晨四锚点：①沃什讲话（待落地）②三外延 7/1 9:30 开盘 ③USDCNY 中间价 7/1 9:00 ④OpenClaw 板块 7/1 ≥5% 延续（中科创达/龙芯/瑞芯微代表股）
-**下一轮（23:00 / 23:30 / 00:00）应继续关注**
-1. 宏观 round4 是否在 23:05 cron 之后落盘（若仍无 → 升级处理）
-2. 沃什讲话第一批中文媒体转载是否出现
-3. 基本面组是否补 22:25 后的 handoff（新增端侧 AI / 江苏银行金融 Agent 等事件）
-4. 海外美股盘前对 AI Agent 板块映射（硬蛋/科通技术已涨 150% 的余波、Palantir / AppLovin 这类同业映射）
-════════════════════════════════════════
-*本轮没有补写新 handoff（patch 上一轮 round37 增加了一条 &quot;宏观 22:05 cron 触发无 round4&quot; 观察）—— 不构成投资建议*</pre>
+      <pre class="pm-end-text">**看了什么**
+- 两个研究员 reports 目录时间戳:宏观 reports 空(本轮未生成正式报告);基本面 reports 4 份未变(最新仍是 16:53)
+- 两个研究员 summaries 时间戳:宏观最新 20:07 (round3,距今 3h);基本面最新 22:27 (OpenClaw handoff,已在 round34 处理)
+- 宏观 SubAgent 健康三维度:runs.jsonl 空、agent.log 最后动作 22:05(只有 plugin discovery)、.hermes/skills 22:10 → 22:05 cron 触发后没真正处理任务
+- 盘后 MarketNewslist 抽样(23:01):只有电投能源法人压减+ 法院公告噪声,无主题事件
+- 组合确认:100% 现金零持仓(测试组合 5a0ad283-6ff)
+**判断**
+- 宏观 cron 单次缺失,按 round38 规则不升级,等下一次自然 cron 窗口
+- 基本面 22:25 handoff 维持 round34 结论:OpenClaw 仍只观察不建仓
+- 组合继续 100% 现金,7/1 不主动建仓
+- 不启动任何 SubAgent
+**沉淀**
+- 写了 PM handoff: `/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30_2304_PM_round38_scan_宏观cron单次缺失不升级.md`
+- Memory 压缩了 round26 冗余,新增 round38 监测结论
+**下一轮关注**
+- 关键观察:宏观 cron 24:00 后是否产出 round4 handoff(若仍只有 plugin discovery 则升级为 manual deleg,指令需明确&quot;必须产出 .sessions/summaries/&quot;)
+- 凌晨四锚点(不变):①沃辛德拉均值 PCE ②三外延开盘 ③USDCNY 中间价 ④OpenClaw 板块 7/1 表现
+- 7/1 早盘:OpenClaw 板块表现是否延续(≥5%/中科创达持续强势)</pre>
     </section>
   
 
