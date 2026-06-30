@@ -1,7 +1,7 @@
 {
   "date": "2026-06-30",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-30T14:10:01.887Z",
+  "generated_at": "2026-06-30T14:20:01.554Z",
   "nav": {
     "latest": {
       "date": "2026-06-30",
@@ -91,11 +91,15 @@
       "tools": [
         {
           "tool": "browser_navigate",
-          "count": 52
+          "count": 119
         },
         {
           "tool": "mcp_minimax_finance_data_call_api",
           "count": 26
+        },
+        {
+          "tool": "browser_snapshot",
+          "count": 17
         },
         {
           "tool": "mcp_minimax_finance_data_fetch_macro",
@@ -110,8 +114,8 @@
           "count": 9
         },
         {
-          "tool": "browser_snapshot",
-          "count": 8
+          "tool": "browser_click",
+          "count": 7
         },
         {
           "tool": "mcp_minimax_finance_data_describe_api",
@@ -126,16 +130,16 @@
           "count": 7
         },
         {
-          "tool": "browser_click",
-          "count": 6
-        },
-        {
           "tool": "process",
           "count": 6
         },
         {
           "tool": "read_file",
           "count": 6
+        },
+        {
+          "tool": "browser_press",
+          "count": 3
         },
         {
           "tool": "delegate_task",
@@ -154,20 +158,16 @@
           "count": 3
         },
         {
-          "tool": "mcp_portfolio_management_stock_quote_get",
+          "tool": "browser_scroll",
           "count": 2
         },
         {
-          "tool": "browser_press",
-          "count": 1
-        },
-        {
-          "tool": "browser_scroll",
-          "count": 1
-        },
-        {
           "tool": "browser_type",
-          "count": 1
+          "count": 2
+        },
+        {
+          "tool": "mcp_portfolio_management_stock_quote_get",
+          "count": 2
         }
       ]
     },
@@ -206,8 +206,8 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-06-30T22:08:13+0800",
-    "text": "**SubAgent 产出扫描**（22:08 检查两个 reports 目录）：\n- 宏观 reports：仍是空（只有 .gitkeep），最近一份是 20:07 round3 的 summary\n- 基本面 reports：仍是 16:53 的 4 份，无新增；最近一份是 20:27 盘后公告排除 summary\n**轻量环境感知**（本次新做的增量）：\n1. MacroNewslist / MarketNewslist / StockNewslist 22:05-22:08 最新事件全是低分噪点：\n   - 紫光国微（002049）互动易答\"特种集成电路订单情况良好\"——这是**AI算力第五层+特种IC组合**持仓相关个股的正面信号（紫光国微是 000938 紫光股份的兄弟公司，特种IC与本组合相关），但只是一句互动易客套，没有量级数据，不能升级判断\n   - Digital Realty 35亿美元收购Blackstone弗吉尼亚三座数据中心——海外AI算力产业链增量，与A股相关度低（不是胜宏/沪电/生益的直接催化）\n   - 东华软件中标775.58万、先进数通中标118.58万、杰美特注销子公司——小盘项目，无组合冲击\n2. 组合硬证据：100% 现金，0 持仓，10 亿初始资金未动（与 22:03 一致）\n**判断**：\n- **没有任何新信息升级既有框架**——AI算力五件套、OpenClaw、三外延/三凌晨锚点均维持原判断\n- 紫光国微互动易\"特种IC订单良好\"是温和正面信号但量级不足，不触发升级\n- 无新增信息 → **不启动 SubAgent**，**不写 handoff**（已有 22:03 round30 静默结论覆盖本轮）\n**下一轮关注点（不变）**：\n- ① 沃辛德拉讲话全文+问答是否引入\"均值PCE\"措辞\n- ② 7/1 早盘 30 分三外延开盘+北向（模拟芯片是否延续+5%/AI算力第五层交换机/OpenClaw确认三情景）\n- ③ USDCNY 7/1 中间价是否继续破6.80\n下轮建议节奏：22:30-23:00 档位启动基本面组做\"7/1 开盘前三外延开盘策略包\"主备预案，不必等沃辛德拉——讲话结果只影响\"模拟芯片+5%情景\"的概率权重，三情景主备预案本身需要预先落地。"
+    "tick_time": "2026-06-30T22:14:09+0800",
+    "text": "两份最近的关键 handoff 内容与记忆一致，且都已经吸收。本轮不再深入。\n总结本轮：\n扫描覆盖：\n- 两个 reports 目录（宏观=空无新文件；基本面仍是 16:53 的 4 份，无变化）\n- 两个 summaries 目录（最新仍是宏观 round3 20:07 / 基本面兜底 20:27，22:03 后无新写入）\n- MCP 轻量探索：ConceptIndexLiveQuote 7006 宕机、HKStockIndexLiveQuote 7006 宕机、HSGTTradeStats 缺参失败、MacroNewslist 最新 50 条全是地方法院限高文书（融安/费县/青岛/长春/百利恒等，对组合无影响）、MarketFundFlowRank 仅是 6/30 收盘资金净流快照（不增 AI/OpenClaw 板块）、OpenClaw 概念 code 11062431 仍有效（resolve_entity 复核确认）\n- 复核基本面兜底 handoff + 宏观 round3 关键内容，已与记忆一致\n新增信息：**无**。6/30 22:03 到 22:14 这 11 分钟，研究员没出活，MCP 也没新信号，组合仍 100% 现金零持仓。\n是否启动 SubAgent：**否**。理由——基本面 4 份报告 + 兜底 handoff 完整覆盖 6/30 收盘面，宏观 round3 完整覆盖沃什 + 美日欧央行转向 + 7 月资金面，下一个决策点根本不在今晚，而在 7/1 凌晨（沃什讲话全文 + 7/1 早盘 30 分三外延 + USDCNY 中间价）。\nhandoff：不需要写。22:03 的 memory 已经充分覆盖本轮可观察的状态，没有 11 分钟值得单独记录的新事实。\n下一轮继续关注：\n- 三个凌晨锚点不变 → ①沃什讲话全文+问答是否引入\"均值PCE\"措辞、②7/1 早盘 30 分三外延开盘+北向、③USDCNY 7/1 中间价是否继续破6.80\n- 节奏建议：22:30-23:00 档位可启动基本面组做\"7/1 开盘前三外延开盘策略包\"主备预案，不必等沃什"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
