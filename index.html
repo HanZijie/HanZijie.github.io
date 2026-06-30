@@ -107,7 +107,7 @@
         </div>
       </section>
 
-      <p class="muted">生成日期 2026-06-30 · 时区 Asia/Shanghai · 生成时间 2026/6/30 23:10:01</p>
+      <p class="muted">生成日期 2026-06-30 · 时区 Asia/Shanghai · 生成时间 2026/6/30 23:20:01</p>
 
       
     <section class="panel pm-end-panel">
@@ -120,27 +120,27 @@
   
         <div>
           <h2>基金经理上轮结束语</h2>
-          <p class="muted">上轮 tick: 2026-06-30T23:04:31+0800</p>
+          <p class="muted">上轮 tick: 2026-06-30T23:15:25+0800</p>
         </div>
       </div>
-      <pre class="pm-end-text">**看了什么**
-- 两个研究员 reports 目录时间戳:宏观 reports 空(本轮未生成正式报告);基本面 reports 4 份未变(最新仍是 16:53)
-- 两个研究员 summaries 时间戳:宏观最新 20:07 (round3,距今 3h);基本面最新 22:27 (OpenClaw handoff,已在 round34 处理)
-- 宏观 SubAgent 健康三维度:runs.jsonl 空、agent.log 最后动作 22:05(只有 plugin discovery)、.hermes/skills 22:10 → 22:05 cron 触发后没真正处理任务
-- 盘后 MarketNewslist 抽样(23:01):只有电投能源法人压减+ 法院公告噪声,无主题事件
-- 组合确认:100% 现金零持仓(测试组合 5a0ad283-6ff)
-**判断**
-- 宏观 cron 单次缺失,按 round38 规则不升级,等下一次自然 cron 窗口
-- 基本面 22:25 handoff 维持 round34 结论:OpenClaw 仍只观察不建仓
-- 组合继续 100% 现金,7/1 不主动建仓
-- 不启动任何 SubAgent
-**沉淀**
-- 写了 PM handoff: `/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30_2304_PM_round38_scan_宏观cron单次缺失不升级.md`
-- Memory 压缩了 round26 冗余,新增 round38 监测结论
+      <pre class="pm-end-text">- 距上轮 round38 @23:04 仅 8min,**信息密度不够**
+**SubAgent 健康监测**
+- 基本面 round5 22:27 → agent.log 22:25 → 健康(正常产出)
+- 宏观 cron 22:05 触发后**只 plugin discovery 无新 handoff**(本轮 round38 已记录,持续监测中)
+- 按&quot;单次缺失不升级、二次再手动 deleg&quot;规则——本轮仍属&quot;单次缺失&quot;,等下次 cron(00:05 左右)
+**主动轻量探索(MCP 验证)**
+- OpenClaw 板块 6/30 资金流:主力净流入 +6.94 亿,21 个交易日最大单日流入,扭转 14/21 日净流出颓势
+- 19 只成分股普涨,亿道信息涨停(新发现,基本面组 handoff 未重点提),优刻得 +11.36%,东方国信 +9.19%
+- 修正基本面组 22:25 handoff 的&quot;题材炒作非建仓&quot;判断 → **题材+建仓双确认**
+**组合判断**
+- 仍 100% 现金,不主动建仓
+- 升级阈值&quot;连续 3 日 ≥5% / 单日主力 ≥10 亿 / 中报催化&quot;**本轮触发方向性扭转,未达金额+持续性**
+- 进入&quot;7/1-7/4 观察升级窗口&quot;——7/1 开盘后立即验证是否连续
 **下一轮关注**
-- 关键观察:宏观 cron 24:00 后是否产出 round4 handoff(若仍只有 plugin discovery 则升级为 manual deleg,指令需明确&quot;必须产出 .sessions/summaries/&quot;)
-- 凌晨四锚点(不变):①沃辛德拉均值 PCE ②三外延开盘 ③USDCNY 中间价 ④OpenClaw 板块 7/1 表现
-- 7/1 早盘:OpenClaw 板块表现是否延续(≥5%/中科创达持续强势)</pre>
+1. 7/1 09:30 开盘后 30 分钟 OpenClaw 板块表现(≥+3% 续,≤+2% 回踩)
+2. 00:05 宏观 cron 是否产出新 handoff(无 handoff 才升级到 manual deleg)
+3. 凌晨沃辛德拉均值 PCE 辛特拉圆桌新表态
+4. USDCNY 7/1 中间价</pre>
     </section>
   
 
