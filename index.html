@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>InvestTeam Daily Status 2026-06-30</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=ZCOOL+KuaiLe&display=swap');
+      :root { --sky: #8fd3ff; --mint: #8cffc1; --paper: #fff3b0; --ink: #1d2433; --muted: #586174; --line: #1d2433; --blue: #2d7dff; --orange: #ffb000; --pink: #ff4f8b; --green: #00a878; --bad: #e94f37; --shadow: 8px 8px 0 #1d2433; --tile: 16px; font-family: "Press Start 2P", "ZCOOL KuaiLe", monospace; }
+      * { box-sizing: border-box; }
+      body { margin: 0; color: var(--ink); background:
+        linear-gradient(90deg, rgba(29,36,51,.08) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(29,36,51,.08) 1px, transparent 1px),
+        linear-gradient(180deg, #8fd3ff 0%, #dff6ff 48%, #fff3b0 100%); background-size: var(--tile) var(--tile), var(--tile) var(--tile), auto; image-rendering: pixelated; }
+      main { margin: 0 auto; max-width: 1180px; padding: 28px 18px 44px; }
+      .hero { min-height: 420px; display: grid; grid-template-columns: minmax(0, 1fr) 430px; gap: 28px; align-items: center; margin-bottom: 24px; }
+      .hero-copy { position: relative; z-index: 1; }
+      .brand { color: var(--blue); font-size: clamp(28px, 5vw, 58px); letter-spacing: 0; line-height: 1.25; text-shadow: 4px 0 0 #ffffff, 0 4px 0 #ffffff, 6px 6px 0 var(--line); }
+      .hero h1 { font-family: "ZCOOL KuaiLe", "Press Start 2P", monospace; font-size: clamp(28px, 5vw, 56px); line-height: 1.05; margin-top: 20px; max-width: 760px; }
+      .hero p { background: rgba(255,243,176,.88); border: 4px solid var(--line); box-shadow: 6px 6px 0 var(--line); font-family: "ZCOOL KuaiLe", "Press Start 2P", monospace; font-size: 20px; line-height: 1.55; margin-top: 18px; max-width: 720px; padding: 14px 16px; }
+      .hero-party { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+      .hero-avatar { align-items: center; background: #ffffff; border: 4px solid var(--line); box-shadow: 5px 5px 0 var(--line); display: flex; gap: 10px; padding: 8px 10px; }
+      .hero-avatar span { font-family: "ZCOOL KuaiLe", "Press Start 2P", monospace; font-size: 15px; white-space: nowrap; }
+      .hero-art { min-height: 320px; position: relative; }
+      .hero-art svg { height: 100%; min-height: 320px; width: 100%; animation: floaty 3s steps(4) infinite; filter: drop-shadow(8px 8px 0 #1d2433); shape-rendering: crispEdges; }
+      @keyframes floaty { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+      @keyframes drawLine { from { stroke-dashoffset: 1100; } to { stroke-dashoffset: 0; } }
+      @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      h1, h2, h3, p { margin: 0; }
+      h2 { font-family: "ZCOOL KuaiLe", "Press Start 2P", monospace; font-size: clamp(26px, 3vw, 38px); line-height: 1.05; margin-bottom: 14px; }
+      h3 { font-family: "ZCOOL KuaiLe", "Press Start 2P", monospace; font-size: 22px; line-height: 1.15; }
+      .muted, .agent-id, .disclaimer { color: var(--muted); font-family: "ZCOOL KuaiLe", "Press Start 2P", monospace; font-size: 15px; line-height: 1.6; }
+      .grid { display: grid; gap: 14px; grid-template-columns: repeat(4, minmax(0, 1fr)); margin-bottom: 18px; }
+      .panel, .metric, .tool-card { background: rgba(255, 243, 176, .96); border: 4px solid var(--line); border-radius: 0; box-shadow: var(--shadow); }
+      .metric { padding: 16px 16px 14px; }
+      .metric span { color: var(--muted); display: block; font-family: "ZCOOL KuaiLe", "Press Start 2P", monospace; font-size: 15px; margin-bottom: 8px; }
+      .metric strong { font-size: 24px; line-height: 1.2; }
+      .positive { color: var(--green); }
+      .negative { color: var(--bad); }
+      .panel { padding: 22px; margin-bottom: 18px; }
+      .chart { background:
+        linear-gradient(90deg, rgba(29,36,51,.12) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(29,36,51,.12) 1px, transparent 1px),
+        #fff8d6; background-size: 20px 20px; border: 4px solid var(--line); border-radius: 0; height: 340px; width: 100%; padding: 8px; shape-rendering: crispEdges; }
+      .chart-grid { stroke: rgba(29,36,51,.28); stroke-width: 3; stroke-dasharray: none; }
+      .chart-paper-line { fill: none; stroke: rgba(45,125,255,.24); stroke-width: 12; stroke-linecap: square; stroke-linejoin: miter; stroke-dasharray: 1100; animation: drawLine 1.25s steps(8) both; }
+      .chart-shadow { fill: none; stroke: var(--line); stroke-width: 12; stroke-linecap: square; stroke-linejoin: miter; transform: translate(7px, 7px); }
+      .chart-line { fill: none; stroke: var(--blue); stroke-width: 8; stroke-linecap: square; stroke-linejoin: miter; stroke-dasharray: 1100; animation: drawLine 1.3s steps(10) both; }
+      .chart-dot { fill: var(--orange); stroke: var(--line); stroke-width: 4; animation: bob 1.8s steps(2) infinite; }
+      .chart-label, .empty-chart-text { fill: var(--muted); font: 16px "Press Start 2P", "ZCOOL KuaiLe", monospace; }
+      table { border-collapse: collapse; width: 100%; }
+      th, td { border-bottom: 3px solid rgba(29,36,51,.18); font-family: "ZCOOL KuaiLe", "Press Start 2P", monospace; font-size: 15px; padding: 12px 8px; text-align: left; }
+      th { color: var(--muted); font-weight: 600; }
+      .tools { display: grid; gap: 16px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .tool-card { padding: 18px; }
+      .agent-heading { align-items: center; display: flex; gap: 14px; }
+      .pm-end-panel { background: #fff8df; position: relative; overflow: hidden; }
+      .pm-end-panel::after { content: ""; position: absolute; inset: auto 20px 20px auto; width: 76px; height: 76px; background: repeating-linear-gradient(0deg, rgba(45,125,255,.18) 0 8px, transparent 8px 16px); border: 4px solid rgba(29,36,51,.22); image-rendering: pixelated; transform: rotate(8deg); }
+      .pm-end-heading { align-items: center; display: flex; gap: 14px; margin-bottom: 14px; position: relative; z-index: 1; }
+      .pm-end-text { background: #1d2433; border: 4px solid var(--line); box-shadow: 5px 5px 0 var(--orange); color: #dfffd8; font-family: "ZCOOL KuaiLe", "Press Start 2P", monospace; font-size: 17px; line-height: 1.65; margin: 0; max-height: 360px; overflow: auto; padding: 16px; position: relative; white-space: pre-wrap; z-index: 1; }
+      .pixel-avatar { flex: 0 0 auto; height: 68px; image-rendering: pixelated; width: 68px; }
+      ul { list-style: none; margin: 14px 0 0; padding: 0; }
+      li { align-items: center; border-top: 3px solid rgba(29,36,51,.18); display: flex; justify-content: space-between; gap: 10px; padding: 10px 0; }
+      li span { font-family: "ZCOOL KuaiLe", "Press Start 2P", monospace; font-size: 15px; overflow-wrap: anywhere; }
+      li strong { background: var(--mint); border: 3px solid var(--line); border-radius: 0; color: var(--ink); min-width: 38px; padding: 4px 9px; text-align: center; }
+      .disclaimer { background: #fff3bd; border: 4px solid var(--line); border-radius: 0; padding: 14px 16px; margin-top: 18px; }
+      @media (max-width: 900px) { .hero { grid-template-columns: 1fr; min-height: auto; } .hero-art { min-height: 220px; } .grid, .tools { grid-template-columns: 1fr; } .chart { height: 270px; } .hero-avatar { width: 100%; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="brand">InvestTeam</div>
+          <h1>每日净值小报和 Agent 工具足迹</h1>
+          <p class="muted">下午三点自动用 MCP 拉取组合净值；这里只展示运行状态、净值折线和今天用过哪些工具。</p>
+          <div class="hero-party"><div class="hero-avatar">
+    <svg class="pixel-avatar" viewBox="0 0 16 16" role="img" aria-label="基金经理头像" shape-rendering="crispEdges">
+      <rect width="16" height="16" fill="#263238"></rect>
+      <rect x="1" y="1" width="14" height="14" fill="#ffd166"></rect><rect x="4" y="3" width="8" height="2" fill="#263238"></rect><rect x="3" y="4" width="10" height="2" fill="#263238"></rect><rect x="4" y="6" width="8" height="4" fill="#ffcf9f"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#1786d3"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#06d6a0"></rect><rect x="2" y="13" width="12" height="2" fill="#1786d3"></rect>
+    </svg>
+  <span>基金经理</span></div><div class="hero-avatar">
+    <svg class="pixel-avatar" viewBox="0 0 16 16" role="img" aria-label="宏观政策资金流动性研究员头像" shape-rendering="crispEdges">
+      <rect width="16" height="16" fill="#263238"></rect>
+      <rect x="1" y="1" width="14" height="14" fill="#9bf6ff"></rect><rect x="4" y="3" width="8" height="2" fill="#3a2f5f"></rect><rect x="3" y="4" width="10" height="2" fill="#3a2f5f"></rect><rect x="4" y="6" width="8" height="4" fill="#f7c59f"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#4d96ff"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#ff9f1c"></rect><rect x="2" y="13" width="12" height="2" fill="#4d96ff"></rect>
+    </svg>
+  <span>宏观政策资金流动性研究员</span></div><div class="hero-avatar">
+    <svg class="pixel-avatar" viewBox="0 0 16 16" role="img" aria-label="行业产业公司基本面研究员头像" shape-rendering="crispEdges">
+      <rect width="16" height="16" fill="#263238"></rect>
+      <rect x="1" y="1" width="14" height="14" fill="#caffbf"></rect><rect x="4" y="3" width="8" height="2" fill="#594236"></rect><rect x="3" y="4" width="10" height="2" fill="#594236"></rect><rect x="4" y="6" width="8" height="4" fill="#ffd6a5"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#ef476f"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#118ab2"></rect><rect x="2" y="13" width="12" height="2" fill="#ef476f"></rect>
+    </svg>
+  <span>行业产业公司基本面研究员</span></div></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 420 320">
+            <path d="M22 250 C85 205, 115 236, 170 194 S292 118, 390 72" fill="none" stroke="#263238" stroke-width="16" stroke-linecap="round"></path>
+            <path d="M22 250 C85 205, 115 236, 170 194 S292 118, 390 72" fill="none" stroke="#1786d3" stroke-width="10" stroke-linecap="round"></path>
+            <circle cx="74" cy="220" r="16" fill="#ff9f1c" stroke="#263238" stroke-width="6"></circle>
+            <circle cx="173" cy="193" r="16" fill="#b9f3d2" stroke="#263238" stroke-width="6"></circle>
+            <circle cx="282" cy="128" r="16" fill="#ff6b8a" stroke="#263238" stroke-width="6"></circle>
+            <circle cx="388" cy="72" r="16" fill="#fff8df" stroke="#263238" stroke-width="6"></circle>
+            <path d="M42 80 h160 a22 22 0 0 1 22 22 v68 a22 22 0 0 1 -22 22 h-160 a22 22 0 0 1 -22 -22 v-68 a22 22 0 0 1 22 -22z" fill="#fff8df" stroke="#263238" stroke-width="7"></path>
+            <path d="M63 122 h118 M63 151 h82" stroke="#263238" stroke-width="8" stroke-linecap="round"></path>
+            <path d="M292 210 l70 28 l-48 38 z" fill="#b9f3d2" stroke="#263238" stroke-width="7" stroke-linejoin="round"></path>
+            <path d="M316 238 l43 0" stroke="#263238" stroke-width="5" stroke-linecap="round"></path>
+          </svg>
+        </div>
+      </section>
+
+      <p class="muted">生成日期 2026-06-30 · 时区 Asia/Shanghai · 生成时间 2026/6/30 16:56:57</p>
+
+      
+    <section class="panel pm-end-panel">
+      <div class="pm-end-heading">
+        
+    <svg class="pixel-avatar" viewBox="0 0 16 16" role="img" aria-label="基金经理头像" shape-rendering="crispEdges">
+      <rect width="16" height="16" fill="#263238"></rect>
+      <rect x="1" y="1" width="14" height="14" fill="#ffd166"></rect><rect x="4" y="3" width="8" height="2" fill="#263238"></rect><rect x="3" y="4" width="10" height="2" fill="#263238"></rect><rect x="4" y="6" width="8" height="4" fill="#ffcf9f"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#1786d3"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#06d6a0"></rect><rect x="2" y="13" width="12" height="2" fill="#1786d3"></rect>
+    </svg>
+  
+        <div>
+          <h2>基金经理上轮结束语</h2>
+          <p class="muted">上轮 tick: 2026-06-30T16:53:47+0800</p>
+        </div>
+      </div>
+      <pre class="pm-end-text">- 5 只核心股收盘价 MCP 二次验证全部一致
+- 7/1 决策树 5 条触发线不变（沪电减 1/3 / 中际+富联各减 1/8 / 宁德看开盘 / 紫金看开盘）
+- 1.6T 龙头净利一致预期 +170% 反过来**强化**&quot;中际仅减 1/8 而非更深&quot;的理由
+**本轮做的轻量验证**：
+- 4 只核心股 MCP 日线二次验证（与 16:33/16:40/16:42/16:45/16:46/16:51 完全一致）
+- 组合状态快照（1 亿现金 / 0 持仓 / cash_weight 100%）
+- 触发 MacroIndicatorData 7006 熔断（memory 已知 4 次会熔断等 54s），不重试——宏观数据 memory 已有
+**本轮决策**：
+- 不启动新 SubAgent 任务
+- 不写正式 report（属 tick 级 handoff）
+- 不模拟交易（0 持仓 100% 现金）
+- 已写本轮 handoff：`/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30T16-53_pm_reports_digest.md`
+**下一轮 PM tick 重点**：
+1. **7/1 04:00–08:30**（如 cron 触发）：美股 6/30 收盘 + 富时 A50 期货 + A 股期货夜盘收
+2. **7/1 08:30–08:50**（盘前最后准备）：SHIBOR 隔夜 + USDCNY 中间价 + 7/1 隔夜逆回购利率披露（陆家嘴论坛&quot;软走廊&quot;实测）
+3. **7/1 09:15–09:30**：集合竞价 5 只核心股 vs 触发线
+4. **7/1 09:30 开盘后 15 分钟**：按决策树执行
+═══════════════════════════════════════</pre>
+    </section>
+  
+
+      <section class="grid">
+        <div class="metric"><span>最新净值</span><strong>1.0000</strong></div>
+        <div class="metric"><span>较前一条变化</span><strong class="">暂无</strong></div>
+        <div class="metric"><span>变化比例</span><strong class="">暂无</strong></div>
+        <div class="metric"><span>净值记录数</span><strong>1</strong></div>
+      </section>
+
+      <section class="panel">
+        <h2>净值变化</h2>
+        
+      <svg class="chart" viewBox="0 0 920 300" role="img" aria-label="净值折线图暂无足够数据">
+        <line x1="34" y1="80.4" x2="886" y2="80.4" class="chart-grid"></line><line x1="34" y1="126.8" x2="886" y2="126.8" class="chart-grid"></line><line x1="34" y1="173.2" x2="886" y2="173.2" class="chart-grid"></line><line x1="34" y1="219.6" x2="886" y2="219.6" class="chart-grid"></line>
+        <path class="chart-paper-line" d="M 34 266 C 190 180, 320 220, 470 155 S 760 128, 886 92"></path>
+        <text x="460" y="160" text-anchor="middle" class="empty-chart-text">下午三点拉取后，这里会长出净值折线</text>
+      </svg>
+    
+      </section>
+
+      <section class="panel">
+        <h2>最近净值记录</h2>
+        <table>
+          <thead><tr><th>日期</th><th>组合</th><th>单位净值</th><th>总资产</th></tr></thead>
+          <tbody><tr><td>2026-06-30</td><td>测试组合</td><td>1.0000</td><td>1,000,000,000</td></tr></tbody>
+        </table>
+      </section>
+
+      <section class="panel">
+        <h2>今天调用过的工具</h2>
+        <p class="muted">仅展示工具名和次数，不展示参数、prompt、原始返回或推理轨迹。</p>
+        <div class="tools"><article class="tool-card"><div class="agent-heading">
+    <svg class="pixel-avatar" viewBox="0 0 16 16" role="img" aria-label="基金经理头像" shape-rendering="crispEdges">
+      <rect width="16" height="16" fill="#263238"></rect>
+      <rect x="1" y="1" width="14" height="14" fill="#ffd166"></rect><rect x="4" y="3" width="8" height="2" fill="#263238"></rect><rect x="3" y="4" width="10" height="2" fill="#263238"></rect><rect x="4" y="6" width="8" height="4" fill="#ffcf9f"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#1786d3"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#06d6a0"></rect><rect x="2" y="13" width="12" height="2" fill="#1786d3"></rect>
+    </svg>
+  <div><h3>基金经理</h3><p class="agent-id">portfolio_manager</p></div></div><ul><li><span>terminal</span><strong>16</strong></li><li><span>mcp_portfolio_management_stock_quote_get</span><strong>13</strong></li><li><span>search_files</span><strong>10</strong></li><li><span>read_file</span><strong>9</strong></li><li><span>mcp_minimax_finance_data_call_api</span><strong>6</strong></li><li><span>mcp_portfolio_management_trade_quote_preview</span><strong>6</strong></li><li><span>mcp_portfolio_management_portfolio_positions_overview</span><strong>4</strong></li><li><span>mcp_minimax_finance_data_query_macro</span><strong>3</strong></li><li><span>mcp_minimax_finance_data_resolve_entity</span><strong>3</strong></li><li><span>mcp_portfolio_management_order_list</span><strong>2</strong></li><li><span>write_file</span><strong>2</strong></li><li><span>mcp_minimax_finance_data_describe_api</span><strong>1</strong></li><li><span>session_search</span><strong>1</strong></li></ul></article><article class="tool-card"><div class="agent-heading">
+    <svg class="pixel-avatar" viewBox="0 0 16 16" role="img" aria-label="宏观政策资金流动性研究员头像" shape-rendering="crispEdges">
+      <rect width="16" height="16" fill="#263238"></rect>
+      <rect x="1" y="1" width="14" height="14" fill="#9bf6ff"></rect><rect x="4" y="3" width="8" height="2" fill="#3a2f5f"></rect><rect x="3" y="4" width="10" height="2" fill="#3a2f5f"></rect><rect x="4" y="6" width="8" height="4" fill="#f7c59f"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#4d96ff"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#ff9f1c"></rect><rect x="2" y="13" width="12" height="2" fill="#4d96ff"></rect>
+    </svg>
+  <div><h3>宏观政策资金流动性研究员</h3><p class="agent-id">macro_liquidity_researcher</p></div></div><ul><li><span>mcp_minimax_finance_data_call_api</span><strong>11</strong></li><li><span>search_files</span><strong>3</strong></li><li><span>execute_code</span><strong>2</strong></li><li><span>terminal</span><strong>2</strong></li><li><span>mcp_minimax_finance_data_describe_api</span><strong>1</strong></li><li><span>write_file</span><strong>1</strong></li></ul></article><article class="tool-card"><div class="agent-heading">
+    <svg class="pixel-avatar" viewBox="0 0 16 16" role="img" aria-label="行业产业公司基本面研究员头像" shape-rendering="crispEdges">
+      <rect width="16" height="16" fill="#263238"></rect>
+      <rect x="1" y="1" width="14" height="14" fill="#caffbf"></rect><rect x="4" y="3" width="8" height="2" fill="#594236"></rect><rect x="3" y="4" width="10" height="2" fill="#594236"></rect><rect x="4" y="6" width="8" height="4" fill="#ffd6a5"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#ef476f"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#118ab2"></rect><rect x="2" y="13" width="12" height="2" fill="#ef476f"></rect>
+    </svg>
+  <div><h3>行业产业公司基本面研究员</h3><p class="agent-id">fundamentals_researcher</p></div></div><ul><li><span>terminal</span><strong>22</strong></li><li><span>read_file</span><strong>11</strong></li><li><span>search_files</span><strong>6</strong></li><li><span>mcp_minimax_finance_data_call_api</span><strong>4</strong></li><li><span>write_file</span><strong>2</strong></li></ul></article></div>
+      </section>
+
+      <p class="disclaimer">合规提示：本页面仅用于展示系统运行状态、组合净值记录和工具调用概览，不构成投资建议、证券推荐、荐股或交易指令。任何投资决策应由具备相应权限和责任的人独立完成。</p>
+    </main>
+  </body>
+</html>
