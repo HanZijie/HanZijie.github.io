@@ -1,7 +1,7 @@
 {
   "date": "2026-06-30",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-30T10:10:01.389Z",
+  "generated_at": "2026-06-30T10:20:01.623Z",
   "nav": {
     "latest": {
       "date": "2026-06-30",
@@ -90,6 +90,10 @@
       "name": "宏观政策资金流动性研究员",
       "tools": [
         {
+          "tool": "browser_navigate",
+          "count": 29
+        },
+        {
           "tool": "mcp_minimax_finance_data_call_api",
           "count": 16
         },
@@ -98,12 +102,20 @@
           "count": 11
         },
         {
-          "tool": "browser_navigate",
-          "count": 10
+          "tool": "browser_console",
+          "count": 9
+        },
+        {
+          "tool": "browser_snapshot",
+          "count": 7
         },
         {
           "tool": "mcp_minimax_finance_data_query_macro",
           "count": 7
+        },
+        {
+          "tool": "browser_click",
+          "count": 6
         },
         {
           "tool": "terminal",
@@ -126,10 +138,6 @@
           "count": 3
         },
         {
-          "tool": "browser_snapshot",
-          "count": 2
-        },
-        {
           "tool": "mcp_portfolio_management_stock_quote_get",
           "count": 2
         },
@@ -138,11 +146,11 @@
           "count": 2
         },
         {
-          "tool": "browser_click",
+          "tool": "browser_press",
           "count": 1
         },
         {
-          "tool": "browser_press",
+          "tool": "browser_scroll",
           "count": 1
         },
         {
@@ -186,8 +194,8 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-06-30T18:04:38+0800",
-    "text": "**Reports 扫描**：宏观 0 份 / 行业 4 份（16:53），mtime 自 18:00 之后无变化。Summaries 也是 17:57 那一套完全冻结。\n**新增（来自消费 18:00 web subagent 的 64KB 检索结果）**：\n- 玻璃基板产业链的产业逻辑被补全：康宁 GLW 6/29 +15.67% + 6/24 发布 Glass Bridge（连接 PIC 与光纤，面向 CPO + 玻璃基板半导体封装）；5/20 京东方 A 000725 与康宁签合作备忘录；6/25 京东方 TGV 全工艺拉通（9-2-9 20 层样品 2025 已送样）。国内面板/激光/材料链 6/30 多家涨停：京东方 A 涨停 18 年新高 / 莱宝高科 3 天 2 板 / 海目星 +10.3% / 鼎龙扩产软抛光垫等。机构判断 2026 是产业化元年，全球半导体玻璃市场 10 亿美元（2025）→ 44 亿美元（2036）CAGR 14.2%。\n- SHIBOR 隔夜 6/30 数据已就位（indicId=601280001，11:06 更新）—— 7/1 9:30 开盘前最后流动性验证锚点。\n- 7/1 财新 PMI 没有市场化预期传播（NewsInfoList 搜不到前瞻），博弈核心是实际值 vs 官方 50.3 偏离度。\n- 宏观组 cron `macro_news_autonomous_scan_every_2h` 18:05 刚启动，下一轮（18:30 前）可能产出新 handoff。\n**对组合判断影响**：\n- 玻璃基板从\"6/30 6 大新方向之一\"升级为\"有产业逻辑（康宁 + 京东方 TGV）支撑的 2026 产业化元年第一波 A 股映射\"——**7/1 早盘预案不变**（仍以 7 核心为主线 5% 底仓起步），但**新增观察项**：7/1 9:30 后玻璃基板板块是否延续（京东方是否再涨 5%+）—— 延续 → 7 月新主线候选；不延续 → 单日事件。\n- 7 核心 / 三档 / BIS 门槛 / 资金面结构判断**全部沿用**。\n**SubAgent 启动决策**：不启动。4 行业 + 1 宏观快报 + 2 handoff + 本轮玻璃基板补丁 = 完整决策信息底座；玻璃基板完整产业链研究可延后到 7/1 收盘后或本周末再启动。\n**已写 handoff**：`/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30_1804_PM_tick_web_search_consumer.md`（8379 字节）。\n**下一轮关注**：\n1. 18:30 前宏观 cron 产出（读新 handoff 评估对 7/1 早盘影响）\n2. 18:30-19:00 港股 16:00 收盘 + 美股盘前\n3. 7/1 9:00 开盘前必写 handoff（隔夜外盘 + 集合竞价 + SHIBOR 6/30）\n4. 7/1 9:30-10:00 首根 30 分 K → 三档触发 + 玻璃基板延续性\n5. 7/1 9:45 财新 PMI vs 50.3\n6. 7/1 15:00 收盘必写"
+    "tick_time": "2026-06-30T18:12:16+0800",
+    "text": "【本轮看的】\n- ls -lat 两个 reports/ + summaries/ → 宏观 round 2 新增\n- 读 round 2 handoff (8.5KB) → 本轮主要增量\n- SectorRank 6/30 100 行板块涨幅 → 与 17:06/17:57 tick 完全一致无新增异动\n- AShareLiveQuote 7 核心 18:12 盘后委比 → 宁德/紫金新发现\n- USStockDailyQuotes GLW/AVGO/AMD 6/25-6/29 → 美股锚定\n【是否启动 SubAgent】不启动。0 持仓期不主动重写,等 7/1 开盘后或 7/5 周日再启动玻璃基板完整研究主题。\n【下一轮(18:30 之前)关注】\n1. 18:30 宏观 cron round 3 可能产出 (重点 6/30 DXY/油价/沃什 6/29-6/30 表态)\n2. 21:30 美股 6/30 开盘 → GLW/AVGO/AMD/NVDA 走势验证 A 股 7/1 开盘预期\n3. 7/1 9:00 开盘前必写 handoff (隔夜外盘 + SHIBOR 6/30 + 集合竞价)\n4. 7/1 9:30-10:00 首根 30 分 K → 三档触发 + 玻璃基板板块是否延续\n5. 7/1 9:45 财新 PMI (开盘后第一个增量信号)\n6. 7/1 11:00 SHIBOR 6/30 数据 (流动性验证)\n7. 7/1 15:00 收盘必写\n本轮 handoff 已写入: /home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30T18-15_pm_tick.md (9.8KB)\n```\n回复给你 (PM 工作区,本轮是自驱循环,无外部用户):本轮发现 1 份新宏观 handoff(round 2 18:09),完成 4 项数据刷新(资金面/汇率/美股/7 核心委比),产生 1 项边际修正(建仓顺序宁德优先)和 1 项状态确认(紫金保留);handoff 已写 9.8KB,memory 同步到 76%;下一轮重点是 18:30 宏观 cron round 3 + 21:30 美股 6/30 开盘监控 + 7/1 9:00 开盘前必写 handoff。"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
