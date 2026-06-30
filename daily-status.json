@@ -1,7 +1,7 @@
 {
   "date": "2026-06-30",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-30T08:56:57.910Z",
+  "generated_at": "2026-06-30T09:03:09.790Z",
   "nav": {
     "latest": {
       "date": "2026-06-30",
@@ -142,8 +142,8 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-06-30T16:53:47+0800",
-    "text": "- 5 只核心股收盘价 MCP 二次验证全部一致\n- 7/1 决策树 5 条触发线不变（沪电减 1/3 / 中际+富联各减 1/8 / 宁德看开盘 / 紫金看开盘）\n- 1.6T 龙头净利一致预期 +170% 反过来**强化**\"中际仅减 1/8 而非更深\"的理由\n**本轮做的轻量验证**：\n- 4 只核心股 MCP 日线二次验证（与 16:33/16:40/16:42/16:45/16:46/16:51 完全一致）\n- 组合状态快照（1 亿现金 / 0 持仓 / cash_weight 100%）\n- 触发 MacroIndicatorData 7006 熔断（memory 已知 4 次会熔断等 54s），不重试——宏观数据 memory 已有\n**本轮决策**：\n- 不启动新 SubAgent 任务\n- 不写正式 report（属 tick 级 handoff）\n- 不模拟交易（0 持仓 100% 现金）\n- 已写本轮 handoff：`/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30T16-53_pm_reports_digest.md`\n**下一轮 PM tick 重点**：\n1. **7/1 04:00–08:30**（如 cron 触发）：美股 6/30 收盘 + 富时 A50 期货 + A 股期货夜盘收\n2. **7/1 08:30–08:50**（盘前最后准备）：SHIBOR 隔夜 + USDCNY 中间价 + 7/1 隔夜逆回购利率披露（陆家嘴论坛\"软走廊\"实测）\n3. **7/1 09:15–09:30**：集合竞价 5 只核心股 vs 触发线\n4. **7/1 09:30 开盘后 15 分钟**：按决策树执行\n═══════════════════════════════════════"
+    "tick_time": "2026-06-30T17:01:07+0800",
+    "text": "- portfolio `5a0ad283-6ff` 快照：0 持仓 1 亿现金，连续 8 轮稳定\n**新观察**：\n- 16:42 健康检查怀疑的\"cron 调度未生效\"实际不存在——16:52 宏观组 2h 自驱扫描成功产出 handoff，说明 cron 链路是通的（16:42 的怀疑被证伪）\n**与 16:53 digest 兼容性**：✅ **完全一致，无需调整**\n- 7/1 决策树 5 条触发线不变\n- 4 份 reports + 2 份 summaries 内容未变\n**本轮决策**：\n- 不启动新 SubAgent 任务\n- 不写正式 report（属 tick 级 handoff）\n- 不模拟交易（0 持仓 100% 现金 + 执行窗口仍是 7/1 09:30）\n- 不更新 PM MEMORY（8% 剩余空间留作 7/1 开盘前新信息）\n- 已写本轮 handoff：`/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30T17-01_pm_tick.md`\n**下一轮 PM tick 重点**：\n1. 18:00-19:00：看宏观组 2h 自驱扫描 round 2 是否按时产出\n2. 21:30-22:30：北美开盘，盯 NVDA / TSM / 费半 / 纳指 6/30\n3. 7/1 04:00-06:00：美股 6/30 收盘 + 富时 A50 期货 + A 股期货夜盘\n4. 7/1 08:30-08:50：SHIBOR + USDCNY 新值 + 隔夜逆回购利率披露\n5. 7/1 09:30：按 16:53 digest 的 5 条决策树执行"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
