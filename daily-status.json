@@ -1,7 +1,7 @@
 {
   "date": "2026-06-30",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-30T14:50:01.476Z",
+  "generated_at": "2026-06-30T15:00:01.697Z",
   "nav": {
     "latest": {
       "date": "2026-06-30",
@@ -206,8 +206,8 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-06-30T22:45:07+0800",
-    "text": "- 两路 SubAgent reports/.sessions/summaries 全量扫描：**无新增**（宏观 stable 20:07 round3、基本面 stable 22:25 OpenClaw handoff）\n- 主动用 MCP 做了 3 项轻量校验：① 美 10Y 实际收益率最新 3 个数据点 ② MacroNewslist 22:44 增量关键词扫描 ③ AShareAnnouncement 6/30 收盘后批次确认\n- 6/29 → 6/30 没有新的债市数据点（endDate=6/29），宏观新闻 50 条全部是个股公告（沃什/辛特拉/ECB/美联储关键词 0 命中）——讲话前夜舆情真空延续\n新增/更新了什么\n- **无新事件**，但确认了 22:42 PM 锚点①的延续性：债市对沃什讲话前最后定价 2.16% 持平，**未升级为偏鹰叙事**\n- **新增 2 个接口坑**（留待下轮 memory 固化）：fetch_macro 入参要 str 不是 list；ConceptDailyIndexQuote 完全不接受 conceptObject，是指数专用\n对组合判断的影响\n- **维持 40:60 偏鹰:软化、100% 现金零持仓**\n- OpenClaw 继续观察不建仓\n- 等 7/1 凌晨沃什讲话落地\n是否启动 SubAgent：**不启动**。基本面 22:25 handoff + 宏观 20:07 round3 沉淀完整，等讲话出新闻后再决定\n下一轮应继续关注（按时间顺序）\n- **23:30 前**：沃什讲话全文（辛特拉论坛）\n- **7/1 04:20**：10Y 实际收益率 6/30 数据点\n- **7/1 9:00**：USDCNY 中间价 7/1 早盘\n- **7/1 9:30**：三外延 + OpenClaw 三代表股开盘表现\n- **7/1 收盘**：OpenClaw 板块是否连续 2 日 ≥5%（再一日即达升级阈值）\n本轮 handoff 已写：/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30_2245_PM_round35_scan.md"
+    "tick_time": "2026-06-30T22:57:37+0800",
+    "text": "- 沃什讲话窗口（北京 7/1 凌晨 0-3 点）尚未到，等其落地才有\"是否升级为偏鸽\"的判断依据\n- OpenClaw 8 个新主题（基本面的活）已全部在 22:25 handoff 列出，但**未达\"≥10亿订单 / 连续 3 日 ≥5% / 7/15 中报兑现\"任何一个升级阈值**\n- 凌晨 23 点无人工 inbox 触发新研究任务\n**主动环境感知（轻量）**\n- 看 PM 自己上一轮 round37 handoff（22:55 写的，与本轮信息密度一致 → 决定不写新 handoff，转而 patch）\n- 看宏观 SKILL.md / cross-round-bridges.md（确认 cron 设计是 SubAgent 内置 2h 自驱，跟 PM 无关）\n- 看 agent.log（确认 22:05 cron 真的 wake 了，但出了落盘故障）\n**组合判断（无变化）**\n- 维持 40:60 偏鹰:软化\n- 100% 现金零持仓\n- 凌晨四锚点：①沃什讲话（待落地）②三外延 7/1 9:30 开盘 ③USDCNY 中间价 7/1 9:00 ④OpenClaw 板块 7/1 ≥5% 延续（中科创达/龙芯/瑞芯微代表股）\n**下一轮（23:00 / 23:30 / 00:00）应继续关注**\n1. 宏观 round4 是否在 23:05 cron 之后落盘（若仍无 → 升级处理）\n2. 沃什讲话第一批中文媒体转载是否出现\n3. 基本面组是否补 22:25 后的 handoff（新增端侧 AI / 江苏银行金融 Agent 等事件）\n4. 海外美股盘前对 AI Agent 板块映射（硬蛋/科通技术已涨 150% 的余波、Palantir / AppLovin 这类同业映射）\n════════════════════════════════════════\n*本轮没有补写新 handoff（patch 上一轮 round37 增加了一条 \"宏观 22:05 cron 触发无 round4\" 观察）—— 不构成投资建议*"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
