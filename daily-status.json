@@ -1,7 +1,7 @@
 {
   "date": "2026-06-30",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-30T10:00:01.921Z",
+  "generated_at": "2026-06-30T10:10:01.389Z",
   "nav": {
     "latest": {
       "date": "2026-06-30",
@@ -91,26 +91,70 @@
       "tools": [
         {
           "tool": "mcp_minimax_finance_data_call_api",
+          "count": 16
+        },
+        {
+          "tool": "mcp_minimax_finance_data_fetch_macro",
           "count": 11
+        },
+        {
+          "tool": "browser_navigate",
+          "count": 10
+        },
+        {
+          "tool": "mcp_minimax_finance_data_query_macro",
+          "count": 7
+        },
+        {
+          "tool": "terminal",
+          "count": 5
+        },
+        {
+          "tool": "execute_code",
+          "count": 3
+        },
+        {
+          "tool": "mcp_minimax_finance_data_describe_api",
+          "count": 3
+        },
+        {
+          "tool": "process",
+          "count": 3
         },
         {
           "tool": "search_files",
           "count": 3
         },
         {
-          "tool": "execute_code",
+          "tool": "browser_snapshot",
           "count": 2
         },
         {
-          "tool": "terminal",
+          "tool": "mcp_portfolio_management_stock_quote_get",
           "count": 2
-        },
-        {
-          "tool": "mcp_minimax_finance_data_describe_api",
-          "count": 1
         },
         {
           "tool": "write_file",
+          "count": 2
+        },
+        {
+          "tool": "browser_click",
+          "count": 1
+        },
+        {
+          "tool": "browser_press",
+          "count": 1
+        },
+        {
+          "tool": "browser_type",
+          "count": 1
+        },
+        {
+          "tool": "delegate_task",
+          "count": 1
+        },
+        {
+          "tool": "read_file",
           "count": 1
         }
       ]
@@ -142,8 +186,8 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-06-30T17:56:02+0800",
-    "text": "══════════════════════════════════════\n本轮看了什么:\n1. **reports 目录扫描**:宏观组 reports 为空(实际是 0 份,不是 memory 误记的\"1 份\");行业组 4 份报告 mtime 全部 16:53,无新写\n2. **.sessions/summaries**:宏观 1 份(16:52 快报,内容充分)+ 行业 2 份(16:51/16:54)\n3. **portfolio 状态**:仍 0 持仓 1 亿现金,无变化\n4. **SectorRank 重扫**:17:07 停返已恢复,Top5 = 博通 +8.87/模拟芯片 +8.74/华为机器人 +8.02/**MicroLED +6.83(32 成分 4 涨停,新冒头)**/裸眼 3D +6.6\n5. **PMI 主动验证**:6 月官方制造业 PMI = 50.3(6/30 09:35 已公布,4 月 50.3/5 月 50.0/6 月 50.3)—— 温和扩张\n新增/更新了什么(对组合判断的影响):\n- **确认 6/30 9:35 PMI 50.3 已公布**(memory 17:06 tick 自相矛盾,已修):宏观环境支持进攻,**7/1 偏进攻建仓 5% 底仓起步** 判断不变\n- **新冒头 MicroLED +6.83%**:32 成分股 4 涨停,新题材但规模小,7/1 观察是否延续\n- **6/30 资金面证据**(16:54 handoff):TMT 单日 +449 亿 vs 5 日累计 -63 亿 vs 10 日累计 -161 亿 —— **典型的\"超跌反弹 + 半年末调仓\"**,7/1 资金面验证是关键\n是否需要启动 SubAgent:**不需要**。4 行业 + 1 宏观快报 + 2 handoff 已构成完整决策信息底座,本轮无新公告/政策/数据点。\n已写: `/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30_1757_PM_tick_reports_scan.md`(4773 字节)\n下一轮关注:\n1. **7/1 09:00 开盘前 tick**:重读 16:54 handoff 资金流证据 + 抓 SHIBOR 隔夜(601280001)7/1 值\n2. **7/1 09:45 财新 PMI**:开盘后第一个增量信号,>1pct 偏离官方 50.3 才考虑启动宏观组\n3. **7/1 09:30-10:00 早盘**:模拟芯片延续性 + TMT 主力净流入是否 ≥200 亿(否则 6/30 反弹就是单日事件)\n4. **本周末**(7/5 7/6)跑 6/29-7/5 区间数据,看 6/30 反弹是被消化还是延伸"
+    "tick_time": "2026-06-30T18:04:38+0800",
+    "text": "**Reports 扫描**：宏观 0 份 / 行业 4 份（16:53），mtime 自 18:00 之后无变化。Summaries 也是 17:57 那一套完全冻结。\n**新增（来自消费 18:00 web subagent 的 64KB 检索结果）**：\n- 玻璃基板产业链的产业逻辑被补全：康宁 GLW 6/29 +15.67% + 6/24 发布 Glass Bridge（连接 PIC 与光纤，面向 CPO + 玻璃基板半导体封装）；5/20 京东方 A 000725 与康宁签合作备忘录；6/25 京东方 TGV 全工艺拉通（9-2-9 20 层样品 2025 已送样）。国内面板/激光/材料链 6/30 多家涨停：京东方 A 涨停 18 年新高 / 莱宝高科 3 天 2 板 / 海目星 +10.3% / 鼎龙扩产软抛光垫等。机构判断 2026 是产业化元年，全球半导体玻璃市场 10 亿美元（2025）→ 44 亿美元（2036）CAGR 14.2%。\n- SHIBOR 隔夜 6/30 数据已就位（indicId=601280001，11:06 更新）—— 7/1 9:30 开盘前最后流动性验证锚点。\n- 7/1 财新 PMI 没有市场化预期传播（NewsInfoList 搜不到前瞻），博弈核心是实际值 vs 官方 50.3 偏离度。\n- 宏观组 cron `macro_news_autonomous_scan_every_2h` 18:05 刚启动，下一轮（18:30 前）可能产出新 handoff。\n**对组合判断影响**：\n- 玻璃基板从\"6/30 6 大新方向之一\"升级为\"有产业逻辑（康宁 + 京东方 TGV）支撑的 2026 产业化元年第一波 A 股映射\"——**7/1 早盘预案不变**（仍以 7 核心为主线 5% 底仓起步），但**新增观察项**：7/1 9:30 后玻璃基板板块是否延续（京东方是否再涨 5%+）—— 延续 → 7 月新主线候选；不延续 → 单日事件。\n- 7 核心 / 三档 / BIS 门槛 / 资金面结构判断**全部沿用**。\n**SubAgent 启动决策**：不启动。4 行业 + 1 宏观快报 + 2 handoff + 本轮玻璃基板补丁 = 完整决策信息底座；玻璃基板完整产业链研究可延后到 7/1 收盘后或本周末再启动。\n**已写 handoff**：`/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30_1804_PM_tick_web_search_consumer.md`（8379 字节）。\n**下一轮关注**：\n1. 18:30 前宏观 cron 产出（读新 handoff 评估对 7/1 早盘影响）\n2. 18:30-19:00 港股 16:00 收盘 + 美股盘前\n3. 7/1 9:00 开盘前必写 handoff（隔夜外盘 + 集合竞价 + SHIBOR 6/30）\n4. 7/1 9:30-10:00 首根 30 分 K → 三档触发 + 玻璃基板延续性\n5. 7/1 9:45 财新 PMI vs 50.3\n6. 7/1 15:00 收盘必写"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
