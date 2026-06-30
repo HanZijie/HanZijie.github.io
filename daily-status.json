@@ -1,7 +1,7 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-30T15:50:01.531Z",
+  "generated_at": "2026-06-30T16:00:02.287Z",
   "nav": {
     "latest": {
       "date": "2026-06-30",
@@ -31,178 +31,15 @@
   "tool_calls_today": {
     "portfolio_manager": {
       "name": "基金经理",
-      "tools": [
-        {
-          "tool": "terminal",
-          "count": 16
-        },
-        {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 13
-        },
-        {
-          "tool": "search_files",
-          "count": 10
-        },
-        {
-          "tool": "read_file",
-          "count": 9
-        },
-        {
-          "tool": "mcp_minimax_finance_data_call_api",
-          "count": 6
-        },
-        {
-          "tool": "mcp_portfolio_management_trade_quote_preview",
-          "count": 6
-        },
-        {
-          "tool": "mcp_portfolio_management_portfolio_positions_overview",
-          "count": 4
-        },
-        {
-          "tool": "mcp_minimax_finance_data_query_macro",
-          "count": 3
-        },
-        {
-          "tool": "mcp_minimax_finance_data_resolve_entity",
-          "count": 3
-        },
-        {
-          "tool": "mcp_portfolio_management_order_list",
-          "count": 2
-        },
-        {
-          "tool": "write_file",
-          "count": 2
-        },
-        {
-          "tool": "mcp_minimax_finance_data_describe_api",
-          "count": 1
-        },
-        {
-          "tool": "session_search",
-          "count": 1
-        }
-      ]
+      "tools": []
     },
     "macro_liquidity_researcher": {
       "name": "宏观政策资金流动性研究员",
-      "tools": [
-        {
-          "tool": "browser_navigate",
-          "count": 156
-        },
-        {
-          "tool": "mcp_minimax_finance_data_call_api",
-          "count": 26
-        },
-        {
-          "tool": "browser_snapshot",
-          "count": 24
-        },
-        {
-          "tool": "mcp_minimax_finance_data_fetch_macro",
-          "count": 15
-        },
-        {
-          "tool": "browser_click",
-          "count": 12
-        },
-        {
-          "tool": "mcp_minimax_finance_data_query_macro",
-          "count": 10
-        },
-        {
-          "tool": "browser_console",
-          "count": 9
-        },
-        {
-          "tool": "mcp_minimax_finance_data_describe_api",
-          "count": 7
-        },
-        {
-          "tool": "search_files",
-          "count": 7
-        },
-        {
-          "tool": "terminal",
-          "count": 7
-        },
-        {
-          "tool": "process",
-          "count": 6
-        },
-        {
-          "tool": "read_file",
-          "count": 6
-        },
-        {
-          "tool": "browser_type",
-          "count": 4
-        },
-        {
-          "tool": "browser_press",
-          "count": 3
-        },
-        {
-          "tool": "delegate_task",
-          "count": 3
-        },
-        {
-          "tool": "execute_code",
-          "count": 3
-        },
-        {
-          "tool": "todo",
-          "count": 3
-        },
-        {
-          "tool": "write_file",
-          "count": 3
-        },
-        {
-          "tool": "browser_scroll",
-          "count": 2
-        },
-        {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 2
-        }
-      ]
+      "tools": []
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
-      "tools": [
-        {
-          "tool": "terminal",
-          "count": 43
-        },
-        {
-          "tool": "mcp_minimax_finance_data_call_api",
-          "count": 26
-        },
-        {
-          "tool": "read_file",
-          "count": 16
-        },
-        {
-          "tool": "execute_code",
-          "count": 15
-        },
-        {
-          "tool": "mcp_minimax_finance_data_describe_api",
-          "count": 8
-        },
-        {
-          "tool": "search_files",
-          "count": 6
-        },
-        {
-          "tool": "write_file",
-          "count": 5
-        }
-      ]
+      "tools": []
     }
   },
   "pm_last_session_end": {
