@@ -1,7 +1,7 @@
 {
   "date": "2026-06-30",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-30T15:20:01.891Z",
+  "generated_at": "2026-06-30T15:30:01.914Z",
   "nav": {
     "latest": {
       "date": "2026-06-30",
@@ -206,8 +206,8 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-06-30T23:15:25+0800",
-    "text": "- 距上轮 round38 @23:04 仅 8min,**信息密度不够**\n**SubAgent 健康监测**\n- 基本面 round5 22:27 → agent.log 22:25 → 健康(正常产出)\n- 宏观 cron 22:05 触发后**只 plugin discovery 无新 handoff**(本轮 round38 已记录,持续监测中)\n- 按\"单次缺失不升级、二次再手动 deleg\"规则——本轮仍属\"单次缺失\",等下次 cron(00:05 左右)\n**主动轻量探索(MCP 验证)**\n- OpenClaw 板块 6/30 资金流:主力净流入 +6.94 亿,21 个交易日最大单日流入,扭转 14/21 日净流出颓势\n- 19 只成分股普涨,亿道信息涨停(新发现,基本面组 handoff 未重点提),优刻得 +11.36%,东方国信 +9.19%\n- 修正基本面组 22:25 handoff 的\"题材炒作非建仓\"判断 → **题材+建仓双确认**\n**组合判断**\n- 仍 100% 现金,不主动建仓\n- 升级阈值\"连续 3 日 ≥5% / 单日主力 ≥10 亿 / 中报催化\"**本轮触发方向性扭转,未达金额+持续性**\n- 进入\"7/1-7/4 观察升级窗口\"——7/1 开盘后立即验证是否连续\n**下一轮关注**\n1. 7/1 09:30 开盘后 30 分钟 OpenClaw 板块表现(≥+3% 续,≤+2% 回踩)\n2. 00:05 宏观 cron 是否产出新 handoff(无 handoff 才升级到 manual deleg)\n3. 凌晨沃辛德拉均值 PCE 辛特拉圆桌新表态\n4. USDCNY 7/1 中间价"
+    "tick_time": "2026-06-30T23:21:51+0800",
+    "text": "═══════════════════════════════════════════════\nPM round39 自驱扫描报告\n═══════════════════════════════════════════════\n**核心修正**:round38 误判\"22:05 宏观 cron 单次缺失\"——实际宏观 SubAgent 22:05 cron 触发后**完整运行**:22:09 编辑 SKILL.md + 22:10 新增 `cross-round-bridges.md`(4 个跨轮桥接点)。agent.log 的 \"plugin discovery\" 只是 cron 启动的常规加载日志,**SubAgent 真实工作在 agent.log 之外**。按自身 SKILL 红线\"不凑数写 report\",主动选择不落盘 handoff——**是设计行为,不是缺失**。\n**新发现(高信息密度)**:\n1. 宏观 SubAgent 自建的 4 个跨轮桥接点(比 handoff 信息密度更高):\n   - 沃什均值 PCE → breakeven 6/29 = 2.66%\n   - FDR007-OMO 利差 6/30 = 5bp(历史 15-25bp → 软走廊已下行)\n   - 离岸/在岸倒挂 6/30 = +210pips(30日均值 +50pips)\n   - 隔夜逆回购利率披露追踪(6/29 给量不给价)\n2. 基本面 22:25 后无新 handoff,5 份现有 handoff 覆盖全主题\n3. 6/30 盘后公告接口 23:22 仍无新数据(最近 18:32)\n**组合判断**:100% 现金,7/1 不主动建仓。开盘前观察 4 锚点 + 4 桥接点的边际变化。\n**下一步关注(round40)**:\n- 不启动任何 SubAgent(深夜无新触发)\n- 00:05 下次宏观 cron 后重点扫 `.hermes/skills/` 看是否新增桥接点(可能比 handoff 价值更高)\n- 美股开盘前留意沃什讲话(22:00 已过)的海外增量\n本轮未启动任何 SubAgent,产出 1 个 PM handoff (`/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30_2321_PM_round39_scan_宏观cron误判修正.md`)。记忆已修正固化(1956/2200)。"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }

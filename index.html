@@ -107,7 +107,7 @@
         </div>
       </section>
 
-      <p class="muted">生成日期 2026-06-30 · 时区 Asia/Shanghai · 生成时间 2026/6/30 23:20:01</p>
+      <p class="muted">生成日期 2026-06-30 · 时区 Asia/Shanghai · 生成时间 2026/6/30 23:30:01</p>
 
       
     <section class="panel pm-end-panel">
@@ -120,27 +120,27 @@
   
         <div>
           <h2>基金经理上轮结束语</h2>
-          <p class="muted">上轮 tick: 2026-06-30T23:15:25+0800</p>
+          <p class="muted">上轮 tick: 2026-06-30T23:21:51+0800</p>
         </div>
       </div>
-      <pre class="pm-end-text">- 距上轮 round38 @23:04 仅 8min,**信息密度不够**
-**SubAgent 健康监测**
-- 基本面 round5 22:27 → agent.log 22:25 → 健康(正常产出)
-- 宏观 cron 22:05 触发后**只 plugin discovery 无新 handoff**(本轮 round38 已记录,持续监测中)
-- 按&quot;单次缺失不升级、二次再手动 deleg&quot;规则——本轮仍属&quot;单次缺失&quot;,等下次 cron(00:05 左右)
-**主动轻量探索(MCP 验证)**
-- OpenClaw 板块 6/30 资金流:主力净流入 +6.94 亿,21 个交易日最大单日流入,扭转 14/21 日净流出颓势
-- 19 只成分股普涨,亿道信息涨停(新发现,基本面组 handoff 未重点提),优刻得 +11.36%,东方国信 +9.19%
-- 修正基本面组 22:25 handoff 的&quot;题材炒作非建仓&quot;判断 → **题材+建仓双确认**
-**组合判断**
-- 仍 100% 现金,不主动建仓
-- 升级阈值&quot;连续 3 日 ≥5% / 单日主力 ≥10 亿 / 中报催化&quot;**本轮触发方向性扭转,未达金额+持续性**
-- 进入&quot;7/1-7/4 观察升级窗口&quot;——7/1 开盘后立即验证是否连续
-**下一轮关注**
-1. 7/1 09:30 开盘后 30 分钟 OpenClaw 板块表现(≥+3% 续,≤+2% 回踩)
-2. 00:05 宏观 cron 是否产出新 handoff(无 handoff 才升级到 manual deleg)
-3. 凌晨沃辛德拉均值 PCE 辛特拉圆桌新表态
-4. USDCNY 7/1 中间价</pre>
+      <pre class="pm-end-text">═══════════════════════════════════════════════
+PM round39 自驱扫描报告
+═══════════════════════════════════════════════
+**核心修正**:round38 误判&quot;22:05 宏观 cron 单次缺失&quot;——实际宏观 SubAgent 22:05 cron 触发后**完整运行**:22:09 编辑 SKILL.md + 22:10 新增 `cross-round-bridges.md`(4 个跨轮桥接点)。agent.log 的 &quot;plugin discovery&quot; 只是 cron 启动的常规加载日志,**SubAgent 真实工作在 agent.log 之外**。按自身 SKILL 红线&quot;不凑数写 report&quot;,主动选择不落盘 handoff——**是设计行为,不是缺失**。
+**新发现(高信息密度)**:
+1. 宏观 SubAgent 自建的 4 个跨轮桥接点(比 handoff 信息密度更高):
+   - 沃什均值 PCE → breakeven 6/29 = 2.66%
+   - FDR007-OMO 利差 6/30 = 5bp(历史 15-25bp → 软走廊已下行)
+   - 离岸/在岸倒挂 6/30 = +210pips(30日均值 +50pips)
+   - 隔夜逆回购利率披露追踪(6/29 给量不给价)
+2. 基本面 22:25 后无新 handoff,5 份现有 handoff 覆盖全主题
+3. 6/30 盘后公告接口 23:22 仍无新数据(最近 18:32)
+**组合判断**:100% 现金,7/1 不主动建仓。开盘前观察 4 锚点 + 4 桥接点的边际变化。
+**下一步关注(round40)**:
+- 不启动任何 SubAgent(深夜无新触发)
+- 00:05 下次宏观 cron 后重点扫 `.hermes/skills/` 看是否新增桥接点(可能比 handoff 价值更高)
+- 美股开盘前留意沃什讲话(22:00 已过)的海外增量
+本轮未启动任何 SubAgent,产出 1 个 PM handoff (`/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-06-30_2321_PM_round39_scan_宏观cron误判修正.md`)。记忆已修正固化(1956/2200)。</pre>
     </section>
   
 
