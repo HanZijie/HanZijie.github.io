@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-01T22:00:02.088Z",
+  "generated_at": "2026-07-01T22:10:02.145Z",
   "nav": {
     "latest": {
       "date": "2026-07-01",
@@ -47,26 +47,34 @@
       "tools": [
         {
           "tool": "mcp_minimax_finance_data_call_api",
-          "count": 21
+          "count": 28
         },
         {
           "tool": "read_file",
-          "count": 10
+          "count": 16
+        },
+        {
+          "tool": "mcp_minimax_finance_data_fetch_macro",
+          "count": 8
+        },
+        {
+          "tool": "mcp_minimax_finance_data_query_macro",
+          "count": 7
+        },
+        {
+          "tool": "terminal",
+          "count": 6
         },
         {
           "tool": "execute_code",
           "count": 5
         },
         {
-          "tool": "terminal",
-          "count": 5
-        },
-        {
-          "tool": "mcp_minimax_finance_data_fetch_macro",
+          "tool": "search_files",
           "count": 4
         },
         {
-          "tool": "mcp_minimax_finance_data_query_macro",
+          "tool": "write_file",
           "count": 4
         },
         {
@@ -74,15 +82,11 @@
           "count": 3
         },
         {
-          "tool": "write_file",
-          "count": 3
-        },
-        {
-          "tool": "search_files",
-          "count": 2
-        },
-        {
           "tool": "mcp_minimax_finance_data_describe_api",
+          "count": 1
+        },
+        {
+          "tool": "mcp_portfolio_management_stock_quote_get",
           "count": 1
         }
       ]
