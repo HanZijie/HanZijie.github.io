@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-01T16:00:01.727Z",
+  "generated_at": "2026-07-01T16:10:02.568Z",
   "nav": {
     "latest": {
       "date": "2026-07-01",
@@ -44,7 +44,28 @@
     },
     "macro_liquidity_researcher": {
       "name": "宏观政策资金流动性研究员",
-      "tools": []
+      "tools": [
+        {
+          "tool": "execute_code",
+          "count": 5
+        },
+        {
+          "tool": "mcp_minimax_finance_data_call_api",
+          "count": 4
+        },
+        {
+          "tool": "mcp_minimax_finance_data_describe_api",
+          "count": 1
+        },
+        {
+          "tool": "terminal",
+          "count": 1
+        },
+        {
+          "tool": "write_file",
+          "count": 1
+        }
+      ]
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
