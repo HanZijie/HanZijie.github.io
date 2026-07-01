@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-01T18:00:02.551Z",
+  "generated_at": "2026-07-01T18:10:02.461Z",
   "nav": {
     "latest": {
       "date": "2026-07-01",
@@ -46,23 +46,43 @@
       "name": "宏观政策资金流动性研究员",
       "tools": [
         {
+          "tool": "mcp_minimax_finance_data_call_api",
+          "count": 12
+        },
+        {
+          "tool": "read_file",
+          "count": 7
+        },
+        {
           "tool": "execute_code",
           "count": 5
         },
         {
-          "tool": "mcp_minimax_finance_data_call_api",
-          "count": 4
+          "tool": "todo",
+          "count": 3
         },
         {
-          "tool": "mcp_minimax_finance_data_describe_api",
-          "count": 1
+          "tool": "mcp_minimax_finance_data_fetch_macro",
+          "count": 2
+        },
+        {
+          "tool": "mcp_minimax_finance_data_query_macro",
+          "count": 2
+        },
+        {
+          "tool": "search_files",
+          "count": 2
         },
         {
           "tool": "terminal",
-          "count": 1
+          "count": 2
         },
         {
           "tool": "write_file",
+          "count": 2
+        },
+        {
+          "tool": "mcp_minimax_finance_data_describe_api",
           "count": 1
         }
       ]
