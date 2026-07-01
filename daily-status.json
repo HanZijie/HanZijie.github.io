@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-01T16:20:01.627Z",
+  "generated_at": "2026-07-01T16:30:01.559Z",
   "nav": {
     "latest": {
       "date": "2026-07-01",
@@ -69,7 +69,44 @@
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
-      "tools": []
+      "tools": [
+        {
+          "tool": "mcp_minimax_finance_data_call_api",
+          "count": 34
+        },
+        {
+          "tool": "terminal",
+          "count": 14
+        },
+        {
+          "tool": "execute_code",
+          "count": 3
+        },
+        {
+          "tool": "mcp_minimax_finance_data_resolve_entity",
+          "count": 3
+        },
+        {
+          "tool": "delegate_task",
+          "count": 2
+        },
+        {
+          "tool": "process",
+          "count": 2
+        },
+        {
+          "tool": "todo",
+          "count": 2
+        },
+        {
+          "tool": "mcp_minimax_finance_data_describe_api",
+          "count": 1
+        },
+        {
+          "tool": "session_search",
+          "count": 1
+        }
+      ]
     }
   },
   "pm_last_session_end": {
