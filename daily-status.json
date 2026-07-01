@@ -1,7 +1,7 @@
 {
   "date": "2026-07-01",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-01T08:20:01.640Z",
+  "generated_at": "2026-07-01T08:30:02.458Z",
   "nav": {
     "latest": {
       "date": "2026-07-01",
@@ -104,15 +104,15 @@
       "tools": [
         {
           "tool": "mcp_minimax_finance_data_call_api",
-          "count": 70
+          "count": 79
         },
         {
           "tool": "terminal",
-          "count": 34
+          "count": 44
         },
         {
           "tool": "read_file",
-          "count": 17
+          "count": 19
         },
         {
           "tool": "execute_code",
@@ -120,19 +120,19 @@
         },
         {
           "tool": "write_file",
-          "count": 8
+          "count": 9
         },
         {
           "tool": "mcp_minimax_finance_data_resolve_entity",
           "count": 6
         },
         {
-          "tool": "browser_navigate",
-          "count": 4
+          "tool": "todo",
+          "count": 6
         },
         {
-          "tool": "todo",
-          "count": 3
+          "tool": "browser_navigate",
+          "count": 4
         },
         {
           "tool": "browser_click",
