@@ -107,7 +107,7 @@
         </div>
       </section>
 
-      <p class="muted">生成日期 2026-07-02 · 时区 Asia/Shanghai · 生成时间 2026/7/2 20:00:02</p>
+      <p class="muted">生成日期 2026-07-02 · 时区 Asia/Shanghai · 生成时间 2026/7/2 20:10:02</p>
 
       
     <section class="panel pm-end-panel">
@@ -120,27 +120,27 @@
   
         <div>
           <h2>基金经理上轮结束语</h2>
-          <p class="muted">上轮 tick: 2026-07-02T18:03:01+0800</p>
+          <p class="muted">上轮 tick: 2026-07-02T20:03:01+0800</p>
         </div>
       </div>
-      <pre class="pm-end-text">**港股整体走稳 + 汽车/消费/互联网龙头齐涨 + 中芯港股独立跌停**，与 A 股半导体全产业链同步下跌形成强烈对比 → **系统级风险未成立**，A 股 AI 算力恐慌是板块内部结构性事件（公募赎回/量化止损/杠杆爆仓/主题资金了结的可能组合），不是全球流动性问题也不是港股系统性风险传染。
-**对组合判断的影响**
-- 组合 0 敞口半导体，弹药 96.36% 极充足——**完全不需要被动减仓**
-- 持仓 3 只（永太 +7.61% / 益生 +10.06% / 牧原 +1.00%）全部受益于&quot;非半导体抱团&quot;逻辑，未受冲击直接影响
-- **牧原止损缓冲仅 1.0%**，7/3 开盘最关键观察点
-- 7/3 早盘关键是**半导体跌停板是否打开**：若打开 = 板块级风险释放完毕，主线重新占优；若继续封 = 恐慌未消化
-**是否启动 SubAgent**
-不启动。两个 SubAgent 在 18:05 / 18:25 cron 会自然承接（20:30 非农前窗口 + 商务部 7/2 发布会消化 + 17:30 盘后公告批次），强制启动反而打断 cron 节律。本 handoff 已把上下文完整传递给下一轮。
-**已写文件**
-/home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-07-02_1803_PM_round84_港股收盘+0.76%与中芯港股-10%K型分化证明系统级风险未成立.md
-memory 已精简（移除 7/2 早盘过时细节）+ 新增港股 K 型分化 + G3 协调 + 接口坑三条主结论（1921/2200）。
-**下一轮（20:00 PM 晚间自检）应该继续关注**
-1. **美股盘前 21:00-21:30**——决定性证据，验证 AI 链是 A 股独立事件还是全球事件
-2. **20:30 美国 6 月非农**——7/2-7/3 全球风险偏好最大变量（弱非农→沃什鸽派兑现→AI 链反弹；强非农→实际利率上行→AI 链再承压）
-3. **基本面 18:25 handoff**——优先消费，看是否有 17:30 盘后公告批次的新边际
-4. **7/3 早盘 9:20 中间价 + 9:35 OMO**——验证 G3 反美元协调 + 央行短端流动性是否延续
-5. **7/3 9:30 开盘六检查**——北方华创/兆易/中微/新易盛是否继续跌停 + 立讯/蓝思是否补跌 + 雷赛/金力/汇川是否守 +5% + 永太是否守 +5%(止盈位 29.92) + 益生是否守一字 + 牧原是否守 37+(止损缓冲 1.0%)
-**不构成投资建议、证券推荐、荐股或交易指令**。</pre>
+      <pre class="pm-end-text">• PM 框架硬升级：AI 算力&quot;过剩叙事 vs 基本面硬背离&quot; + 7/2 20:30 非农分水岭 = 未来 24 小时最大变量
+四、是否启动 SubAgent
+• **不主动启动**——等 20:05 宏观 cron 自动接力覆盖 20:30 非农 + 22:25 基本面 cron 自动接力追踪广钢气体股价 + 华特/金宏/凯美特气同步预增
+• 若 22:25 cron 抓到多家气体公司同步预增，**下一轮 PM 再立项&quot;电子大宗气体 + 氦气&quot;产业方向 scan**
+五、本轮做了什么
+• 扫描了两个 reports 目录（无新增）
+• 读了宏观 round23 + 基本面 18:25 handoff（PM 首次消费）+ PM round84 自身上轮对齐
+• 拉了沪深 300 / 恒指 7/2 收盘二次确认（与 round84 K 型分化结论一致）
+• 刷了持仓截面（零操作）
+• 验证了 MCP 三库 18:25-20:00 真空
+• 写了 PM round85 handoff 到 /home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-07-02_2003_PM_round85_非农前夜真空与三大边际守住.md
+六、下一轮（建议 22:05 cron 后接力）应关注什么
+1. **20:30 美国非农分水岭**结果（就业 / 失业率 / 时薪增速）
+2. **7/2 夜盘美股**（纳指 / 费城半导体 / 北京君正 / 闪迪 / 美光）
+3. **基本面 22:25 cron**是否抓到广钢气体股价反应 + 华特/金宏/凯美特气同步预增信号
+4. **离岸 CNH / 美 10Y / 美元指数 7/2 夜盘全日定价**
+5. **沃什组阁后续**——5 个新工作组专家完整名单 + 默文·金沟通策略工作组具体职责（round20 留下的待办）
+═══════════════════════════════════════</pre>
     </section>
   
 
@@ -188,7 +188,7 @@ memory 已精简（移除 7/2 早盘过时细节）+ 新增港股 K 型分化 + 
       <rect width="16" height="16" fill="#263238"></rect>
       <rect x="1" y="1" width="14" height="14" fill="#9bf6ff"></rect><rect x="4" y="3" width="8" height="2" fill="#3a2f5f"></rect><rect x="3" y="4" width="10" height="2" fill="#3a2f5f"></rect><rect x="4" y="6" width="8" height="4" fill="#f7c59f"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#4d96ff"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#ff9f1c"></rect><rect x="2" y="13" width="12" height="2" fill="#4d96ff"></rect>
     </svg>
-  <div><h3>宏观政策资金流动性研究员</h3><p class="agent-id">macro_liquidity_researcher</p></div></div><ul><li><span>mcp_minimax_finance_data_call_api</span><strong>59</strong></li><li><span>read_file</span><strong>37</strong></li><li><span>mcp_minimax_finance_data_fetch_macro</span><strong>36</strong></li><li><span>terminal</span><strong>36</strong></li><li><span>mcp_minimax_finance_data_query_macro</span><strong>20</strong></li><li><span>browser_console</span><strong>14</strong></li><li><span>write_file</span><strong>10</strong></li><li><span>browser_navigate</span><strong>8</strong></li><li><span>execute_code</span><strong>7</strong></li><li><span>search_files</span><strong>6</strong></li><li><span>browser_snapshot</span><strong>4</strong></li><li><span>todo</span><strong>4</strong></li><li><span>browser_click</span><strong>3</strong></li><li><span>browser_scroll</span><strong>3</strong></li><li><span>skill_view</span><strong>3</strong></li><li><span>browser_press</span><strong>2</strong></li><li><span>mcp_minimax_finance_data_describe_api</span><strong>1</strong></li><li><span>mcp_portfolio_management_stock_quote_get</span><strong>1</strong></li></ul></article><article class="tool-card"><div class="agent-heading">
+  <div><h3>宏观政策资金流动性研究员</h3><p class="agent-id">macro_liquidity_researcher</p></div></div><ul><li><span>mcp_minimax_finance_data_call_api</span><strong>59</strong></li><li><span>mcp_minimax_finance_data_fetch_macro</span><strong>43</strong></li><li><span>terminal</span><strong>42</strong></li><li><span>read_file</span><strong>41</strong></li><li><span>browser_navigate</span><strong>25</strong></li><li><span>mcp_minimax_finance_data_query_macro</span><strong>20</strong></li><li><span>browser_console</span><strong>14</strong></li><li><span>write_file</span><strong>10</strong></li><li><span>execute_code</span><strong>9</strong></li><li><span>browser_snapshot</span><strong>8</strong></li><li><span>browser_scroll</span><strong>6</strong></li><li><span>search_files</span><strong>6</strong></li><li><span>skill_view</span><strong>4</strong></li><li><span>todo</span><strong>4</strong></li><li><span>browser_click</span><strong>3</strong></li><li><span>browser_press</span><strong>2</strong></li><li><span>delegate_task</span><strong>2</strong></li><li><span>mcp_minimax_finance_data_describe_api</span><strong>1</strong></li><li><span>mcp_portfolio_management_stock_quote_get</span><strong>1</strong></li><li><span>process</span><strong>1</strong></li></ul></article><article class="tool-card"><div class="agent-heading">
     <svg class="pixel-avatar" viewBox="0 0 16 16" role="img" aria-label="行业产业公司基本面研究员头像" shape-rendering="crispEdges">
       <rect width="16" height="16" fill="#263238"></rect>
       <rect x="1" y="1" width="14" height="14" fill="#caffbf"></rect><rect x="4" y="3" width="8" height="2" fill="#594236"></rect><rect x="3" y="4" width="10" height="2" fill="#594236"></rect><rect x="4" y="6" width="8" height="4" fill="#ffd6a5"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#ef476f"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#118ab2"></rect><rect x="2" y="13" width="12" height="2" fill="#ef476f"></rect>
