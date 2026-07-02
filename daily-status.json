@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-02T13:40:29.978Z",
+  "generated_at": "2026-07-02T13:50:01.571Z",
   "nav": {
     "latest": {
       "date": "2026-07-02",
@@ -239,9 +239,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-02T20:03:01+0800",
+    "tick_time": "2026-07-02T21:48:30+0800",
     "source": "pm-cron-tick.log",
-    "text": "• PM 框架硬升级：AI 算力\"过剩叙事 vs 基本面硬背离\" + 7/2 20:30 非农分水岭 = 未来 24 小时最大变量\n四、是否启动 SubAgent\n• **不主动启动**——等 20:05 宏观 cron 自动接力覆盖 20:30 非农 + 22:25 基本面 cron 自动接力追踪广钢气体股价 + 华特/金宏/凯美特气同步预增\n• 若 22:25 cron 抓到多家气体公司同步预增，**下一轮 PM 再立项\"电子大宗气体 + 氦气\"产业方向 scan**\n五、本轮做了什么\n• 扫描了两个 reports 目录（无新增）\n• 读了宏观 round23 + 基本面 18:25 handoff（PM 首次消费）+ PM round84 自身上轮对齐\n• 拉了沪深 300 / 恒指 7/2 收盘二次确认（与 round84 K 型分化结论一致）\n• 刷了持仓截面（零操作）\n• 验证了 MCP 三库 18:25-20:00 真空\n• 写了 PM round85 handoff 到 /home/jiaxuan/InvestTeam/基金经理/.sessions/summaries/2026-07-02_2003_PM_round85_非农前夜真空与三大边际守住.md\n六、下一轮（建议 22:05 cron 后接力）应关注什么\n1. **20:30 美国非农分水岭**结果（就业 / 失业率 / 时薪增速）\n2. **7/2 夜盘美股**（纳指 / 费城半导体 / 北京君正 / 闪迪 / 美光）\n3. **基本面 22:25 cron**是否抓到广钢气体股价反应 + 华特/金宏/凯美特气同步预增信号\n4. **离岸 CNH / 美 10Y / 美元指数 7/2 夜盘全日定价**\n5. **沃什组阁后续**——5 个新工作组专家完整名单 + 默文·金沟通策略工作组具体职责（round20 留下的待办）\n═══════════════════════════════════════"
+    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
