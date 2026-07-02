@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-02T10:20:02.917Z",
+  "generated_at": "2026-07-02T10:30:02.234Z",
   "nav": {
     "latest": {
       "date": "2026-07-02",
@@ -80,7 +80,7 @@
         },
         {
           "tool": "write_file",
-          "count": 9
+          "count": 10
         },
         {
           "tool": "browser_navigate",
@@ -99,6 +99,10 @@
           "count": 4
         },
         {
+          "tool": "todo",
+          "count": 4
+        },
+        {
           "tool": "browser_click",
           "count": 3
         },
@@ -108,10 +112,6 @@
         },
         {
           "tool": "skill_view",
-          "count": 3
-        },
-        {
-          "tool": "todo",
           "count": 3
         },
         {
@@ -133,35 +133,35 @@
       "tools": [
         {
           "tool": "mcp_minimax_finance_data_call_api",
-          "count": 131
+          "count": 137
+        },
+        {
+          "tool": "terminal",
+          "count": 137
         },
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
           "count": 124
         },
         {
-          "tool": "terminal",
-          "count": 124
-        },
-        {
           "tool": "execute_code",
-          "count": 26
+          "count": 34
         },
         {
           "tool": "read_file",
-          "count": 16
+          "count": 17
+        },
+        {
+          "tool": "mcp_minimax_finance_data_describe_api",
+          "count": 13
+        },
+        {
+          "tool": "write_file",
+          "count": 10
         },
         {
           "tool": "mcp_minimax_finance_data_resolve_entity",
           "count": 9
-        },
-        {
-          "tool": "write_file",
-          "count": 9
-        },
-        {
-          "tool": "mcp_minimax_finance_data_describe_api",
-          "count": 8
         },
         {
           "tool": "todo",
@@ -178,6 +178,10 @@
         {
           "tool": "process",
           "count": 3
+        },
+        {
+          "tool": "mcp_portfolio_management_portfolio_positions_overview",
+          "count": 1
         },
         {
           "tool": "session_search",
