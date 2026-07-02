@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-02T07:20:02.201Z",
+  "generated_at": "2026-07-02T07:24:31.401Z",
   "nav": {
     "latest": {
       "date": "2026-07-02",
@@ -53,117 +53,11 @@
     },
     "macro_liquidity_researcher": {
       "name": "宏观政策资金流动性研究员",
-      "tools": [
-        {
-          "tool": "mcp_minimax_finance_data_call_api",
-          "count": 52
-        },
-        {
-          "tool": "mcp_minimax_finance_data_fetch_macro",
-          "count": 32
-        },
-        {
-          "tool": "read_file",
-          "count": 30
-        },
-        {
-          "tool": "terminal",
-          "count": 25
-        },
-        {
-          "tool": "mcp_minimax_finance_data_query_macro",
-          "count": 17
-        },
-        {
-          "tool": "write_file",
-          "count": 8
-        },
-        {
-          "tool": "execute_code",
-          "count": 6
-        },
-        {
-          "tool": "search_files",
-          "count": 4
-        },
-        {
-          "tool": "skill_view",
-          "count": 3
-        },
-        {
-          "tool": "todo",
-          "count": 3
-        },
-        {
-          "tool": "mcp_minimax_finance_data_describe_api",
-          "count": 1
-        },
-        {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 1
-        }
-      ]
+      "tools": []
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
-      "tools": [
-        {
-          "tool": "mcp_minimax_finance_data_call_api",
-          "count": 124
-        },
-        {
-          "tool": "terminal",
-          "count": 105
-        },
-        {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 76
-        },
-        {
-          "tool": "execute_code",
-          "count": 26
-        },
-        {
-          "tool": "read_file",
-          "count": 14
-        },
-        {
-          "tool": "mcp_minimax_finance_data_resolve_entity",
-          "count": 9
-        },
-        {
-          "tool": "write_file",
-          "count": 8
-        },
-        {
-          "tool": "mcp_minimax_finance_data_describe_api",
-          "count": 7
-        },
-        {
-          "tool": "todo",
-          "count": 7
-        },
-        {
-          "tool": "search_files",
-          "count": 5
-        },
-        {
-          "tool": "delegate_task",
-          "count": 3
-        },
-        {
-          "tool": "process",
-          "count": 3
-        },
-        {
-          "tool": "session_search",
-          "count": 1
-        },
-        {
-          "tool": "skill_view",
-          "count": 1
-        }
-      ]
+      "tools": []
     }
   },
   "pm_last_session_end": {
