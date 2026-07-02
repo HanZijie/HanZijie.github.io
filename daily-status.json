@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-02T02:20:02.734Z",
+  "generated_at": "2026-07-02T02:30:02.162Z",
   "nav": {
     "latest": {
       "date": "2026-07-01",
@@ -100,10 +100,14 @@
       "tools": [
         {
           "tool": "mcp_minimax_finance_data_call_api",
-          "count": 97
+          "count": 112
         },
         {
           "tool": "terminal",
+          "count": 42
+        },
+        {
+          "tool": "mcp_portfolio_management_stock_quote_get",
           "count": 36
         },
         {
@@ -124,7 +128,7 @@
         },
         {
           "tool": "write_file",
-          "count": 5
+          "count": 6
         },
         {
           "tool": "todo",
