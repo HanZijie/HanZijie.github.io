@@ -107,7 +107,7 @@
         </div>
       </section>
 
-      <p class="muted">生成日期 2026-07-02 · 时区 Asia/Shanghai · 生成时间 2026/7/2 16:00:02</p>
+      <p class="muted">生成日期 2026-07-02 · 时区 Asia/Shanghai · 生成时间 2026/7/2 16:10:02</p>
 
       
     <section class="panel pm-end-panel">
@@ -120,27 +120,27 @@
   
         <div>
           <h2>基金经理上轮结束语</h2>
-          <p class="muted">上轮 tick: 2026-07-02T15:00:01+0800</p>
+          <p class="muted">上轮 tick: 2026-07-02T16:03:01+0800</p>
         </div>
       </div>
-      <pre class="pm-end-text">- 永太 28.00(-0.11 vs 14:50,+7.61%,日高 28.62 已回吐)
-- 益生 9.41(持平 14:50,+10.06% 一字锁板,日低 9.00 出现瞬破)
-- 牧原 37.35(+0.08 vs 14:50,+1.00%,日高 37.95 后承压)
-- 组合:总市值 3652 万 / 浮盈 207.73 万 / 仓位 3.64% / 现金 96.36%
-- 14:25 handoff 担心的&quot;半导体 4 级冲击 + 机器人分化&quot;在 14:25-15:00 之间未传导到持仓
-接口限制确认:
-- StockRangeQuotation 7/2 当日字段全 null(盘中不可用,符合 MEMORY 记录)
-- portfolio_management.stock_quote_get 是当前可用单只价位源
-启动 SubAgent 决策:
-- ❌ 本轮不启动新研究——基本面 round25 (14:25) 半导体 4 级链定型,宏观 round21 (14:05) 离岸 CNH 倒挂 206 pips,本轮无新触发新研究的边际
-Handoff 决策:
-- ❌ 本轮不写新 handoff——15:00 收盘已经定型,本应写但 14:50 PM 续报已包含 +7.61% / +10.06% / +1.00% 三个数值的持仓截面,本轮 10 分钟内未出现独立新主题
-下一轮(15:10/15:25)应该继续关注:
-1. 14:25 必查任务未兑现:必查 2(雷赛午后是否开板)/ 必查 5(港股 16:00 收盘,翰宇/零跑)/ 必查 6(沪深300/创业板指/科创50 收盘跌幅)/ 必查 9(盘后宏观桥接)/ 必查 10(美股盘前)
-2. 15:00 收盘后已定型:北方华创/新易盛/兆易全天跌停 + 益生/雷赛一字 + 永太 +7.61% + 牧原 +1.00%
-3. 等待基本面 round26 (15:25) 落盘,确认机器人收盘梯队 + 贵金属收盘涨幅
-4. 等待宏观 round22 (16:05) 衔接:7/2 财新 PMI + OMO/ORR 净投放 + FDR001/007 + 7/2 16:00 商务部新闻发布会
-5. 7/2 20:30 美国 6 月非农分水岭(round23 之后衔接)——J 选项最高优先</pre>
+      <pre class="pm-end-text">  - 牧原 37.35(+1.00%)弱 v 反转
+  - 北方华创 -10% / 中微 -11.49% / 兆易 -10% / 新易盛 -11.56% 四家跌停或近跌停
+  - 立讯 -8.06% / 京东方 +3.76% / 山东黄金 +4.22% / 中金黄金 +6.29%
+  - 雷赛 63.23(一字到收盘创记录)/ 金力 33.00(+6.62%涨停打开后持平)/ 汇川 68.40(+0.29%临界 0)
+- 写了本轮 handoff 到 .sessions/summaries/2026-07-02_1603_PM_round83_7-2收盘截面半导体7级链定型机器人龙头一字黄金抱团
+三、是否启动 SubAgent
+- **不需要**。两个 SubAgent 都没出 14:25 → 16:03 的新边际,我自己 16 只个股截面已经把 day close 定稿完毕。让他们的 16:25 / 18:25 cron 自然接续即可。
+四、已知缺口(留给下一轮)
+- 沪深 300 / 创业板指 / 科创 50 指数级收盘:本 MCP 不支持指数代码(已尝试 000300.SH / 399006.SZ / 000688.SH 均失败),**必须靠宏观 SubAgent 拉**
+- 板块 15:00 收盘截面(SectorRank 不在个股接口里)
+- 港股 16:00 收盘 / 美股盘前 / 7/2 收盘后中报预增新公告
+- 7/3 早盘开盘观察(必查)
+五、下一轮(预计 16:30 PM 自检或 20:00 晚间)核心关注
+1. 必查 1 港股 16:00 收盘(零跑 / 港股创新药精选)
+2. 必查 2 美股盘前 21:00(英伟达 / AVGO / MRVL)—— AI 算力链 7/3 是否企稳的关键
+3. 必查 3 7/3 早盘开盘 9:30(北方华创 / 兆易 / 新易盛是否继续跌停;雷赛一字独享能否延续)
+4. 必查 4 组合 3 只 7/3 开盘价 vs 7/2 收盘 —— 永太/益生/牧原是否保住强势
+**不构成投资建议、证券推荐、荐股或交易指令**。</pre>
     </section>
   
 
@@ -188,7 +188,7 @@ Handoff 决策:
       <rect width="16" height="16" fill="#263238"></rect>
       <rect x="1" y="1" width="14" height="14" fill="#9bf6ff"></rect><rect x="4" y="3" width="8" height="2" fill="#3a2f5f"></rect><rect x="3" y="4" width="10" height="2" fill="#3a2f5f"></rect><rect x="4" y="6" width="8" height="4" fill="#f7c59f"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#4d96ff"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#ff9f1c"></rect><rect x="2" y="13" width="12" height="2" fill="#4d96ff"></rect>
     </svg>
-  <div><h3>宏观政策资金流动性研究员</h3><p class="agent-id">macro_liquidity_researcher</p></div></div><ul><li><span>mcp_minimax_finance_data_call_api</span><strong>52</strong></li><li><span>mcp_minimax_finance_data_fetch_macro</span><strong>32</strong></li><li><span>read_file</span><strong>30</strong></li><li><span>terminal</span><strong>25</strong></li><li><span>mcp_minimax_finance_data_query_macro</span><strong>17</strong></li><li><span>write_file</span><strong>8</strong></li><li><span>execute_code</span><strong>6</strong></li><li><span>search_files</span><strong>4</strong></li><li><span>skill_view</span><strong>3</strong></li><li><span>todo</span><strong>3</strong></li><li><span>mcp_minimax_finance_data_describe_api</span><strong>1</strong></li><li><span>mcp_portfolio_management_stock_quote_get</span><strong>1</strong></li></ul></article><article class="tool-card"><div class="agent-heading">
+  <div><h3>宏观政策资金流动性研究员</h3><p class="agent-id">macro_liquidity_researcher</p></div></div><ul><li><span>mcp_minimax_finance_data_call_api</span><strong>55</strong></li><li><span>mcp_minimax_finance_data_fetch_macro</span><strong>32</strong></li><li><span>read_file</span><strong>32</strong></li><li><span>terminal</span><strong>31</strong></li><li><span>mcp_minimax_finance_data_query_macro</span><strong>19</strong></li><li><span>write_file</span><strong>8</strong></li><li><span>execute_code</span><strong>6</strong></li><li><span>browser_navigate</span><strong>5</strong></li><li><span>search_files</span><strong>4</strong></li><li><span>browser_snapshot</span><strong>3</strong></li><li><span>skill_view</span><strong>3</strong></li><li><span>todo</span><strong>3</strong></li><li><span>browser_click</span><strong>2</strong></li><li><span>browser_press</span><strong>2</strong></li><li><span>browser_scroll</span><strong>1</strong></li><li><span>mcp_minimax_finance_data_describe_api</span><strong>1</strong></li><li><span>mcp_portfolio_management_stock_quote_get</span><strong>1</strong></li></ul></article><article class="tool-card"><div class="agent-heading">
     <svg class="pixel-avatar" viewBox="0 0 16 16" role="img" aria-label="行业产业公司基本面研究员头像" shape-rendering="crispEdges">
       <rect width="16" height="16" fill="#263238"></rect>
       <rect x="1" y="1" width="14" height="14" fill="#caffbf"></rect><rect x="4" y="3" width="8" height="2" fill="#594236"></rect><rect x="3" y="4" width="10" height="2" fill="#594236"></rect><rect x="4" y="6" width="8" height="4" fill="#ffd6a5"></rect><rect x="5" y="7" width="1" height="1" fill="#263238"></rect><rect x="10" y="7" width="1" height="1" fill="#263238"></rect><rect x="7" y="9" width="2" height="1" fill="#d96c5f"></rect><rect x="3" y="10" width="10" height="3" fill="#ef476f"></rect><rect x="6" y="10" width="4" height="2" fill="#fff8df"></rect><rect x="7" y="11" width="2" height="2" fill="#118ab2"></rect><rect x="2" y="13" width="12" height="2" fill="#ef476f"></rect>
