@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-02T13:50:01.571Z",
+  "generated_at": "2026-07-02T13:59:59.482Z",
   "nav": {
     "latest": {
       "date": "2026-07-02",
@@ -215,7 +215,11 @@
       "total_tool_rows": 76,
       "today_tool_rows": 0,
       "latest_tool_at": "2026-06-30 16:16:53",
-      "error": null
+      "error": null,
+      "sidecar_total_rows": 0,
+      "sidecar_tool_rows_today": 0,
+      "sidecar_latest_at": null,
+      "sidecar_path": ".control/tool-calls.jsonl"
     },
     "macro_liquidity_researcher": {
       "name": "宏观政策资金流动性研究员",
@@ -225,7 +229,11 @@
       "total_tool_rows": 1305,
       "today_tool_rows": 359,
       "latest_tool_at": "2026-07-02 20:14:42",
-      "error": null
+      "error": null,
+      "sidecar_total_rows": 0,
+      "sidecar_tool_rows_today": 0,
+      "sidecar_latest_at": null,
+      "sidecar_path": ".control/tool-calls.jsonl"
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
@@ -235,11 +243,15 @@
       "total_tool_rows": 945,
       "today_tool_rows": 543,
       "latest_tool_at": "2026-07-02 20:31:04",
-      "error": null
+      "error": null,
+      "sidecar_total_rows": 0,
+      "sidecar_tool_rows_today": 0,
+      "sidecar_latest_at": null,
+      "sidecar_path": ".control/tool-calls.jsonl"
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-02T21:48:30+0800",
+    "tick_time": "2026-07-02T21:59:42+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
