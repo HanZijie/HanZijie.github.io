@@ -1,7 +1,7 @@
 {
   "date": "2026-07-03",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-03T08:20:02.510Z",
+  "generated_at": "2026-07-03T08:30:02.970Z",
   "nav": {
     "latest": {
       "date": "2026-07-03",
@@ -134,23 +134,31 @@
       "tools": [
         {
           "tool": "mcp_minimax_finance_data_call_api",
-          "count": 90
+          "count": 136
         },
         {
           "tool": "terminal",
-          "count": 59
+          "count": 64
         },
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
+          "count": 40
+        },
+        {
+          "tool": "mcp_minimax_finance_data_resolve_entity",
           "count": 28
         },
         {
           "tool": "execute_code",
-          "count": 22
+          "count": 23
         },
         {
           "tool": "read_file",
-          "count": 18
+          "count": 22
+        },
+        {
+          "tool": "mcp_minimax_finance_data_fetch_macro",
+          "count": 11
         },
         {
           "tool": "patch",
@@ -161,16 +169,20 @@
           "count": 8
         },
         {
+          "tool": "mcp_minimax_finance_data_query_macro",
+          "count": 7
+        },
+        {
           "tool": "search_files",
           "count": 7
         },
         {
-          "tool": "mcp_minimax_finance_data_resolve_entity",
-          "count": 6
-        },
-        {
           "tool": "todo",
           "count": 4
+        },
+        {
+          "tool": "delegate_task",
+          "count": 2
         },
         {
           "tool": "mcp_portfolio_management_portfolio_positions_overview",
@@ -178,6 +190,14 @@
         },
         {
           "tool": "mcp_minimax_finance_data_describe_api",
+          "count": 1
+        },
+        {
+          "tool": "mcp_portfolio_management_portfolio_list",
+          "count": 1
+        },
+        {
+          "tool": "skill_view",
           "count": 1
         }
       ]
@@ -217,9 +237,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 1302,
-      "today_tool_rows": 254,
-      "latest_tool_at": "2026-07-03 14:42:20",
+      "total_tool_rows": 1414,
+      "today_tool_rows": 366,
+      "latest_tool_at": "2026-07-03 16:30:01",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
