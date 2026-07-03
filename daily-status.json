@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-03T15:50:02.645Z",
+  "generated_at": "2026-07-03T16:00:03.509Z",
   "nav": {
     "latest": {
       "date": "2026-07-03",
@@ -62,149 +62,11 @@
     },
     "macro_liquidity_researcher": {
       "name": "宏观政策资金流动性研究员",
-      "tools": [
-        {
-          "tool": "mcp_minimax_finance_data_call_api",
-          "count": 129
-        },
-        {
-          "tool": "mcp_minimax_finance_data_fetch_macro",
-          "count": 127
-        },
-        {
-          "tool": "terminal",
-          "count": 57
-        },
-        {
-          "tool": "mcp_minimax_finance_data_query_macro",
-          "count": 52
-        },
-        {
-          "tool": "read_file",
-          "count": 29
-        },
-        {
-          "tool": "mcp_minimax_finance_data_resolve_entity",
-          "count": 21
-        },
-        {
-          "tool": "write_file",
-          "count": 11
-        },
-        {
-          "tool": "mcp_minimax_finance_data_describe_api",
-          "count": 8
-        },
-        {
-          "tool": "search_files",
-          "count": 8
-        },
-        {
-          "tool": "todo",
-          "count": 4
-        },
-        {
-          "tool": "delegate_task",
-          "count": 3
-        },
-        {
-          "tool": "execute_code",
-          "count": 3
-        },
-        {
-          "tool": "skill_view",
-          "count": 3
-        },
-        {
-          "tool": "browser_navigate",
-          "count": 2
-        },
-        {
-          "tool": "process",
-          "count": 2
-        },
-        {
-          "tool": "browser_snapshot",
-          "count": 1
-        }
-      ]
+      "tools": []
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
-      "tools": [
-        {
-          "tool": "mcp_minimax_finance_data_call_api",
-          "count": 211
-        },
-        {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 89
-        },
-        {
-          "tool": "terminal",
-          "count": 82
-        },
-        {
-          "tool": "mcp_minimax_finance_data_resolve_entity",
-          "count": 66
-        },
-        {
-          "tool": "execute_code",
-          "count": 33
-        },
-        {
-          "tool": "read_file",
-          "count": 25
-        },
-        {
-          "tool": "mcp_minimax_finance_data_fetch_macro",
-          "count": 18
-        },
-        {
-          "tool": "write_file",
-          "count": 12
-        },
-        {
-          "tool": "mcp_minimax_finance_data_query_macro",
-          "count": 11
-        },
-        {
-          "tool": "browser_navigate",
-          "count": 9
-        },
-        {
-          "tool": "patch",
-          "count": 9
-        },
-        {
-          "tool": "search_files",
-          "count": 8
-        },
-        {
-          "tool": "mcp_minimax_finance_data_describe_api",
-          "count": 4
-        },
-        {
-          "tool": "todo",
-          "count": 4
-        },
-        {
-          "tool": "mcp_portfolio_management_portfolio_positions_overview",
-          "count": 3
-        },
-        {
-          "tool": "delegate_task",
-          "count": 2
-        },
-        {
-          "tool": "skill_view",
-          "count": 2
-        },
-        {
-          "tool": "mcp_portfolio_management_portfolio_list",
-          "count": 1
-        }
-      ]
+      "tools": []
     }
   },
   "tool_call_diagnostics": {
@@ -228,7 +90,7 @@
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
       "total_tool_rows": 1838,
-      "today_tool_rows": 460,
+      "today_tool_rows": 0,
       "latest_tool_at": "2026-07-03 22:08:46",
       "error": null,
       "sidecar_total_rows": 0,
@@ -242,7 +104,7 @@
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
       "total_tool_rows": 1637,
-      "today_tool_rows": 589,
+      "today_tool_rows": 0,
       "latest_tool_at": "2026-07-03 22:27:54",
       "error": null,
       "sidecar_total_rows": 0,
