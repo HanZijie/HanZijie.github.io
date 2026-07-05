@@ -1,7 +1,7 @@
 {
   "date": "2026-07-06",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-05T16:00:03.127Z",
+  "generated_at": "2026-07-05T16:10:03.003Z",
   "nav": {
     "latest": {
       "date": "2026-07-03",
@@ -62,7 +62,56 @@
     },
     "macro_liquidity_researcher": {
       "name": "宏观政策资金流动性研究员",
-      "tools": []
+      "tools": [
+        {
+          "tool": "mcp_minimax_finance_data_query_macro",
+          "count": 27
+        },
+        {
+          "tool": "mcp_minimax_finance_data_fetch_macro",
+          "count": 16
+        },
+        {
+          "tool": "mcp_minimax_finance_data_call_api",
+          "count": 13
+        },
+        {
+          "tool": "mcp_minimax_finance_data_resolve_entity",
+          "count": 8
+        },
+        {
+          "tool": "terminal",
+          "count": 6
+        },
+        {
+          "tool": "read_file",
+          "count": 3
+        },
+        {
+          "tool": "search_files",
+          "count": 3
+        },
+        {
+          "tool": "todo",
+          "count": 2
+        },
+        {
+          "tool": "delegate_task",
+          "count": 1
+        },
+        {
+          "tool": "mcp_portfolio_management_portfolio_list",
+          "count": 1
+        },
+        {
+          "tool": "skill_view",
+          "count": 1
+        },
+        {
+          "tool": "write_file",
+          "count": 1
+        }
+      ]
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
@@ -89,9 +138,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 1838,
-      "today_tool_rows": 0,
-      "latest_tool_at": "2026-07-03 22:08:46",
+      "total_tool_rows": 1920,
+      "today_tool_rows": 82,
+      "latest_tool_at": "2026-07-06 00:09:43",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -114,7 +163,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-05T22:03:01+0800",
+    "tick_time": "2026-07-06T00:03:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
