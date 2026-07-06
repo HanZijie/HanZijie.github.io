@@ -1,7 +1,7 @@
 {
   "date": "2026-07-06",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-06T04:00:02.997Z",
+  "generated_at": "2026-07-06T04:10:02.896Z",
   "nav": {
     "latest": {
       "date": "2026-07-03",
@@ -65,11 +65,11 @@
       "tools": [
         {
           "tool": "mcp_minimax_finance_data_fetch_macro",
-          "count": 74
+          "count": 89
         },
         {
           "tool": "mcp_minimax_finance_data_call_api",
-          "count": 53
+          "count": 59
         },
         {
           "tool": "mcp_minimax_finance_data_query_macro",
@@ -77,15 +77,19 @@
         },
         {
           "tool": "terminal",
-          "count": 35
+          "count": 39
         },
         {
           "tool": "read_file",
-          "count": 10
+          "count": 15
         },
         {
           "tool": "mcp_minimax_finance_data_resolve_entity",
           "count": 8
+        },
+        {
+          "tool": "write_file",
+          "count": 7
         },
         {
           "tool": "execute_code",
@@ -93,10 +97,6 @@
         },
         {
           "tool": "todo",
-          "count": 6
-        },
-        {
-          "tool": "write_file",
           "count": 6
         },
         {
@@ -219,9 +219,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 2090,
-      "today_tool_rows": 252,
-      "latest_tool_at": "2026-07-06 10:13:18",
+      "total_tool_rows": 2121,
+      "today_tool_rows": 283,
+      "latest_tool_at": "2026-07-06 12:09:43",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -244,7 +244,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-06T11:30:02+0800",
+    "tick_time": "2026-07-06T12:03:02+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
