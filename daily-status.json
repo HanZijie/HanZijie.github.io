@@ -1,7 +1,7 @@
 {
   "date": "2026-07-06",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-06T10:00:03.401Z",
+  "generated_at": "2026-07-06T10:10:03.570Z",
   "nav": {
     "latest": {
       "date": "2026-07-06",
@@ -74,11 +74,11 @@
       "tools": [
         {
           "tool": "mcp_minimax_finance_data_fetch_macro",
-          "count": 101
+          "count": 107
         },
         {
           "tool": "mcp_minimax_finance_data_call_api",
-          "count": 65
+          "count": 74
         },
         {
           "tool": "terminal",
@@ -90,10 +90,18 @@
         },
         {
           "tool": "read_file",
-          "count": 17
+          "count": 22
+        },
+        {
+          "tool": "execute_code",
+          "count": 11
         },
         {
           "tool": "todo",
+          "count": 9
+        },
+        {
+          "tool": "write_file",
           "count": 9
         },
         {
@@ -101,20 +109,12 @@
           "count": 8
         },
         {
-          "tool": "write_file",
-          "count": 8
-        },
-        {
-          "tool": "execute_code",
+          "tool": "search_files",
           "count": 6
         },
         {
           "tool": "skill_view",
           "count": 5
-        },
-        {
-          "tool": "search_files",
-          "count": 3
         },
         {
           "tool": "delegate_task",
@@ -232,9 +232,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 2157,
-      "today_tool_rows": 319,
-      "latest_tool_at": "2026-07-06 14:09:36",
+      "total_tool_rows": 2186,
+      "today_tool_rows": 348,
+      "latest_tool_at": "2026-07-06 18:08:31",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -257,7 +257,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-06T16:03:01+0800",
+    "tick_time": "2026-07-06T18:03:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
