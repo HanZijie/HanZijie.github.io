@@ -1,7 +1,7 @@
 {
   "date": "2026-07-08",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-07T16:00:03.600Z",
+  "generated_at": "2026-07-07T16:10:03.549Z",
   "nav": {
     "latest": {
       "date": "2026-07-07",
@@ -80,7 +80,28 @@
     },
     "macro_liquidity_researcher": {
       "name": "宏观政策资金流动性研究员",
-      "tools": []
+      "tools": [
+        {
+          "tool": "terminal",
+          "count": 9
+        },
+        {
+          "tool": "mcp_minimax_finance_data_call_api",
+          "count": 6
+        },
+        {
+          "tool": "execute_code",
+          "count": 2
+        },
+        {
+          "tool": "browser_navigate",
+          "count": 1
+        },
+        {
+          "tool": "write_file",
+          "count": 1
+        }
+      ]
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
@@ -107,9 +128,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 2567,
-      "today_tool_rows": 0,
-      "latest_tool_at": "2026-07-07 22:09:51",
+      "total_tool_rows": 2586,
+      "today_tool_rows": 19,
+      "latest_tool_at": "2026-07-08 00:09:20",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
