@@ -1,7 +1,7 @@
 {
   "date": "2026-07-09",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-09T14:10:02.037Z",
+  "generated_at": "2026-07-09T14:20:02.097Z",
   "nav": {
     "latest": {
       "date": "2026-07-09",
@@ -101,7 +101,7 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 444
+          "count": 453
         },
         {
           "tool": "execute_code",
@@ -109,7 +109,7 @@
         },
         {
           "tool": "browser_navigate",
-          "count": 39
+          "count": 58
         },
         {
           "tool": "read_file",
@@ -121,7 +121,11 @@
         },
         {
           "tool": "write_file",
-          "count": 12
+          "count": 13
+        },
+        {
+          "tool": "browser_snapshot",
+          "count": 9
         },
         {
           "tool": "search_files",
@@ -137,34 +141,38 @@
         },
         {
           "tool": "delegate_task",
-          "count": 5
-        },
-        {
-          "tool": "browser_snapshot",
-          "count": 4
+          "count": 6
         },
         {
           "tool": "browser_click",
-          "count": 3
+          "count": 5
+        },
+        {
+          "tool": "patch",
+          "count": 5
         },
         {
           "tool": "mcp_portfolio_management_portfolio_list",
           "count": 3
         },
         {
-          "tool": "patch",
-          "count": 3
+          "tool": "browser_console",
+          "count": 2
         },
         {
           "tool": "skill_manage",
           "count": 2
         },
         {
-          "tool": "browser_console",
+          "tool": "browser_press",
           "count": 1
         },
         {
           "tool": "browser_scroll",
+          "count": 1
+        },
+        {
+          "tool": "browser_type",
           "count": 1
         }
       ]
@@ -267,9 +275,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 3820,
-      "today_tool_rows": 723,
-      "latest_tool_at": "2026-07-09 22:10:01",
+      "total_tool_rows": 3862,
+      "today_tool_rows": 765,
+      "latest_tool_at": "2026-07-09 22:19:40",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
