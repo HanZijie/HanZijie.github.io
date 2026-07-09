@@ -5,3 +5,4 @@
 {"date":"2026-07-06","portfolio_id":"5a0ad283-6ff","portfolio_name":"测试组合","unit_nav":1.0008603,"total_assets":1000860326.08,"source":"portfolio-management","collected_at":"2026-07-06T15:00:43+08:00"}
 {"date": "2026-07-07", "portfolio_id": "5a0ad283-6ff", "portfolio_name": "测试组合", "unit_nav": 0.999553, "total_assets": 999553326.08, "source": "portfolio-management", "collected_at": "2026-07-07T07:00:34Z"}
 {"date": "2026-07-08", "portfolio_id": "5a0ad283-6ff", "portfolio_name": "测试组合", "unit_nav": 0.9979, "total_assets": 997861326.08, "source": "portfolio-management", "collected_at": "2026-07-08T07:00:25Z"}
+{"date": "2026-07-09", "portfolio_id": "5a0ad283-6ff", "portfolio_name": "测试组合", "unit_nav": 0.997554, "total_assets": 997554326.08, "source": "portfolio-management", "collected_at": "2026-07-09T15:00:31+08:00"}
