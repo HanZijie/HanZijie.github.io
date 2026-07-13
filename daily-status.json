@@ -1,7 +1,7 @@
 {
   "date": "2026-07-13",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-13T14:00:01.298Z",
+  "generated_at": "2026-07-13T14:10:01.614Z",
   "nav": {
     "latest": {
       "date": "2026-07-13",
@@ -47,30 +47,38 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 91
+          "count": 94
         },
         {
           "tool": "execute_code",
-          "count": 76
+          "count": 78
         },
         {
           "tool": "read_file",
-          "count": 21
+          "count": 26
         },
         {
           "tool": "write_file",
-          "count": 11
+          "count": 12
         },
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 5
+          "count": 7
         },
         {
           "tool": "skill_view",
-          "count": 5
+          "count": 6
         },
         {
           "tool": "search_files",
+          "count": 4
+        },
+        {
+          "tool": "delegate_task",
+          "count": 3
+        },
+        {
+          "tool": "mcp_portfolio_management_portfolio_list",
           "count": 2
         },
         {
@@ -78,11 +86,7 @@
           "count": 2
         },
         {
-          "tool": "delegate_task",
-          "count": 1
-        },
-        {
-          "tool": "mcp_portfolio_management_portfolio_list",
+          "tool": "mcp_portfolio_management_cash_flow_list",
           "count": 1
         }
       ]
@@ -161,9 +165,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 4649,
-      "today_tool_rows": 215,
-      "latest_tool_at": "2026-07-13 20:09:16",
+      "total_tool_rows": 4669,
+      "today_tool_rows": 235,
+      "latest_tool_at": "2026-07-13 22:06:32",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -186,7 +190,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-13T20:03:01+0800",
+    "tick_time": "2026-07-13T22:03:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
