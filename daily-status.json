@@ -1,7 +1,7 @@
 {
   "date": "2026-07-14",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-14T10:30:02.354Z",
+  "generated_at": "2026-07-14T10:40:01.680Z",
   "nav": {
     "latest": {
       "date": "2026-07-14",
@@ -93,19 +93,19 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 299
+          "count": 385
         },
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 114
+          "count": 120
         },
         {
           "tool": "browser_console",
-          "count": 29
+          "count": 40
         },
         {
           "tool": "read_file",
-          "count": 17
+          "count": 18
         },
         {
           "tool": "execute_code",
@@ -125,18 +125,22 @@
         },
         {
           "tool": "write_file",
-          "count": 8
+          "count": 9
         },
         {
           "tool": "skill_view",
           "count": 7
         },
         {
+          "tool": "browser_snapshot",
+          "count": 6
+        },
+        {
           "tool": "delegate_task",
           "count": 6
         },
         {
-          "tool": "browser_snapshot",
+          "tool": "browser_scroll",
           "count": 5
         },
         {
@@ -144,12 +148,8 @@
           "count": 4
         },
         {
-          "tool": "browser_scroll",
-          "count": 2
-        },
-        {
           "tool": "process",
-          "count": 2
+          "count": 3
         },
         {
           "tool": "session_search",
@@ -200,9 +200,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 6227,
-      "today_tool_rows": 539,
-      "latest_tool_at": "2026-07-14 18:30:01",
+      "total_tool_rows": 6337,
+      "today_tool_rows": 649,
+      "latest_tool_at": "2026-07-14 18:40:01",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
