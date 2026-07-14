@@ -1,7 +1,7 @@
 {
   "date": "2026-07-14",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-14T12:20:02.168Z",
+  "generated_at": "2026-07-14T12:30:03.633Z",
   "nav": {
     "latest": {
       "date": "2026-07-14",
@@ -97,15 +97,15 @@
         },
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 122
+          "count": 135
         },
         {
           "tool": "browser_console",
-          "count": 40
+          "count": 41
         },
         {
           "tool": "read_file",
-          "count": 18
+          "count": 22
         },
         {
           "tool": "execute_code",
@@ -113,14 +113,18 @@
         },
         {
           "tool": "browser_navigate",
-          "count": 10
+          "count": 11
+        },
+        {
+          "tool": "search_files",
+          "count": 11
         },
         {
           "tool": "todo",
           "count": 10
         },
         {
-          "tool": "search_files",
+          "tool": "skill_view",
           "count": 9
         },
         {
@@ -128,15 +132,11 @@
           "count": 9
         },
         {
-          "tool": "skill_view",
-          "count": 7
+          "tool": "delegate_task",
+          "count": 8
         },
         {
           "tool": "browser_snapshot",
-          "count": 6
-        },
-        {
-          "tool": "delegate_task",
           "count": 6
         },
         {
@@ -145,11 +145,15 @@
         },
         {
           "tool": "mcp_portfolio_management_portfolio_positions_overview",
-          "count": 4
+          "count": 5
         },
         {
           "tool": "process",
           "count": 4
+        },
+        {
+          "tool": "mcp_portfolio_management_portfolio_list",
+          "count": 2
         },
         {
           "tool": "session_search",
@@ -200,9 +204,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 6389,
-      "today_tool_rows": 701,
-      "latest_tool_at": "2026-07-14 18:51:28",
+      "total_tool_rows": 6417,
+      "today_tool_rows": 729,
+      "latest_tool_at": "2026-07-14 20:30:02",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
