@@ -1,7 +1,7 @@
 {
   "date": "2026-07-14",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-14T14:20:02.054Z",
+  "generated_at": "2026-07-14T14:30:02.146Z",
   "nav": {
     "latest": {
       "date": "2026-07-14",
@@ -101,43 +101,43 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 436
+          "count": 440
         },
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 138
+          "count": 152
         },
         {
           "tool": "browser_console",
-          "count": 41
+          "count": 47
         },
         {
           "tool": "read_file",
-          "count": 23
+          "count": 25
+        },
+        {
+          "tool": "browser_navigate",
+          "count": 14
         },
         {
           "tool": "execute_code",
           "count": 13
         },
         {
-          "tool": "browser_navigate",
-          "count": 11
-        },
-        {
           "tool": "search_files",
           "count": 11
         },
         {
-          "tool": "todo",
-          "count": 10
-        },
-        {
           "tool": "write_file",
-          "count": 10
+          "count": 11
         },
         {
           "tool": "skill_view",
-          "count": 9
+          "count": 10
+        },
+        {
+          "tool": "todo",
+          "count": 10
         },
         {
           "tool": "delegate_task",
@@ -145,15 +145,15 @@
         },
         {
           "tool": "browser_snapshot",
-          "count": 6
+          "count": 7
         },
         {
           "tool": "browser_scroll",
-          "count": 5
+          "count": 6
         },
         {
           "tool": "mcp_portfolio_management_portfolio_positions_overview",
-          "count": 5
+          "count": 6
         },
         {
           "tool": "process",
@@ -169,6 +169,14 @@
         },
         {
           "tool": "browser_click",
+          "count": 1
+        },
+        {
+          "tool": "browser_press",
+          "count": 1
+        },
+        {
+          "tool": "browser_type",
           "count": 1
         },
         {
@@ -212,9 +220,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 6424,
-      "today_tool_rows": 736,
-      "latest_tool_at": "2026-07-14 20:32:41",
+      "total_tool_rows": 6460,
+      "today_tool_rows": 772,
+      "latest_tool_at": "2026-07-14 22:29:55",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
