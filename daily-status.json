@@ -1,7 +1,7 @@
 {
   "date": "2026-07-14",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-14T10:00:02.132Z",
+  "generated_at": "2026-07-14T10:10:02.775Z",
   "nav": {
     "latest": {
       "date": "2026-07-14",
@@ -56,11 +56,11 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 102
+          "count": 105
         },
         {
           "tool": "execute_code",
-          "count": 51
+          "count": 60
         },
         {
           "tool": "read_file",
@@ -75,12 +75,12 @@
           "count": 4
         },
         {
-          "tool": "todo",
-          "count": 3
+          "tool": "skill_view",
+          "count": 4
         },
         {
-          "tool": "skill_view",
-          "count": 2
+          "tool": "todo",
+          "count": 3
         }
       ]
     },
@@ -182,9 +182,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 4861,
-      "today_tool_rows": 192,
-      "latest_tool_at": "2026-07-14 16:13:57",
+      "total_tool_rows": 4875,
+      "today_tool_rows": 206,
+      "latest_tool_at": "2026-07-14 18:09:43",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -207,9 +207,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-14T16:03:01+0800",
+    "tick_time": "2026-07-14T18:03:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 64316 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
+    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 168782 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
