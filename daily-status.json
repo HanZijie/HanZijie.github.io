@@ -1,21 +1,21 @@
 {
   "date": "2026-07-15",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-15T06:50:03.259Z",
+  "generated_at": "2026-07-15T07:10:59.800Z",
   "nav": {
     "latest": {
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "portfolio_id": "5a0ad283-6ff",
       "portfolio_name": "测试组合",
-      "unit_nav": 0.9978,
-      "total_assets": 997825326.08,
+      "unit_nav": 0.998306,
+      "total_assets": 998306326.08,
       "source": "portfolio-management",
-      "collected_at": "2026-07-14T15:00:00+08:00"
+      "collected_at": "2026-07-15T15:05:20+08:00"
     },
-    "latest_nav": 0.9978,
-    "previous_nav": 0.997263,
-    "change": 0.0005370000000000097,
-    "change_pct": 0.053847380279826856,
+    "latest_nav": 0.998306,
+    "previous_nav": 0.9978,
+    "change": 0.0005060000000000064,
+    "change_pct": 0.05071156544397739,
     "records": [
       {
         "date": "2026-07-10",
@@ -43,6 +43,15 @@
         "total_assets": 997825326.08,
         "source": "portfolio-management",
         "collected_at": "2026-07-14T15:00:00+08:00"
+      },
+      {
+        "date": "2026-07-15",
+        "portfolio_id": "5a0ad283-6ff",
+        "portfolio_name": "测试组合",
+        "unit_nav": 0.998306,
+        "total_assets": 998306326.08,
+        "source": "portfolio-management",
+        "collected_at": "2026-07-15T15:05:20+08:00"
       }
     ]
   },
@@ -223,9 +232,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-15T14:50:01+0800",
+    "tick_time": "2026-07-15T15:00:04+0800",
     "source": "pm-cron-tick.log",
-    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 1825176 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
+    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
