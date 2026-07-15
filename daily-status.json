@@ -1,7 +1,7 @@
 {
   "date": "2026-07-15",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-15T03:20:01.905Z",
+  "generated_at": "2026-07-15T03:30:02.639Z",
   "nav": {
     "latest": {
       "date": "2026-07-14",
@@ -191,9 +191,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-15T11:10:01+0800",
+    "tick_time": "2026-07-15T11:30:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 1664763 Segmentation fault      (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
+    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
