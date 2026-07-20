@@ -1,7 +1,7 @@
 {
   "date": "2026-07-20",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-20T00:00:10.101Z",
+  "generated_at": "2026-07-20T00:10:16.742Z",
   "nav": {
     "latest": {
       "date": "2026-07-17",
@@ -83,22 +83,22 @@
       "tools": [
         {
           "tool": "execute_code",
-          "count": 20
+          "count": 21
         },
         {
           "tool": "terminal",
-          "count": 19
+          "count": 20
         },
         {
           "tool": "read_file",
-          "count": 9
-        },
-        {
-          "tool": "search_files",
-          "count": 4
+          "count": 12
         },
         {
           "tool": "write_file",
+          "count": 5
+        },
+        {
+          "tool": "search_files",
           "count": 4
         },
         {
@@ -193,9 +193,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 5761,
-      "today_tool_rows": 62,
-      "latest_tool_at": "2026-07-20 06:06:54",
+      "total_tool_rows": 5767,
+      "today_tool_rows": 68,
+      "latest_tool_at": "2026-07-20 08:07:04",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -218,9 +218,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-20T04:03:03+0800",
+    "tick_time": "2026-07-20T08:03:03+0800",
     "source": "pm-cron-tick.log",
-    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 1564301 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
+    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
