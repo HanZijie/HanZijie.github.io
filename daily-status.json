@@ -1,7 +1,7 @@
 {
   "date": "2026-07-20",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-20T06:20:09.389Z",
+  "generated_at": "2026-07-20T06:30:10.069Z",
   "nav": {
     "latest": {
       "date": "2026-07-17",
@@ -82,32 +82,32 @@
       "name": "宏观政策资金流动性研究员",
       "tools": [
         {
+          "tool": "terminal",
+          "count": 96
+        },
+        {
           "tool": "mcp_portfolio_management_stock_quote_get",
           "count": 47
         },
         {
-          "tool": "terminal",
-          "count": 28
-        },
-        {
           "tool": "execute_code",
-          "count": 25
+          "count": 32
         },
         {
           "tool": "read_file",
-          "count": 22
+          "count": 27
         },
         {
           "tool": "search_files",
-          "count": 9
+          "count": 12
         },
         {
           "tool": "write_file",
-          "count": 7
+          "count": 8
         },
         {
           "tool": "delegate_task",
-          "count": 5
+          "count": 7
         },
         {
           "tool": "skill_view",
@@ -135,19 +135,23 @@
       "name": "行业产业公司基本面研究员",
       "tools": [
         {
-          "tool": "terminal",
-          "count": 156
+          "tool": "mcp_portfolio_management_stock_quote_get",
+          "count": 178
         },
         {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 145
+          "tool": "terminal",
+          "count": 163
         },
         {
           "tool": "browser_console",
-          "count": 20
+          "count": 27
         },
         {
           "tool": "read_file",
+          "count": 9
+        },
+        {
+          "tool": "browser_navigate",
           "count": 8
         },
         {
@@ -156,27 +160,23 @@
         },
         {
           "tool": "skill_view",
-          "count": 6
+          "count": 7
         },
         {
           "tool": "write_file",
           "count": 6
         },
         {
-          "tool": "browser_navigate",
+          "tool": "mcp_portfolio_management_portfolio_positions_overview",
           "count": 5
         },
         {
-          "tool": "mcp_portfolio_management_portfolio_positions_overview",
-          "count": 4
-        },
-        {
           "tool": "browser_scroll",
-          "count": 2
+          "count": 3
         },
         {
           "tool": "browser_snapshot",
-          "count": 2
+          "count": 3
         },
         {
           "tool": "delegate_task",
@@ -213,9 +213,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 5855,
-      "today_tool_rows": 156,
-      "latest_tool_at": "2026-07-20 14:05:42",
+      "total_tool_rows": 5941,
+      "today_tool_rows": 242,
+      "latest_tool_at": "2026-07-20 14:29:57",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -227,9 +227,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 9084,
-      "today_tool_rows": 365,
-      "latest_tool_at": "2026-07-20 12:39:17",
+      "total_tool_rows": 9141,
+      "today_tool_rows": 420,
+      "latest_tool_at": "2026-07-20 14:30:09",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -238,7 +238,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-20T14:20:01+0800",
+    "tick_time": "2026-07-20T14:30:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
