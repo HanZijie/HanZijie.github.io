@@ -1,7 +1,7 @@
 {
   "date": "2026-07-20",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-20T06:30:10.069Z",
+  "generated_at": "2026-07-20T06:40:11.909Z",
   "nav": {
     "latest": {
       "date": "2026-07-17",
@@ -83,7 +83,7 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 96
+          "count": 108
         },
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
@@ -136,23 +136,23 @@
       "tools": [
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 178
+          "count": 184
         },
         {
           "tool": "terminal",
-          "count": 163
+          "count": 165
         },
         {
           "tool": "browser_console",
           "count": 27
         },
         {
-          "tool": "read_file",
+          "tool": "browser_navigate",
           "count": 9
         },
         {
-          "tool": "browser_navigate",
-          "count": 8
+          "tool": "read_file",
+          "count": 9
         },
         {
           "tool": "execute_code",
@@ -164,7 +164,7 @@
         },
         {
           "tool": "write_file",
-          "count": 6
+          "count": 7
         },
         {
           "tool": "mcp_portfolio_management_portfolio_positions_overview",
@@ -213,9 +213,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 5941,
-      "today_tool_rows": 242,
-      "latest_tool_at": "2026-07-20 14:29:57",
+      "total_tool_rows": 5953,
+      "today_tool_rows": 254,
+      "latest_tool_at": "2026-07-20 14:32:00",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -227,9 +227,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 9141,
-      "today_tool_rows": 420,
-      "latest_tool_at": "2026-07-20 14:30:09",
+      "total_tool_rows": 9149,
+      "today_tool_rows": 430,
+      "latest_tool_at": "2026-07-20 14:33:27",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -238,7 +238,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-20T14:30:01+0800",
+    "tick_time": "2026-07-20T14:40:02+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
