@@ -1,7 +1,7 @@
 {
   "date": "2026-07-23",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-23T06:40:05.455Z",
+  "generated_at": "2026-07-23T06:50:07.610Z",
   "nav": {
     "latest": {
       "date": "2026-07-22",
@@ -227,7 +227,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-23T14:40:01+0800",
+    "tick_time": "2026-07-23T14:50:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
