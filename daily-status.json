@@ -1,7 +1,7 @@
 {
   "date": "2026-07-27",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-27T04:00:02.512Z",
+  "generated_at": "2026-07-27T04:10:02.007Z",
   "nav": {
     "latest": {
       "date": "2026-07-23",
@@ -65,35 +65,43 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 38
+          "count": 41
         },
         {
           "tool": "read_file",
-          "count": 18
+          "count": 24
         },
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 15
+          "count": 17
         },
         {
           "tool": "execute_code",
-          "count": 12
+          "count": 13
         },
         {
           "tool": "write_file",
-          "count": 6
-        },
-        {
-          "tool": "skill_view",
-          "count": 3
+          "count": 7
         },
         {
           "tool": "delegate_task",
-          "count": 2
+          "count": 4
         },
         {
           "tool": "search_files",
-          "count": 2
+          "count": 4
+        },
+        {
+          "tool": "skill_view",
+          "count": 4
+        },
+        {
+          "tool": "mcp_portfolio_management_portfolio_list",
+          "count": 1
+        },
+        {
+          "tool": "mcp_portfolio_management_portfolio_positions_overview",
+          "count": 1
         },
         {
           "tool": "memory",
@@ -207,9 +215,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 7676,
-      "today_tool_rows": 97,
-      "latest_tool_at": "2026-07-27 10:07:14",
+      "total_tool_rows": 7696,
+      "today_tool_rows": 117,
+      "latest_tool_at": "2026-07-27 12:06:54",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -232,9 +240,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-27T11:30:01+0800",
+    "tick_time": "2026-07-27T12:03:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
+    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 448384 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
