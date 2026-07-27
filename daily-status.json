@@ -1,7 +1,7 @@
 {
   "date": "2026-07-27",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-27T08:10:02.332Z",
+  "generated_at": "2026-07-27T08:20:03.285Z",
   "nav": {
     "latest": {
       "date": "2026-07-27",
@@ -73,8 +73,12 @@
       "name": "宏观政策资金流动性研究员",
       "tools": [
         {
+          "tool": "browser_navigate",
+          "count": 77
+        },
+        {
           "tool": "terminal",
-          "count": 69
+          "count": 70
         },
         {
           "tool": "read_file",
@@ -82,23 +86,31 @@
         },
         {
           "tool": "execute_code",
-          "count": 23
+          "count": 24
         },
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
           "count": 17
         },
         {
+          "tool": "browser_console",
+          "count": 9
+        },
+        {
           "tool": "write_file",
           "count": 8
         },
         {
-          "tool": "delegate_task",
+          "tool": "browser_click",
           "count": 7
         },
         {
-          "tool": "browser_navigate",
-          "count": 6
+          "tool": "browser_snapshot",
+          "count": 7
+        },
+        {
+          "tool": "delegate_task",
+          "count": 7
         },
         {
           "tool": "skill_view",
@@ -107,6 +119,14 @@
         {
           "tool": "search_files",
           "count": 4
+        },
+        {
+          "tool": "browser_press",
+          "count": 1
+        },
+        {
+          "tool": "browser_type",
+          "count": 1
         },
         {
           "tool": "mcp_portfolio_management_portfolio_list",
@@ -236,9 +256,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 7749,
-      "today_tool_rows": 170,
-      "latest_tool_at": "2026-07-27 16:09:52",
+      "total_tool_rows": 7847,
+      "today_tool_rows": 268,
+      "latest_tool_at": "2026-07-27 16:20:01",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
