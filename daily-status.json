@@ -1,7 +1,7 @@
 {
   "date": "2026-07-31",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-31T04:00:02.244Z",
+  "generated_at": "2026-07-31T04:10:01.649Z",
   "nav": {
     "latest": {
       "date": "2026-07-30",
@@ -101,23 +101,23 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 96
+          "count": 104
         },
         {
           "tool": "execute_code",
-          "count": 15
+          "count": 18
         },
         {
           "tool": "read_file",
           "count": 15
         },
         {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 8
+          "tool": "write_file",
+          "count": 11
         },
         {
-          "tool": "write_file",
-          "count": 7
+          "tool": "mcp_portfolio_management_stock_quote_get",
+          "count": 8
         },
         {
           "tool": "search_files",
@@ -215,9 +215,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 9020,
-      "today_tool_rows": 155,
-      "latest_tool_at": "2026-07-31 10:10:45",
+      "total_tool_rows": 9035,
+      "today_tool_rows": 170,
+      "latest_tool_at": "2026-07-31 12:06:56",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -240,9 +240,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-07-31T11:30:01+0800",
+    "tick_time": "2026-07-31T12:03:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
+    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 2994277 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
