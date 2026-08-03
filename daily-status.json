@@ -1,7 +1,7 @@
 {
   "date": "2026-08-04",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-03T16:00:01.827Z",
+  "generated_at": "2026-08-03T16:10:02.104Z",
   "nav": {
     "latest": {
       "date": "2026-08-03",
@@ -35,7 +35,48 @@
     },
     "macro_liquidity_researcher": {
       "name": "宏观政策资金流动性研究员",
-      "tools": []
+      "tools": [
+        {
+          "tool": "read_file",
+          "count": 8
+        },
+        {
+          "tool": "search_files",
+          "count": 5
+        },
+        {
+          "tool": "execute_code",
+          "count": 3
+        },
+        {
+          "tool": "todo",
+          "count": 3
+        },
+        {
+          "tool": "browser_navigate",
+          "count": 2
+        },
+        {
+          "tool": "mcp_portfolio_management_stock_quote_get",
+          "count": 2
+        },
+        {
+          "tool": "browser_back",
+          "count": 1
+        },
+        {
+          "tool": "delegate_task",
+          "count": 1
+        },
+        {
+          "tool": "skill_view",
+          "count": 1
+        },
+        {
+          "tool": "write_file",
+          "count": 1
+        }
+      ]
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
@@ -62,9 +103,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 9672,
-      "today_tool_rows": 0,
-      "latest_tool_at": "2026-08-03 22:11:18",
+      "total_tool_rows": 9699,
+      "today_tool_rows": 27,
+      "latest_tool_at": "2026-08-04 00:10:01",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -87,9 +128,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-03T22:03:01+0800",
+    "tick_time": "2026-08-04T00:03:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 4155938 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
+    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
