@@ -1,7 +1,7 @@
 {
   "date": "2026-08-03",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-03T08:20:01.707Z",
+  "generated_at": "2026-08-03T08:30:01.513Z",
   "nav": {
     "latest": {
       "date": "2026-08-03",
@@ -50,7 +50,7 @@
         },
         {
           "tool": "write_file",
-          "count": 11
+          "count": 12
         },
         {
           "tool": "search_files",
@@ -82,40 +82,44 @@
       "name": "行业产业公司基本面研究员",
       "tools": [
         {
+          "tool": "mcp_portfolio_management_stock_quote_get",
+          "count": 73
+        },
+        {
           "tool": "execute_code",
-          "count": 64
+          "count": 71
         },
         {
           "tool": "browser_navigate",
           "count": 63
         },
         {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 58
-        },
-        {
           "tool": "terminal",
-          "count": 39
+          "count": 40
         },
         {
           "tool": "read_file",
-          "count": 16
+          "count": 19
         },
         {
           "tool": "write_file",
-          "count": 9
+          "count": 10
         },
         {
           "tool": "memory",
           "count": 6
         },
         {
+          "tool": "search_files",
+          "count": 5
+        },
+        {
           "tool": "patch",
           "count": 4
         },
         {
-          "tool": "search_files",
-          "count": 4
+          "tool": "mcp_portfolio_management_portfolio_positions_overview",
+          "count": 3
         },
         {
           "tool": "process",
@@ -124,10 +128,6 @@
         {
           "tool": "skill_view",
           "count": 3
-        },
-        {
-          "tool": "mcp_portfolio_management_portfolio_positions_overview",
-          "count": 2
         },
         {
           "tool": "browser_snapshot",
@@ -164,9 +164,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 9489,
-      "today_tool_rows": 261,
-      "latest_tool_at": "2026-08-03 16:19:26",
+      "total_tool_rows": 9490,
+      "today_tool_rows": 262,
+      "latest_tool_at": "2026-08-03 16:22:52",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -178,9 +178,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 14990,
-      "today_tool_rows": 274,
-      "latest_tool_at": "2026-08-03 14:27:15",
+      "total_tool_rows": 15019,
+      "today_tool_rows": 303,
+      "latest_tool_at": "2026-08-03 16:29:44",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
