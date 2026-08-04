@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-04T15:50:01.533Z",
+  "generated_at": "2026-08-04T16:00:01.905Z",
   "nav": {
     "latest": {
       "date": "2026-08-04",
@@ -44,145 +44,11 @@
     },
     "macro_liquidity_researcher": {
       "name": "宏观政策资金流动性研究员",
-      "tools": [
-        {
-          "tool": "terminal",
-          "count": 362
-        },
-        {
-          "tool": "execute_code",
-          "count": 87
-        },
-        {
-          "tool": "read_file",
-          "count": 50
-        },
-        {
-          "tool": "write_file",
-          "count": 44
-        },
-        {
-          "tool": "search_files",
-          "count": 39
-        },
-        {
-          "tool": "memory",
-          "count": 26
-        },
-        {
-          "tool": "delegate_task",
-          "count": 12
-        },
-        {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 9
-        },
-        {
-          "tool": "skill_view",
-          "count": 7
-        },
-        {
-          "tool": "todo",
-          "count": 6
-        },
-        {
-          "tool": "mcp_portfolio_management_portfolio_list",
-          "count": 5
-        },
-        {
-          "tool": "browser_navigate",
-          "count": 2
-        },
-        {
-          "tool": "patch",
-          "count": 2
-        },
-        {
-          "tool": "browser_back",
-          "count": 1
-        },
-        {
-          "tool": "mcp_portfolio_management_portfolio_positions_overview",
-          "count": 1
-        },
-        {
-          "tool": "mcp_portfolio_management_trade_list",
-          "count": 1
-        },
-        {
-          "tool": "process",
-          "count": 1
-        },
-        {
-          "tool": "session_search",
-          "count": 1
-        }
-      ]
+      "tools": []
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
-      "tools": [
-        {
-          "tool": "execute_code",
-          "count": 129
-        },
-        {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 111
-        },
-        {
-          "tool": "terminal",
-          "count": 75
-        },
-        {
-          "tool": "read_file",
-          "count": 24
-        },
-        {
-          "tool": "search_files",
-          "count": 17
-        },
-        {
-          "tool": "write_file",
-          "count": 13
-        },
-        {
-          "tool": "skill_view",
-          "count": 10
-        },
-        {
-          "tool": "todo",
-          "count": 10
-        },
-        {
-          "tool": "memory",
-          "count": 7
-        },
-        {
-          "tool": "mcp_portfolio_management_portfolio_positions_overview",
-          "count": 6
-        },
-        {
-          "tool": "patch",
-          "count": 3
-        },
-        {
-          "tool": "mcp_portfolio_management_portfolio_list",
-          "count": 2
-        },
-        {
-          "tool": "delegate_task",
-          "count": 1
-        },
-        {
-          "tool": "process",
-          "count": 1
-        },
-        {
-          "tool": "session_search",
-          "count": 1
-        }
-      ]
+      "tools": []
     }
   },
   "tool_call_diagnostics": {
@@ -206,7 +72,7 @@
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
       "total_tool_rows": 10328,
-      "today_tool_rows": 656,
+      "today_tool_rows": 0,
       "latest_tool_at": "2026-08-04 22:09:20",
       "error": null,
       "sidecar_total_rows": 0,
@@ -220,7 +86,7 @@
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
       "total_tool_rows": 15532,
-      "today_tool_rows": 410,
+      "today_tool_rows": 0,
       "latest_tool_at": "2026-08-04 22:33:31",
       "error": null,
       "sidecar_total_rows": 0,
