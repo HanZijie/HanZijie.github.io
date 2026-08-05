@@ -1,7 +1,7 @@
 {
   "date": "2026-08-05",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-05T06:20:03.070Z",
+  "generated_at": "2026-08-05T06:30:02.103Z",
   "nav": {
     "latest": {
       "date": "2026-08-04",
@@ -104,11 +104,11 @@
       "tools": [
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 47
+          "count": 63
         },
         {
           "tool": "terminal",
-          "count": 32
+          "count": 56
         },
         {
           "tool": "execute_code",
@@ -116,7 +116,7 @@
         },
         {
           "tool": "read_file",
-          "count": 24
+          "count": 26
         },
         {
           "tool": "search_files",
@@ -199,9 +199,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 15708,
-      "today_tool_rows": 176,
-      "latest_tool_at": "2026-08-05 12:29:54",
+      "total_tool_rows": 15750,
+      "today_tool_rows": 218,
+      "latest_tool_at": "2026-08-05 14:29:15",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -210,9 +210,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-05T14:20:01+0800",
+    "tick_time": "2026-08-05T14:30:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 701583 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
+    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
