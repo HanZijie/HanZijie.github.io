@@ -1,7 +1,7 @@
 {
   "date": "2026-08-06",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-06T02:20:01.885Z",
+  "generated_at": "2026-08-06T02:30:02.308Z",
   "nav": {
     "latest": {
       "date": "2026-08-05",
@@ -104,16 +104,16 @@
           "count": 116
         },
         {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 23
+          "tool": "terminal",
+          "count": 61
         },
         {
-          "tool": "terminal",
-          "count": 23
+          "tool": "mcp_portfolio_management_stock_quote_get",
+          "count": 48
         },
         {
           "tool": "read_file",
-          "count": 7
+          "count": 9
         },
         {
           "tool": "write_file",
@@ -121,7 +121,7 @@
         },
         {
           "tool": "delegate_task",
-          "count": 2
+          "count": 4
         },
         {
           "tool": "process",
@@ -200,9 +200,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 16114,
-      "today_tool_rows": 188,
-      "latest_tool_at": "2026-08-06 08:27:47",
+      "total_tool_rows": 16181,
+      "today_tool_rows": 255,
+      "latest_tool_at": "2026-08-06 10:30:01",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -211,7 +211,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-06T10:20:01+0800",
+    "tick_time": "2026-08-06T10:30:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
