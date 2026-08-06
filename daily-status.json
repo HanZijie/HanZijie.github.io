@@ -1,7 +1,7 @@
 {
   "date": "2026-08-06",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-06T08:30:01.848Z",
+  "generated_at": "2026-08-06T08:40:01.464Z",
   "nav": {
     "latest": {
       "date": "2026-08-06",
@@ -110,15 +110,15 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 181
+          "count": 184
+        },
+        {
+          "tool": "mcp_portfolio_management_stock_quote_get",
+          "count": 129
         },
         {
           "tool": "execute_code",
           "count": 128
-        },
-        {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 127
         },
         {
           "tool": "read_file",
@@ -126,22 +126,30 @@
         },
         {
           "tool": "write_file",
-          "count": 8
+          "count": 9
+        },
+        {
+          "tool": "memory",
+          "count": 6
         },
         {
           "tool": "delegate_task",
           "count": 4
         },
         {
-          "tool": "memory",
+          "tool": "search_files",
           "count": 3
         },
         {
-          "tool": "process",
+          "tool": "skill_view",
+          "count": 3
+        },
+        {
+          "tool": "patch",
           "count": 2
         },
         {
-          "tool": "skill_view",
+          "tool": "process",
           "count": 2
         },
         {
@@ -170,10 +178,6 @@
         },
         {
           "tool": "mcp_portfolio_management_trade_quote_preview",
-          "count": 1
-        },
-        {
-          "tool": "patch",
           "count": 1
         },
         {
@@ -217,9 +221,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 16403,
-      "today_tool_rows": 477,
-      "latest_tool_at": "2026-08-06 16:30:00",
+      "total_tool_rows": 16417,
+      "today_tool_rows": 491,
+      "latest_tool_at": "2026-08-06 16:32:41",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
