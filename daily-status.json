@@ -1,7 +1,7 @@
 {
   "date": "2026-08-07",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-07T12:30:02.058Z",
+  "generated_at": "2026-08-07T12:40:01.385Z",
   "nav": {
     "latest": {
       "date": "2026-08-07",
@@ -87,15 +87,15 @@
       "tools": [
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 131
+          "count": 144
         },
         {
           "tool": "execute_code",
-          "count": 100
+          "count": 120
         },
         {
           "tool": "terminal",
-          "count": 75
+          "count": 76
         },
         {
           "tool": "read_file",
@@ -106,12 +106,12 @@
           "count": 14
         },
         {
-          "tool": "write_file",
-          "count": 10
+          "tool": "memory",
+          "count": 13
         },
         {
-          "tool": "memory",
-          "count": 8
+          "tool": "write_file",
+          "count": 11
         },
         {
           "tool": "skill_view",
@@ -126,6 +126,10 @@
           "count": 5
         },
         {
+          "tool": "browser_navigate",
+          "count": 4
+        },
+        {
           "tool": "todo",
           "count": 4
         },
@@ -134,16 +138,16 @@
           "count": 3
         },
         {
-          "tool": "browser_navigate",
-          "count": 2
+          "tool": "skill_manage",
+          "count": 3
         },
         {
           "tool": "delegate_task",
           "count": 2
         },
         {
-          "tool": "skill_manage",
-          "count": 2
+          "tool": "browser_snapshot",
+          "count": 1
         },
         {
           "tool": "mcp_portfolio_management_portfolio_list",
@@ -190,9 +194,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 16922,
-      "today_tool_rows": 399,
-      "latest_tool_at": "2026-08-07 20:29:37",
+      "total_tool_rows": 16966,
+      "today_tool_rows": 443,
+      "latest_tool_at": "2026-08-07 20:34:55",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
