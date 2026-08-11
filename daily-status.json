@@ -1,7 +1,7 @@
 {
   "date": "2026-08-11",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-11T14:00:10.223Z",
+  "generated_at": "2026-08-11T14:10:02.262Z",
   "nav": {
     "latest": {
       "date": "2026-08-11",
@@ -56,11 +56,11 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 172
+          "count": 175
         },
         {
           "tool": "execute_code",
-          "count": 62
+          "count": 65
         },
         {
           "tool": "patch",
@@ -68,11 +68,11 @@
         },
         {
           "tool": "read_file",
-          "count": 21
+          "count": 22
         },
         {
           "tool": "write_file",
-          "count": 14
+          "count": 15
         },
         {
           "tool": "search_files",
@@ -182,9 +182,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 12086,
-      "today_tool_rows": 324,
-      "latest_tool_at": "2026-08-11 20:13:58",
+      "total_tool_rows": 12094,
+      "today_tool_rows": 332,
+      "latest_tool_at": "2026-08-11 22:06:50",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -207,9 +207,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-11T20:03:01+0800",
+    "tick_time": "2026-08-11T22:03:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
+    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 3083731 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
