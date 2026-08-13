@@ -1,7 +1,7 @@
 {
   "date": "2026-08-13",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-13T06:20:01.440Z",
+  "generated_at": "2026-08-13T06:30:01.995Z",
   "nav": {
     "latest": {
       "date": "2026-08-11",
@@ -101,7 +101,7 @@
       "tools": [
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 128
+          "count": 160
         },
         {
           "tool": "execute_code",
@@ -109,19 +109,19 @@
         },
         {
           "tool": "terminal",
-          "count": 47
+          "count": 49
         },
         {
           "tool": "read_file",
-          "count": 10
+          "count": 11
         },
         {
           "tool": "search_files",
-          "count": 10
+          "count": 11
         },
         {
           "tool": "write_file",
-          "count": 9
+          "count": 10
         },
         {
           "tool": "skill_view",
@@ -132,12 +132,12 @@
           "count": 4
         },
         {
-          "tool": "memory",
+          "tool": "mcp_portfolio_management_portfolio_positions_overview",
           "count": 2
         },
         {
-          "tool": "mcp_portfolio_management_portfolio_positions_overview",
-          "count": 1
+          "tool": "memory",
+          "count": 2
         },
         {
           "tool": "skills_list",
@@ -180,9 +180,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 18763,
-      "today_tool_rows": 269,
-      "latest_tool_at": "2026-08-13 12:28:43",
+      "total_tool_rows": 18801,
+      "today_tool_rows": 307,
+      "latest_tool_at": "2026-08-13 14:29:57",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -191,7 +191,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-13T14:10:01+0800",
+    "tick_time": "2026-08-13T14:30:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
