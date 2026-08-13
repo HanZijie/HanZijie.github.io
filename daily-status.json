@@ -1,7 +1,7 @@
 {
   "date": "2026-08-13",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-13T10:00:02.062Z",
+  "generated_at": "2026-08-13T10:10:01.355Z",
   "nav": {
     "latest": {
       "date": "2026-08-13",
@@ -65,15 +65,15 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 135
+          "count": 137
         },
         {
           "tool": "execute_code",
-          "count": 79
+          "count": 101
         },
         {
           "tool": "read_file",
-          "count": 27
+          "count": 29
         },
         {
           "tool": "write_file",
@@ -179,9 +179,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 12866,
-      "today_tool_rows": 282,
-      "latest_tool_at": "2026-08-13 16:10:00",
+      "total_tool_rows": 12892,
+      "today_tool_rows": 308,
+      "latest_tool_at": "2026-08-13 18:09:54",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -204,9 +204,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-13T16:03:01+0800",
+    "tick_time": "2026-08-13T18:03:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
+    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 3964349 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
