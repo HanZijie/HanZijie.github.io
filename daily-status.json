@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-14T02:30:02.602Z",
+  "generated_at": "2026-08-14T02:40:02.724Z",
   "nav": {
     "latest": {
       "date": "2026-08-13",
@@ -98,15 +98,15 @@
       "tools": [
         {
           "tool": "execute_code",
-          "count": 137
-        },
-        {
-          "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 129
+          "count": 156
         },
         {
           "tool": "terminal",
-          "count": 93
+          "count": 155
+        },
+        {
+          "tool": "mcp_portfolio_management_stock_quote_get",
+          "count": 145
         },
         {
           "tool": "memory",
@@ -114,15 +114,19 @@
         },
         {
           "tool": "read_file",
-          "count": 21
-        },
-        {
-          "tool": "write_file",
-          "count": 8
+          "count": 25
         },
         {
           "tool": "search_files",
-          "count": 5
+          "count": 9
+        },
+        {
+          "tool": "write_file",
+          "count": 9
+        },
+        {
+          "tool": "process",
+          "count": 8
         },
         {
           "tool": "todo",
@@ -130,15 +134,11 @@
         },
         {
           "tool": "delegate_task",
-          "count": 3
+          "count": 4
         },
         {
           "tool": "skill_view",
           "count": 3
-        },
-        {
-          "tool": "process",
-          "count": 2
         }
       ]
     }
@@ -177,9 +177,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 19439,
-      "today_tool_rows": 432,
-      "latest_tool_at": "2026-08-14 10:29:59",
+      "total_tool_rows": 19552,
+      "today_tool_rows": 545,
+      "latest_tool_at": "2026-08-14 10:37:50",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -188,7 +188,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-14T10:30:01+0800",
+    "tick_time": "2026-08-14T10:40:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
