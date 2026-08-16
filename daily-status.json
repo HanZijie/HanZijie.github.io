@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-16T16:00:01.465Z",
+  "generated_at": "2026-08-16T16:10:01.415Z",
   "nav": {
     "latest": {
       "date": "2026-08-14",
@@ -71,7 +71,28 @@
     },
     "macro_liquidity_researcher": {
       "name": "宏观政策资金流动性研究员",
-      "tools": []
+      "tools": [
+        {
+          "tool": "terminal",
+          "count": 24
+        },
+        {
+          "tool": "read_file",
+          "count": 2
+        },
+        {
+          "tool": "search_files",
+          "count": 2
+        },
+        {
+          "tool": "todo",
+          "count": 1
+        },
+        {
+          "tool": "write_file",
+          "count": 1
+        }
+      ]
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
@@ -98,9 +119,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 13175,
-      "today_tool_rows": 0,
-      "latest_tool_at": "2026-08-14 22:07:55",
+      "total_tool_rows": 13205,
+      "today_tool_rows": 30,
+      "latest_tool_at": "2026-08-17 00:09:55",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -123,9 +144,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-16T22:03:01+0800",
+    "tick_time": "2026-08-17T00:03:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 1139795 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
+    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
