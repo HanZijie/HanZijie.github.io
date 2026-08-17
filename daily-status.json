@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-17T06:20:11.456Z",
+  "generated_at": "2026-08-17T06:30:01.850Z",
   "nav": {
     "latest": {
       "date": "2026-08-14",
@@ -111,15 +111,15 @@
       "tools": [
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 141
+          "count": 182
+        },
+        {
+          "tool": "terminal",
+          "count": 74
         },
         {
           "tool": "execute_code",
           "count": 71
-        },
-        {
-          "tool": "terminal",
-          "count": 65
         },
         {
           "tool": "search_files",
@@ -127,7 +127,7 @@
         },
         {
           "tool": "read_file",
-          "count": 15
+          "count": 16
         },
         {
           "tool": "write_file",
@@ -190,9 +190,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 20298,
-      "today_tool_rows": 329,
-      "latest_tool_at": "2026-08-17 12:31:54",
+      "total_tool_rows": 20349,
+      "today_tool_rows": 380,
+      "latest_tool_at": "2026-08-17 14:29:59",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
