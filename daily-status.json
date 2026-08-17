@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-17T06:30:01.850Z",
+  "generated_at": "2026-08-17T06:40:02.188Z",
   "nav": {
     "latest": {
       "date": "2026-08-14",
@@ -111,11 +111,11 @@
       "tools": [
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 182
+          "count": 189
         },
         {
           "tool": "terminal",
-          "count": 74
+          "count": 78
         },
         {
           "tool": "execute_code",
@@ -190,9 +190,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 20349,
-      "today_tool_rows": 380,
-      "latest_tool_at": "2026-08-17 14:29:59",
+      "total_tool_rows": 20360,
+      "today_tool_rows": 391,
+      "latest_tool_at": "2026-08-17 14:35:13",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -201,9 +201,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-17T14:20:01+0800",
+    "tick_time": "2026-08-17T14:30:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 1367142 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
+    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
