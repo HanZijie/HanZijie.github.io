@@ -1,7 +1,7 @@
 {
   "date": "2026-08-20",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-19T22:00:02.431Z",
+  "generated_at": "2026-08-19T22:10:02.382Z",
   "nav": {
     "latest": {
       "date": "2026-08-19",
@@ -38,7 +38,7 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 122
+          "count": 127
         },
         {
           "tool": "read_file",
@@ -46,11 +46,11 @@
         },
         {
           "tool": "write_file",
-          "count": 5
+          "count": 7
         },
         {
           "tool": "skill_view",
-          "count": 2
+          "count": 3
         },
         {
           "tool": "delegate_task",
@@ -116,9 +116,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 14247,
-      "today_tool_rows": 137,
-      "latest_tool_at": "2026-08-20 04:16:33",
+      "total_tool_rows": 14255,
+      "today_tool_rows": 145,
+      "latest_tool_at": "2026-08-20 06:06:19",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -141,9 +141,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-20T04:03:01+0800",
+    "tick_time": "2026-08-20T06:03:02+0800",
     "source": "pm-cron-tick.log",
-    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
+    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 2415782 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
