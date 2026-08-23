@@ -1,7 +1,7 @@
 {
   "date": "2026-08-24",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-23T20:00:02.084Z",
+  "generated_at": "2026-08-23T20:10:01.388Z",
   "nav": {
     "latest": {
       "date": "2026-08-21",
@@ -56,19 +56,19 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 109
+          "count": 110
+        },
+        {
+          "tool": "execute_code",
+          "count": 32
+        },
+        {
+          "tool": "read_file",
+          "count": 3
         },
         {
           "tool": "write_file",
           "count": 3
-        },
-        {
-          "tool": "execute_code",
-          "count": 1
-        },
-        {
-          "tool": "read_file",
-          "count": 1
         },
         {
           "tool": "session_search",
@@ -158,9 +158,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 14806,
-      "today_tool_rows": 116,
-      "latest_tool_at": "2026-08-24 02:10:23",
+      "total_tool_rows": 14840,
+      "today_tool_rows": 150,
+      "latest_tool_at": "2026-08-24 04:07:57",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
