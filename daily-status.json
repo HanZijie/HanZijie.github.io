@@ -1,7 +1,7 @@
 {
   "date": "2026-08-24",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-24T06:20:02.260Z",
+  "generated_at": "2026-08-24T06:30:02.319Z",
   "nav": {
     "latest": {
       "date": "2026-08-21",
@@ -63,11 +63,11 @@
           "count": 52
         },
         {
-          "tool": "read_file",
-          "count": 10
+          "tool": "write_file",
+          "count": 11
         },
         {
-          "tool": "write_file",
+          "tool": "read_file",
           "count": 10
         },
         {
@@ -101,19 +101,19 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 118
+          "count": 121
+        },
+        {
+          "tool": "execute_code",
+          "count": 72
         },
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
           "count": 64
         },
         {
-          "tool": "execute_code",
-          "count": 61
-        },
-        {
           "tool": "read_file",
-          "count": 14
+          "count": 16
         },
         {
           "tool": "search_files",
@@ -125,14 +125,14 @@
         },
         {
           "tool": "todo",
+          "count": 8
+        },
+        {
+          "tool": "write_file",
           "count": 6
         },
         {
           "tool": "process",
-          "count": 5
-        },
-        {
-          "tool": "write_file",
           "count": 5
         },
         {
@@ -174,9 +174,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 14972,
-      "today_tool_rows": 282,
-      "latest_tool_at": "2026-08-24 14:19:40",
+      "total_tool_rows": 14973,
+      "today_tool_rows": 283,
+      "latest_tool_at": "2026-08-24 14:20:45",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -188,9 +188,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 23157,
-      "today_tool_rows": 299,
-      "latest_tool_at": "2026-08-24 12:33:33",
+      "total_tool_rows": 23176,
+      "today_tool_rows": 318,
+      "latest_tool_at": "2026-08-24 14:29:23",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -199,7 +199,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-24T14:10:01+0800",
+    "tick_time": "2026-08-24T14:20:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
