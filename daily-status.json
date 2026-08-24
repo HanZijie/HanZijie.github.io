@@ -1,7 +1,7 @@
 {
   "date": "2026-08-24",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-24T06:10:01.875Z",
+  "generated_at": "2026-08-24T06:20:02.260Z",
   "nav": {
     "latest": {
       "date": "2026-08-21",
@@ -56,23 +56,31 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 176
+          "count": 193
         },
         {
           "tool": "execute_code",
           "count": 52
         },
         {
+          "tool": "read_file",
+          "count": 10
+        },
+        {
           "tool": "write_file",
           "count": 10
         },
         {
-          "tool": "read_file",
-          "count": 9
+          "tool": "browser_navigate",
+          "count": 8
         },
         {
-          "tool": "browser_navigate",
-          "count": 3
+          "tool": "browser_click",
+          "count": 2
+        },
+        {
+          "tool": "browser_snapshot",
+          "count": 2
         },
         {
           "tool": "skill_view",
@@ -81,10 +89,6 @@
         {
           "tool": "todo",
           "count": 2
-        },
-        {
-          "tool": "browser_click",
-          "count": 1
         },
         {
           "tool": "session_search",
@@ -170,9 +174,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 14946,
-      "today_tool_rows": 256,
-      "latest_tool_at": "2026-08-24 14:10:01",
+      "total_tool_rows": 14972,
+      "today_tool_rows": 282,
+      "latest_tool_at": "2026-08-24 14:19:40",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -195,7 +199,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-24T14:00:01+0800",
+    "tick_time": "2026-08-24T14:10:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
