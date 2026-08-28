@@ -1,7 +1,7 @@
 {
   "date": "2026-08-28",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-28T06:30:02.900Z",
+  "generated_at": "2026-08-28T06:40:02.432Z",
   "nav": {
     "latest": {
       "date": "2026-08-27",
@@ -129,15 +129,15 @@
       "tools": [
         {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 201
+          "count": 209
         },
         {
           "tool": "terminal",
-          "count": 114
+          "count": 116
         },
         {
           "tool": "execute_code",
-          "count": 57
+          "count": 58
         },
         {
           "tool": "search_files",
@@ -148,16 +148,16 @@
           "count": 14
         },
         {
+          "tool": "memory",
+          "count": 9
+        },
+        {
           "tool": "write_file",
-          "count": 7
+          "count": 8
         },
         {
           "tool": "skill_view",
           "count": 6
-        },
-        {
-          "tool": "memory",
-          "count": 3
         },
         {
           "tool": "patch",
@@ -169,6 +169,10 @@
         },
         {
           "tool": "mcp_portfolio_management_portfolio_positions_overview",
+          "count": 1
+        },
+        {
+          "tool": "skill_manage",
           "count": 1
         }
       ]
@@ -208,9 +212,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 25373,
-      "today_tool_rows": 423,
-      "latest_tool_at": "2026-08-28 14:30:02",
+      "total_tool_rows": 25392,
+      "today_tool_rows": 442,
+      "latest_tool_at": "2026-08-28 14:35:31",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -219,7 +223,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-08-28T14:30:01+0800",
+    "tick_time": "2026-08-28T14:40:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
