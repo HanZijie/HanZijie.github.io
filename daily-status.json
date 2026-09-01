@@ -1,21 +1,21 @@
 {
   "date": "2026-09-01",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-09-01T07:00:02.610Z",
+  "generated_at": "2026-09-01T07:10:02.916Z",
   "nav": {
     "latest": {
-      "date": "2026-08-31",
+      "date": "2026-09-01",
       "portfolio_id": "5a0ad283-6ff",
       "portfolio_name": "测试组合",
-      "unit_nav": 0.9992,
-      "total_assets": 999243326.08,
+      "unit_nav": 0.999713,
+      "total_assets": 999713326.08,
       "source": "portfolio-management",
-      "collected_at": "2026-08-31T07:00:23Z"
+      "collected_at": "2026-09-01T00:00:00+08:00"
     },
-    "latest_nav": 0.9992,
-    "previous_nav": 0.9993,
-    "change": -0.00009999999999998899,
-    "change_pct": -0.0100070049034313,
+    "latest_nav": 0.999713,
+    "previous_nav": 0.9992,
+    "change": 0.0005129999999999857,
+    "change_pct": 0.0513410728582852,
     "records": [
       {
         "date": "2026-08-28",
@@ -34,6 +34,15 @@
         "total_assets": 999243326.08,
         "source": "portfolio-management",
         "collected_at": "2026-08-31T07:00:23Z"
+      },
+      {
+        "date": "2026-09-01",
+        "portfolio_id": "5a0ad283-6ff",
+        "portfolio_name": "测试组合",
+        "unit_nav": 0.999713,
+        "total_assets": 999713326.08,
+        "source": "portfolio-management",
+        "collected_at": "2026-09-01T00:00:00+08:00"
       }
     ]
   },
