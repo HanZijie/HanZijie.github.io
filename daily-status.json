@@ -1,21 +1,21 @@
 {
   "date": "2026-09-02",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-09-02T07:00:02.254Z",
+  "generated_at": "2026-09-02T07:10:15.540Z",
   "nav": {
     "latest": {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "portfolio_id": "5a0ad283-6ff",
       "portfolio_name": "测试组合",
-      "unit_nav": 0.999713,
-      "total_assets": 999713326.08,
+      "unit_nav": 0.9986,
+      "total_assets": 998633326.08,
       "source": "portfolio-management",
-      "collected_at": "2026-09-01T00:00:00+08:00"
+      "collected_at": "2026-09-02T07:00:18Z"
     },
-    "latest_nav": 0.999713,
-    "previous_nav": 0.9992,
-    "change": 0.0005129999999999857,
-    "change_pct": 0.0513410728582852,
+    "latest_nav": 0.9986,
+    "previous_nav": 0.999713,
+    "change": -0.0011129999999999196,
+    "change_pct": -0.11133195227029354,
     "records": [
       {
         "date": "2026-08-28",
@@ -43,6 +43,15 @@
         "total_assets": 999713326.08,
         "source": "portfolio-management",
         "collected_at": "2026-09-01T00:00:00+08:00"
+      },
+      {
+        "date": "2026-09-02",
+        "portfolio_id": "5a0ad283-6ff",
+        "portfolio_name": "测试组合",
+        "unit_nav": 0.9986,
+        "total_assets": 998633326.08,
+        "source": "portfolio-management",
+        "collected_at": "2026-09-02T07:00:18Z"
       }
     ]
   },
@@ -187,7 +196,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-09-02T14:50:01+0800",
+    "tick_time": "2026-09-02T15:00:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
