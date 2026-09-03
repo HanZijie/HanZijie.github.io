@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-09-03T22:20:03.384Z",
+  "generated_at": "2026-09-03T22:30:03.439Z",
   "nav": {
     "latest": {
       "date": "2026-09-03",
@@ -74,7 +74,7 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 74
+          "count": 118
         },
         {
           "tool": "execute_code",
@@ -106,39 +106,39 @@
       "name": "行业产业公司基本面研究员",
       "tools": [
         {
-          "tool": "execute_code",
-          "count": 52
+          "tool": "terminal",
+          "count": 55
         },
         {
-          "tool": "terminal",
-          "count": 36
+          "tool": "execute_code",
+          "count": 52
         },
         {
           "tool": "search_files",
           "count": 11
         },
         {
+          "tool": "memory",
+          "count": 8
+        },
+        {
           "tool": "mcp_portfolio_management_stock_quote_get",
           "count": 7
         },
         {
-          "tool": "memory",
-          "count": 6
-        },
-        {
           "tool": "write_file",
-          "count": 3
+          "count": 4
         },
         {
           "tool": "delegate_task",
           "count": 2
         },
         {
-          "tool": "process",
-          "count": 1
+          "tool": "read_file",
+          "count": 2
         },
         {
-          "tool": "read_file",
+          "tool": "process",
           "count": 1
         }
       ]
@@ -164,9 +164,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 18470,
-      "today_tool_rows": 115,
-      "latest_tool_at": "2026-09-04 06:19:50",
+      "total_tool_rows": 18514,
+      "today_tool_rows": 159,
+      "latest_tool_at": "2026-09-04 06:24:40",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -178,9 +178,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 28009,
-      "today_tool_rows": 119,
-      "latest_tool_at": "2026-09-04 04:28:26",
+      "total_tool_rows": 28032,
+      "today_tool_rows": 142,
+      "latest_tool_at": "2026-09-04 06:27:39",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
