@@ -1,7 +1,7 @@
 {
   "date": "2026-09-03",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-09-03T05:40:02.100Z",
+  "generated_at": "2026-09-03T05:50:14.643Z",
   "nav": {
     "latest": {
       "date": "2026-09-02",
@@ -192,9 +192,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-09-03T13:30:01+0800",
+    "tick_time": "2026-09-03T13:50:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
+    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 123888 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
