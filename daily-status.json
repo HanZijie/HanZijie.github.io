@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-09-04T08:00:01.811Z",
+  "generated_at": "2026-09-04T08:10:02.093Z",
   "nav": {
     "latest": {
       "date": "2026-09-04",
@@ -83,27 +83,27 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 191
+          "count": 195
         },
         {
           "tool": "execute_code",
-          "count": 41
+          "count": 55
         },
         {
           "tool": "read_file",
-          "count": 21
+          "count": 26
+        },
+        {
+          "tool": "write_file",
+          "count": 15
         },
         {
           "tool": "search_files",
           "count": 14
         },
         {
-          "tool": "write_file",
-          "count": 14
-        },
-        {
           "tool": "skill_view",
-          "count": 4
+          "count": 5
         },
         {
           "tool": "todo",
@@ -189,9 +189,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 18644,
-      "today_tool_rows": 289,
-      "latest_tool_at": "2026-09-04 14:09:20",
+      "total_tool_rows": 18669,
+      "today_tool_rows": 314,
+      "latest_tool_at": "2026-09-04 16:10:01",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -214,7 +214,7 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-09-04T15:00:01+0800",
+    "tick_time": "2026-09-04T16:03:01+0800",
     "source": "pm-cron-tick.log",
     "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
