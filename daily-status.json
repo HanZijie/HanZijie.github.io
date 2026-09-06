@@ -1,7 +1,7 @@
 {
   "date": "2026-09-07",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-09-06T16:20:01.672Z",
+  "generated_at": "2026-09-06T16:30:02.074Z",
   "nav": {
     "latest": {
       "date": "2026-09-04",
@@ -83,7 +83,7 @@
       "tools": [
         {
           "tool": "terminal",
-          "count": 100
+          "count": 116
         },
         {
           "tool": "search_files",
@@ -109,7 +109,12 @@
     },
     "fundamentals_researcher": {
       "name": "行业产业公司基本面研究员",
-      "tools": []
+      "tools": [
+        {
+          "tool": "terminal",
+          "count": 36
+        }
+      ]
     }
   },
   "tool_call_diagnostics": {
@@ -132,9 +137,9 @@
       "db_path": "宏观政策资金流动性研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 18841,
-      "today_tool_rows": 115,
-      "latest_tool_at": "2026-09-07 00:18:44",
+      "total_tool_rows": 18857,
+      "today_tool_rows": 131,
+      "latest_tool_at": "2026-09-07 00:24:16",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -146,9 +151,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 28364,
-      "today_tool_rows": 0,
-      "latest_tool_at": "2026-09-04 22:28:11",
+      "total_tool_rows": 28400,
+      "today_tool_rows": 36,
+      "latest_tool_at": "2026-09-07 00:29:56",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
