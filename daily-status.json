@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-09-11T06:20:07.710Z",
+  "generated_at": "2026-09-11T06:30:02.188Z",
   "nav": {
     "latest": {
       "date": "2026-09-10",
@@ -163,36 +163,48 @@
       "name": "行业产业公司基本面研究员",
       "tools": [
         {
+          "tool": "terminal",
+          "count": 138
+        },
+        {
           "tool": "execute_code",
           "count": 120
         },
         {
-          "tool": "terminal",
-          "count": 93
-        },
-        {
           "tool": "mcp_portfolio_management_stock_quote_get",
-          "count": 12
+          "count": 17
         },
         {
           "tool": "read_file",
-          "count": 11
+          "count": 14
+        },
+        {
+          "tool": "memory",
+          "count": 8
+        },
+        {
+          "tool": "search_files",
+          "count": 8
         },
         {
           "tool": "write_file",
           "count": 7
         },
         {
-          "tool": "memory",
-          "count": 6
-        },
-        {
-          "tool": "search_files",
-          "count": 3
+          "tool": "browser_navigate",
+          "count": 2
         },
         {
           "tool": "todo",
           "count": 2
+        },
+        {
+          "tool": "browser_click",
+          "count": 1
+        },
+        {
+          "tool": "browser_snapshot",
+          "count": 1
         },
         {
           "tool": "mcp_portfolio_management_portfolio_positions_overview",
@@ -235,9 +247,9 @@
       "db_path": "行业产业公司基本面研究员/.hermes/state.db",
       "db_exists": true,
       "sqlite_python": "/home/jiaxuan/InvestTeam/hermes-runtime/hermes-agent/venv/bin/python",
-      "total_tool_rows": 30581,
-      "today_tool_rows": 255,
-      "latest_tool_at": "2026-09-11 12:28:13",
+      "total_tool_rows": 30645,
+      "today_tool_rows": 319,
+      "latest_tool_at": "2026-09-11 14:29:57",
       "error": null,
       "sidecar_total_rows": 0,
       "sidecar_tool_rows_today": 0,
@@ -246,9 +258,9 @@
     }
   },
   "pm_last_session_end": {
-    "tick_time": "2026-09-11T14:20:01+0800",
+    "tick_time": "2026-09-11T14:30:01+0800",
     "source": "pm-cron-tick.log",
-    "text": "/home/jiaxuan/InvestTeam/hermes-runtime/bin/pm-report-monitor: line 168: 247974 Aborted                 (core dumped) \"$HERMES_AGENT\" portfolio_manager -- chat -Q --continue \"$SESSION_NAME\" -q \"$(prompt \"$inbox_list_file\")\" > \"$output_file\" 2>&1\nNo session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions.\nFATAL: exception not rethrown"
+    "text": "No session found matching 'pm-report-monitor'.\nUse 'hermes sessions list' to see available sessions."
   },
   "compliance_note": "Status-only dashboard. Not investment advice, security recommendation, stock picking, or trading instruction."
 }
