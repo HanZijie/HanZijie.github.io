@@ -1,5 +1,5 @@
-# InvestTeam Dashboard
+# Zijie Han (韩字杰)
 
-Static dashboard generated from InvestTeam runtime status.
+Personal homepage: [https://hanzijie.github.io/](https://hanzijie.github.io/)
 
-This page is for system status display only. It is not investment advice, stock recommendation, or trading instruction.
+AI Platform & Agent Harness Product Manager based in Shanghai. Exploring extensible tool ecosystems (`MCP` / `Skill` / `CLI`), evaluation-driven agent loops, and shared system-level agent runtimes.
