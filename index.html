@@ -6,7 +6,7 @@
     <title>Zijie Han (韩字杰)</title>
     <meta
       name="description"
-      content="Zijie Han (韩字杰) — Product & Architecture around Agent Harness, Tool Ecosystems, and Shared Agent Runtimes."
+      content="Zijie Han (韩字杰) — Product & Architecture around Agent Harness, MiniApp, Tool Ecosystems, and Agent-as-OS."
     />
     <style>
       :root {
@@ -16,6 +16,7 @@
         --muted: #71717a;
         --faint: #e4e4e7;
         --code-bg: #f1f0ec;
+        --card-bg: #f5f4f0;
         --link: #18181b;
         --accent: #2563eb;
         --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "PingFang SC",
@@ -31,6 +32,7 @@
         --muted: #71717a;
         --faint: #27272a;
         --code-bg: #18181b;
+        --card-bg: #151619;
         --link: #f4f4f5;
         --accent: #60a5fa;
       }
@@ -43,6 +45,7 @@
           --muted: #71717a;
           --faint: #27272a;
           --code-bg: #18181b;
+          --card-bg: #151619;
           --link: #f4f4f5;
           --accent: #60a5fa;
         }
@@ -141,11 +144,11 @@
 
       .links {
         font-family: var(--font-mono);
-        font-size: 13px;
+        font-size: 12.5px;
         color: var(--muted);
         display: flex;
         flex-wrap: wrap;
-        gap: 14px;
+        gap: 8px 12px;
       }
 
       .links a {
@@ -175,9 +178,41 @@
         border-bottom: 1px solid var(--faint);
       }
 
+      /* Essay / Callout box */
+      .essay-box {
+        padding: 14px 18px;
+        background: var(--card-bg);
+        border-left: 2px solid var(--fg);
+        margin-bottom: 12px;
+      }
+
+      .essay-title {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0 0 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .essay-tag {
+        font-family: var(--font-mono);
+        font-size: 11.5px;
+        font-weight: 400;
+        color: var(--muted);
+      }
+
+      .essay-desc {
+        margin: 0;
+        font-size: 13.8px;
+        color: var(--body);
+      }
+
       /* Work / Project Items */
       .item {
-        margin-bottom: 26px;
+        margin-bottom: 28px;
       }
 
       .item:last-child {
@@ -202,13 +237,17 @@
       .item-role {
         font-weight: 400;
         color: var(--muted);
-        font-size: 14px;
+        font-size: 13.5px;
+        font-family: var(--font-mono);
       }
 
       .item-meta {
         font-family: var(--font-mono);
-        font-size: 12.5px;
+        font-size: 12px;
         color: var(--muted);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
       }
 
       .item p {
@@ -325,37 +364,58 @@
         </div>
         <p class="subtitle">AI Platform &amp; Agent Harness Product · Shanghai</p>
         <p class="bio">
-          关注 <code>Agent Harness</code>、工具与插件生态、以及真实工作流中的 Agent 产品化。计算机科班背景（CUHK / HUST），曾从事半导体与 AI 硬件一二级投研，后转向大模型与 Agent 架构产品。目前主要探索：如何通过标准化协议、可交互运行时与真实评测闭环，让 Agent 走出单一聊天框，成为可靠的专业生产力与系统级基础设施。
+          4 年 CS 科班（CUHK / HUST）+ 4 年半导体与 AI 硬件一二级投研，现专注于 <code>Agent Harness</code>、插件生态与专业工作流产品化。相比表层“抢入口”的聊天框，我更关注如何将 Agent 内化为底层系统服务——让专业工作环境与 AI 原生算力深度共生。
         </p>
         <div class="links">
           <a href="https://github.com/HanZijie" target="_blank" rel="noopener noreferrer">github.com/HanZijie</a>
+          <span>·</span>
+          <a href="https://agent.minimax.cn/docs/techblog/agent-as-os" target="_blank" rel="noopener noreferrer">Tech Blog</a>
+          <span>·</span>
+          <a href="https://agent.minimax.cn/docs/miniapp/overview" target="_blank" rel="noopener noreferrer">MiniApp Docs</a>
           <span>·</span>
           <a href="mailto:hzj1998f@163.com">hzj1998f@163.com</a>
         </div>
       </header>
 
       <section>
-        <h2>01 / Selected Work</h2>
+        <h2>01 / Writing &amp; Thesis</h2>
+        <div class="essay-box">
+          <p class="essay-title">
+            <a href="https://agent.minimax.cn/docs/techblog/agent-as-os" target="_blank" rel="noopener noreferrer">
+              产品日记：构建生长在 Agent OS 之上的专业级 Mini App ↗
+            </a>
+            <span class="essay-tag">Tech Blog · 2026.10</span>
+          </p>
+          <p class="essay-desc">
+            从 Chatbot、工作流到 Agent，再到 Mini App，为什么我们放弃表层“抢入口”的窄门，选择把 Agent 内化为计算机的底层系统服务？“Agent 插件让你改造 Agent，MiniApp 让你在 Agent 之上做应用。”
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>02 / Selected Work</h2>
 
         <div class="item">
           <div class="item-head">
             <span class="item-title">
-              MiniMax Code · Plugin &amp; MiniApp Architecture
-              <span class="item-role">— Harness PM</span>
+              MiniMax Code · MiniApp &amp; Plugin Ecosystem
+              <span class="item-role">[Owner]</span>
             </span>
             <span class="item-meta">
-              <a href="https://github.com/MiniMax-AI/minimax-code" target="_blank" rel="noopener noreferrer">MiniMax-AI/minimax-code ↗</a>
+              <a href="https://agent.minimax.cn/docs/miniapp/overview" target="_blank" rel="noopener noreferrer">Docs ↗</a>
+              <a href="https://github.com/MiniMax-AI/minimax-code" target="_blank" rel="noopener noreferrer">minimax-code ↗</a>
+              <a href="https://github.com/MiniMax-AI/MiniMax-Code-MiniApps" target="_blank" rel="noopener noreferrer">MiniApps ↗</a>
             </span>
           </div>
           <ul class="notes">
             <li>
-              <strong>Plugin Ecosystem (0 → 1)</strong>：设计并落地插件体系与插件市场，统一 <code>MCP</code>、<code>Skill</code>、<code>CLI</code> 接入标准与 <code>OAuth</code> 鉴权链路，构建面向第三方工具与垂类数据源的扩展底座。
+              <strong><a href="https://agent.minimax.cn/docs/miniapp/overview" target="_blank" rel="noopener noreferrer">MiniApp Framework</a></strong>：定义生长在 Agent OS 之上的专业级交互工作台。将 Node 运行时内置于桌面端，提供持久化后端服务、宿主级凭证与权限管控，以及页面与 Agent 的双向工具调用（MCP 暴露能力 / 后台调度 Agent 会话），支持一句话构建或定制垂类工作台。
             </li>
             <li>
-              <strong>MiniApp Runtime</strong>：定义面向金融、法律等垂类场景的可交互工作台框架。将运行时内置于终端客户端，通过统一 <code>Hook</code> 机制打通交互前端与本地/远端服务，支持自然语言定制专属工作台。
+              <strong><a href="https://github.com/MiniMax-AI/MiniMax-Code-Plugins" target="_blank" rel="noopener noreferrer">Plugin Platform (0 → 1)</a></strong>：主导插件体系与插件市场从 0 到 1 建设，统一 <code>MCP</code>、<code>Skill</code>、<code>CLI</code> 接入标准与 <code>OAuth</code> 授权，连接外部工具链与行业数据源。
             </li>
             <li>
-              <strong>Eval-Driven Harness Iteration</strong>：构建基于真实办公与研发任务的评测基准，以端到端任务通过率、工具调用可靠性与时延驱动 <code>Agent Loop</code> 及 <code>System Prompt</code> 迭代，并指导内容溯源与人机协同编辑（PPT / Excel）落地。
+              <strong>Eval-Driven Harness Iteration</strong>：建立真实用户办公与研发任务评测集，以端到端通过率、工具调用可靠性与时延驱动 <code>Agent Loop</code> / <code>System Prompt</code> 调优，推进溯源与人机协同编辑（PPT / Excel）落地。
             </li>
           </ul>
         </div>
@@ -363,30 +423,30 @@
         <div class="item">
           <div class="item-head">
             <span class="item-title">
-              AI IDE &amp; Agentic Retrieval for Institutional Research
-              <span class="item-role">— AI PM</span>
+              PaiWork · AI IDE &amp; Agentic Search for Institutional Research
+              <span class="item-role">[Owner]</span>
             </span>
             <span class="item-meta">2025 – 2026</span>
           </div>
           <ul class="notes">
             <li>
-              <strong>Project-Scoped Research IDE (PaiWork)</strong>：将 <code>Cursor / Claude Code</code> 的项目制上下文管理理念引入机构投研，围绕长周期单标的研究构建「深度研究 → 投资结论 → 持续跟踪」的 Agent 协作工作台，并将高频研究方法论沉淀为可复用的多模态 <code>Skill</code>。
+              <strong>Project-Scoped Research Workbench</strong>：将 <code>Cursor / Claude Code</code> 的项目制上下文管理引入机构投研，设计「深度研究 → 投资结论 → 持续跟踪」全链路工作台，并将高频投研方法论沉淀为标准化 <code>Skill</code>。
             </li>
             <li>
-              <strong>Agentic Search &amp; Knowledge Infra</strong>：研发基于 <code>Elasticsearch</code> 的多步 Agentic 检索架构，解决传统 Naive RAG 召回碎片化与 Text2SQL 泛化不足的问题；同步探索面向金融研报与产业链图谱的 <code>GraphRAG</code> 基建。
+              <strong>Agentic Search &amp; Knowledge Infra</strong>：研发基于 <code>Elasticsearch</code> 的 Agentic 检索工具以替代脆弱的 Naive RAG 与 Text2SQL 链路，同步探索金融研报与产业链图谱的 <code>GraphRAG</code> 基建。
             </li>
           </ul>
         </div>
       </section>
 
       <section>
-        <h2>02 / Open Source &amp; Prototypes</h2>
+        <h2>03 / Open Source &amp; Prototypes</h2>
 
         <div class="item">
           <div class="item-head">
             <span class="item-title">
               AgentOS for Android
-              <span class="item-role">— Creator</span>
+              <span class="item-role">[Creator]</span>
             </span>
             <span class="item-meta">
               <a href="https://github.com/HanZijie/agentos-android" target="_blank" rel="noopener noreferrer">HanZijie/agentos-android ↗</a>
@@ -401,27 +461,27 @@
               <strong>Architecture</strong>：以 <code>ACP</code> 连接任务入口、<code>MCP</code> 连接能力提供方、<code>Plugin</code> 组织工具与 Skill；<code>Kotlin</code> 宿主负责身份、会话与调度，<code>QuickJS</code> 承载轻量化 Agent Core，解耦 Android 接口、底层模型与 Agent Loop。
             </li>
             <li>
-              <strong>Isolation &amp; Permission</strong>：基于 <code>Binder</code> 识别调用方身份并隔离会话，支持首次授权、随时撤销及写操作显式确认；以 <code>Magisk / KernelSU</code> 模块形态验证备忘录、日历、闹钟等跨应用双向调用（非 root 身份运行 Agent 与插件进程）。
+              <strong>Isolation &amp; Permission</strong>：基于 <code>Binder</code> 识别调用方身份并隔离会话，支持首次授权、随时撤销及写操作显式确认；以 <code>Magisk / KernelSU</code> 模块形态验证备忘录、日历、闹钟等跨应用双向调用。
             </li>
           </ul>
         </div>
       </section>
 
       <section>
-        <h2>03 / Trajectory</h2>
+        <h2>04 / Trajectory</h2>
         <div class="timeline">
           <div class="tl-row">
             <span class="tl-date">2026 – Present</span>
             <div class="tl-content">
               <strong>MiniMax</strong> · Harness Product Manager
-              <span class="tl-desc">MiniMax Code 插件生态、MiniApp 框架与办公 Agent 评测迭代</span>
+              <span class="tl-desc">MiniMax Code Plugin &amp; MiniApp Owner，办公 Agent 评测与迭代</span>
             </div>
           </div>
           <div class="tl-row">
             <span class="tl-date">2025 – 2026</span>
             <div class="tl-content">
               <strong>讯兔科技 (Rabyte)</strong> · AI Product Manager
-              <span class="tl-desc">金融投研 AI 工作台 (PaiWork)、Agentic Search 与投研 Skill 体系</span>
+              <span class="tl-desc">金融投研工作台 (PaiWork) Owner、Agentic Search 与投研 Skill 体系</span>
             </div>
           </div>
           <div class="tl-row">
@@ -442,7 +502,7 @@
       </section>
 
       <section>
-        <h2>04 / Education</h2>
+        <h2>05 / Education</h2>
         <div class="timeline">
           <div class="tl-row">
             <span class="tl-date">2020 – 2021</span>
@@ -460,9 +520,9 @@
       </section>
 
       <section>
-        <h2>05 / Interests &amp; Stack</h2>
+        <h2>06 / Interests &amp; Stack</h2>
         <p class="topics">
-          Agent Harness &amp; Evaluation · Context &amp; Prompt Engineering · MCP / ACP / Skill / CLI / OAuth · Agentic Search (Elasticsearch / GraphRAG) · On-Device Runtime · Semiconductors &amp; AI Infrastructure
+          Agent-as-OS · Agent Harness &amp; Evaluation · MiniApp Runtime · MCP / ACP / Skill / CLI / OAuth · Agentic Search (Elasticsearch / GraphRAG) · Semiconductors &amp; AI Infrastructure
         </p>
       </section>
 
